@@ -1,12 +1,17 @@
 #selectionBlocks {
 	align-items: flex-start;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
 #selectionBlocks > * {
 	margin: 10px 10px 0px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+	#selectionBlocks {
+		flex-wrap: wrap;
+	}
 }
 
 @media screen and (max-width: 440px) {

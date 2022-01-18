@@ -2,7 +2,7 @@
 function getComponentLists(dataset, nameInfo) {
 	var result = [];
 	var componentIndex = 1;
-	const catIndex = dataset.findIndex(cat => cat.category === nameInfo.category);
+	const catIndex = dataset.findIndex(cat => ((!cat.category) || (cat.category === nameInfo.category)));
 
 	if (catIndex < 0) {
 		return result;
@@ -100,7 +100,7 @@ export const generateNames = function(dataset, nameInfo, resultCount) {
 	componentBucket = getComponentLists(dataset, nameInfo);
 	
 	for (let i = 0; i < resultCount; i++) {
-		var name = generateName(componentBucket).join(" ").replace(/- /g, "-");
+		var name = generateName(componentBucket).join(" ").replace(/- /g, "-").replace(/ >/g, "");
 
 		if (name) {
 			results.push(name);

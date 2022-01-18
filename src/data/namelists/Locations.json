@@ -1,0 +1,236 @@
+[
+	{
+		"category": "Location",
+		"defaultFilters": [ "Maritime", "Rugged", "Settlement", "Wooded" ],
+		"subcategories": [
+			{
+				"name": "",
+				"componentList": {
+					"index": 1,
+					"components": [
+						{
+							"length": 1,
+							"list": [ "Black", "East", "Far", "Gold", "Green", "Grey", "High", "Mist", "Moon", "Mourn", "New", "North", "Old", "Red", "River", "Silver", "South", "Spring", "Stone", "Storm", "Summer", "Sun", "Way", "West", "White", "Wind" ]
+						},
+						{
+							"filter": "Arctic",
+							"length": 1,
+							"list": [ "Frost", "Ice", "Rime", "Snow", "Winter" ]
+						},
+						{
+							"filter": "Evil",
+							"length": 1,
+							"list": [ "Bleak", "Bitter", "Blood", "Dead", "Doom", "Dread", "Gallow", "Grim", "Murk", "Night", "Scathe", "Shadow" ]
+						},
+						{
+							"filter": "Fortification",
+							"length": 1,
+							"list": [ "Steel" ]
+						},
+						{
+							"filter": "Geological",
+							"length": 1,
+							"list": [ "Ash" ]
+						},
+						{
+							"filter": "Maritime",
+							"length": 1,
+							"list": [ "Sea" ]
+						},
+						{
+							"filter": "Mystic",
+							"length": 1,
+							"list": [ "Dawn", "Moon", "Spell", "Star", "Sun" ]
+						},
+						{
+							"filter": "Rugged",
+							"length": 1,
+							"list": [ "Sky" ]
+						},
+						{
+							"filter": "Settlement",
+							"length": 1,
+							"list": [ ]
+						},
+						{
+							"filter": "Wooded",
+							"length": 1,
+							"list": [ "Elm", "Oak", "Pine", "Tree", "Vine", "Willow" ]
+						}
+					]
+				}
+			},
+			{
+				"name": "Two Words",
+				"componentList": {
+					"index": 1,
+					"components": [
+						{
+							"length": 1,
+							"list": [ "Lonely", "Misty", "Lost", "Salt", "Serenity", "Shady", "Thunder", "Twilight" ]
+						},
+						{
+							"filter": "Arctic",
+							"length": 1,
+							"list": [ "Frozen", "Hoary" ]
+						},
+						{
+							"filter": "Evil",
+							"length": 1,
+							"list": [ "Abandoned", "Barren", "Blighted", "Cursed", "Desecrated", "Despoiled", "Fallen", "Fetid", "Festering", "Forgotten", "Forsaken", "Haunted", "Malefic", "Nightmare", "Pale", "Pestilent", "Profane", "Reaver", "Shrouded", "Spurned", "Tormented", "Twilight", "Twisted", "Unholy", "Vile", "Weeping" ]
+						},
+						{
+							"filter": "Fortification",
+							"length": 1,
+							"list": [ "Iron", "Palisade", "Stalwart" ]
+						},
+						{
+							"filter": "Geological",
+							"length": 1,
+							"list": [ "Ashen", "Brimstone", "Bubbling", "Fractured", "Geode", "Obsidian", "Scorched", "Shattered", "Smoldering", "Sulphur_" ]
+						},
+						{
+							"filter": "Maritime",
+							"length": 1,
+							"list": [ "Beacon", "Lighthouse", "Pirate's", "Sailor's", "Seafarer's", "Tidebreak" ]
+						},
+						{
+							"filter": "Mystic",
+							"length": 1,
+							"list": [ "Ancient", "Arcane", "Consecrated", "Crystal", "Eldritch", "Endless", "Halcyon", "Hallowed", "Ley", "Mystic", "Penitent", "Sacred", "Shimmering", "Silent", "Spirit", "Warded" ]
+						},
+						{
+							"filter": "Rugged",
+							"length": 1,
+							"list": [ "Basalt", "Broken", "Carved_" ]
+						},
+						{
+							"filter": "Settlement",
+							"length": 1,
+							"list": [ "Harvest" ]
+						},
+						{
+							"filter": "Wooded",
+							"length": 1,
+							"list": [ "Bramble", "Deepwood", "Evergreen", "Hickory", "Hemlock", "Hidden", "Hunter's", "Maple", "Overgrown", "Timber", "Treetop", "Viridian", "Warden's" ]
+						}
+					]
+				}
+			},
+			{
+				"name": "Two Words",
+				"componentList": {
+					"index": 2,
+					"components": [
+						{
+							"length": 1,
+							"list": [ "Basin", "Bog", "Caves", "Creek", "Crossing", "Downs", "Falls", "Farthing", "Fen", "Flats", "Hill", "Lake", "Marsh", "Meadow", "Plains", "Pond", "Ridge", "River", "Sands", "Spire", "Springs", "Valley" ]
+						},
+						{
+							"filter": "Arctic",
+							"length": 1,
+							"list": [ "Fjord", "Floe", "Glacier", "Tundra" ]
+						},
+						{
+							"filter": "Evil",
+							"length": 1,
+							"list": [ "Barrow", "Cairn", "Catacombs", "Crypt", "Depths", "Grave", "Lair", "Maw", "Morass", "Oubliette", "Necropolis", "Pit", "Ruin", "Tomb", "Waste" ]
+						},
+						{
+							"filter": "Fortification",
+							"length": 1,
+							"list": [ "Bastion", "Castle", "Citadel", "Encampment", "Fort", "Fortress", "Garrison", "Keep", "Motte", "Outpost", "Palisade", "Redoubt", "Stockade", "Stronghold", "Tower" ]
+						},
+						{
+							"filter": "Geological",
+							"length": 1,
+							"list": [ "Caldera", "Crater" ]
+						},
+						{
+							"filter": "Maritime",
+							"length": 1,
+							"list": [ "Atoll", "Bay", "Beach", "Beacon", "Coast", "Cove", "Delta", "Grotto", "Harbor", "Inlet", "Island", "Isle", "Key", "Lagoon", "Landing", "Reef", "Quay", "Shoals", "Shore", "Sound", "Strait", "Strand" ]
+						},
+						{
+							"filter": "Mystic",
+							"length": 1,
+							"list": [ "Abbey", "Altar", "Archive", "Circle", "Enclave", "Fane", "Henge", "Hermitage", "Ley-Line", "Library", "Monastery", "Retreat", "Sanctuary", "Sanctum", "Shrine", "Temple" ]
+						},
+						{
+							"filter": "Rugged",
+							"length": 1,
+							"list": [ "Ascent", "Bluff", "Canyon", "Cavern", "Chasm", "Cleft", "Crag", "Crest", "Depths", "Gorge", "Gulch", "Mesa", "Mountain", "Outcrop", "Overlook", "Pass", "Peak", "Plateau", "Ravine", "Rim", "Rock", "Roost", "Scar", "Scarp", "Spine", "Summit", "Tarn", "Terrace" ]
+						},
+						{
+							"filter": "Settlement",
+							"length": 1,
+							"list": [ "Camp", "Claim", "Crossroads", "End", "Estate", "Folly", "Grange", "Hall", "Manor", "Mill", "Mine", "Oasis", "Orchard", "Refuge", "Villa", "Well" ]
+						},
+						{
+							"filter": "Wooded",
+							"length": 1,
+							"list": [ "Arbor", "Den", "Glade", "Glen", ">grove", "Hollow", "Lodge", "Thicket" ]
+						}
+					]
+				}
+			},
+			{
+				"name": "Compound Word",
+				"componentList": {
+					"index": 2,
+					"components": [
+						{
+							"length": 1,
+							"list": [ ">bridge", ">brook", ">crest", ">dale", ">ever", ">fell", ">fen", ">field", ">ford", ">haven", ">heath", ">lake", ">march", ">marsh", ">meet", ">mont", ">moor", ">point", ">reach", ">ridge", ">ring", ">rock", ">run", ">spire", ">stone", ">tarn", ">vale", ">view", ">wall", ">watch", ">water", ">wind" ]
+						},
+						{
+							"filter": "Arctic",
+							"length": 1,
+							"list": [ ">rime" ]
+						},
+						{
+							"filter": "Evil",
+							"length": 1,
+							"list": [ ">cairn", ">crypt", ">dusk", ">grave", ">mire" ]
+						},
+						{
+							"filter": "Fortification",
+							"length": 1,
+							"list": [ ">burg", ">castle", ">fort", ">gate", ">guard", ">helm", ">hold", ">motte", ">tower" ]
+						},
+						{
+							"filter": "Geological",
+							"length": 1,
+							"list": [ ">geyser" ]
+						},
+						{
+							"filter": "Maritime",
+							"length": 1,
+							"list": [ ">fin", ">harbor", ">port", ">shoal" ]
+						},
+						{
+							"filter": "Mystic",
+							"length": 1,
+							"list": [ ">hallow", ">henge", ">veil" ]
+						},
+						{
+							"filter": "Rugged",
+							"length": 1,
+							"list": [ ">cliff", ">crag", ">mount", ">peak", ">rift" ]
+						},
+						{
+							"filter": "Settlement",
+							"length": 1,
+							"list": [ ">church", ">court", ">croft", ">forge", ">garden", ">hall", ">hearth", ">home", ">market", ">mill", ">rest", ">stead", ">town", ">ville" ]
+						},
+						{
+							"filter": "Wooded",
+							"length": 1,
+							"list": [ ">grove", ">leaf", ">root", ">shade", ">thorn", ">wood" ]
+						}
+					]
+				}
+			}
+		]
+	}
+]

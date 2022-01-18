@@ -26,8 +26,9 @@ function ResultsPanel() {
 				<div>
 					<button type="button" onClick={generateNewResults}>Generate</button>
 					<select name="resultCount" value={state.resultCount} onChange={e => setResultCount(Number(e.target.value))}>
-						<option>20</option>
+						<option>25</option>
 						<option>50</option>
+						<option>75</option>
 						<option>100</option>
 					</select>
 					<label htmlFor="resultCount">Results</label>
