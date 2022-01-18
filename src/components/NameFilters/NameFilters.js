@@ -1,6 +1,7 @@
 import { useStoreContext } from "../../utils/GlobalState";
+import { getFilterList } from "../../utils/utils";
 
-import { } from "../../utils/actions";
+import { TOGGLE_NAME_FILTER } from "../../utils/actions";
 
 import "./NameFilters.css";
 
@@ -11,22 +12,28 @@ function NameFilters() {
 		return <></>;
 	}
 
-	const getFilterList = function() {
-		const result = [];
-		const curCat = state.dataset.find(cat => cat.category === state.nameInfo.category);
-		curCat.subcategories.forEach(subcat => result.push(...subcat.componentList.components.map(clist => clist.filter)));
+	const filterList = getFilterList(state);
 
-		return result.filter((item, index, self) => ((item) && (self.indexOf(item) === index)));
+	if (!filterList.length) {
+		return <></>;
 	}
 
-	const filterList = getFilterList();
-
-	console.log(filterList);
+	const toggleFilter = function(e) {
+		dispatch({ type: TOGGLE_NAME_FILTER, filter: e.target.name });
+	}
 
 	return (
-		<div id="nameFilters" className="subSection">
+		<section id="nameFilters">
 			<h2>Filters</h2>
-		</div>
+			<div>
+				{filterList.map(filter => {
+					return (<div key={filter}>
+							<input name={filter} type="checkbox" checked={!!(state.nameInfo.filters.indexOf(filter) > -1)} onChange={toggleFilter}></input>
+							<label htmlFor={filter}>{filter}</label>
+						</div>);
+				})}
+			</div>
+		</section>
 	);
 }
 

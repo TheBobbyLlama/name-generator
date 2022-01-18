@@ -4,6 +4,10 @@ function getComponentLists(dataset, nameInfo) {
 	var componentIndex = 1;
 	const catIndex = dataset.findIndex(cat => cat.category === nameInfo.category);
 
+	if (catIndex < 0) {
+		return result;
+	}
+
 	while (true) {
 		let tmpResults = [];
 
@@ -13,7 +17,7 @@ function getComponentLists(dataset, nameInfo) {
 			if ((curSet.componentList.index === componentIndex) && ((!curSet.name) || (curSet.name === nameInfo.subcategory))) {
 
 				for (let i = 0; i < curSet.componentList.components.length; i++) {
-					if ((!curSet.componentList.components[i].source) || (nameInfo.filters.indexOf(curSet.componentList.components[i].source) > -1)) {
+					if ((!curSet.componentList.components[i].filter) || (nameInfo.filters.indexOf(curSet.componentList.components[i].filter) > -1)) {
 						tmpResults.push(curSet.componentList.components[i]);
 					}
 				}
@@ -96,8 +100,23 @@ export const generateNames = function(dataset, nameInfo, resultCount) {
 	componentBucket = getComponentLists(dataset, nameInfo);
 	
 	for (let i = 0; i < resultCount; i++) {
-		results.push(generateName(componentBucket).join(" ").replace(/- /g, "-"));
+		var name = generateName(componentBucket).join(" ").replace(/- /g, "-");
+
+		if (name) {
+			results.push(name);
+		}
 	}
 
 	return results;
+}
+
+export const getFilterList = function(state) {
+	const result = [];
+
+	if (state.dataset) {
+		const curCat = state.dataset.find(cat => cat.category === state.nameInfo.category);
+		curCat.subcategories.forEach(subcat => result.push(...subcat.componentList.components.map(clist => clist.filter)));
+	}
+
+	return result.filter((item, index, self) => ((item) && (self.indexOf(item) === index)));
 }

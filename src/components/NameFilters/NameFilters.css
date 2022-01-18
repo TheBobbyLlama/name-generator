@@ -1,0 +1,13 @@
+#nameFilters h2 {
+	margin-bottom: 4px;
+}
+
+#nameFilters > div {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#nameFilters > div > * + * {
+	margin-left: 10px;
+}

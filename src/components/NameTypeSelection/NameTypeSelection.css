@@ -6,8 +6,8 @@
 	margin-bottom: 4px;
 }
 
-#nameTypeSelection div {
-	align-items: center;
+#nameTypeSelection > div {
+	align-items: flex-end;
 	display:flex;
 	padding: 2px 8px;
 }

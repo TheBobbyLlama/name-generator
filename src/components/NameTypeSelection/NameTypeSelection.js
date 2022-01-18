@@ -33,25 +33,25 @@ function NameTypeSelection() {
 	const subCatList = (state.nameInfo.category) ? state.dataset.find(cat => cat.category === state.nameInfo.category).subcategories.map(subcat => subcat.name).filter((subcat, index, self) => ((subcat) && (self.indexOf(subcat) === index))) : [];
 
 	return (
-		<div id="nameTypeSelection" className="subSection">
+		<section id="nameTypeSelection">
 			<h2>Name Types</h2>
 			<div>
 				<label htmlFor="nameSource">Source:</label>
 				<select name="nameSource" onChange={e => setNameSource(e.target.value)}>{nameSources.map(source => { return (<option key={source.file} value={source.file}>{source.name}</option>); })}</select>
 			</div>
-			{categoryList?.length ?
+			{(categoryList.length > 1) ?
 			<div>
 				<label htmlFor="nameCategory">Category:</label>
 				<select name="nameCategory" value={state.nameInfo.category} onChange={e => setNameCategory(e.target.value)}>{categoryList.map(category => { return (<option key={category}>{category}</option>); })}</select>
 			</div>
 			: <></>}
-			{subCatList?.length ?
+			{(subCatList.length > 1) ?
 			<div>
 				<label htmlFor="nameSubcategory">Subcategory:</label>
 				<select name="nameSubcategory" value={state.nameInfo.subcategory} onChange={e => setNameSubcategory(e.target.value)}>{subCatList.map(subcat => { return (<option key={subcat}>{subcat}</option>); })}</select>
 			</div>
 			: <></>}
-		</div>
+		</section>
 	);
 }
 

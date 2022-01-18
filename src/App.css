@@ -7,6 +7,7 @@
 body {
   background-color: black;
   color: white;
+  padding: 0 20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -23,12 +24,5 @@ section {
   background-color: var(--panel-background);
   border: solid 2px var(--panel-border);
   border-radius: 8px;
-  margin: 20px;
-  padding: 20px;
-}
-
-.subSection {
-  border: solid 1px var(--item-border);
-  border-radius: 4px;
-  padding: 8px 16px;
+  padding: 10px 20px;
 }

@@ -1,16 +1,18 @@
 import NameTypeSelection from "../NameTypeSelection/NameTypeSelection";
 import NameFilters from "../NameFilters/NameFilters";
+import ResultsPanel from "../ResultsPanel/ResultsPanel";
 
 import "./NameGeneratorPanel.css";
 
 function NameGeneratorPanel() {
 	return (
-		<section>
+		<>
 			<div id="selectionBlocks">
 				<NameTypeSelection />
 				<NameFilters />
 			</div>
-		</section>
+			<ResultsPanel />
+		</>
 	);
 }
 
