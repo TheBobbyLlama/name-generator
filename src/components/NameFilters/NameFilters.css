@@ -8,6 +8,10 @@
 	flex-wrap: wrap;
 }
 
-#nameFilters > div > * + * {
-	margin-left: 10px;
+#nameFilters > div > * {
+	margin-right: 10px;
+}
+
+#nameFilters > div > *:last-child {
+	margin-right: 0px;
 }

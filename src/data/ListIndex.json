@@ -4,6 +4,10 @@
 		"file": "Locations"
 	},
 	{
+		"name": "A Song of Ice & Fire",
+		"file": "ASoIaF"
+	},
+	{
 		"name": "The Elder Scrolls",
 		"file": "ElderScrolls"
 	}

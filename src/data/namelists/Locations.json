@@ -169,7 +169,7 @@
 						{
 							"filter": "Wooded",
 							"length": 1,
-							"list": [ "Arbor", "Den", "Glade", "Glen", ">grove", "Hollow", "Lodge", "Thicket" ]
+							"list": [ "Arbor", "Den", "Glade", "Glen", "Hollow", "Lodge", "Thicket" ]
 						}
 					]
 				}
