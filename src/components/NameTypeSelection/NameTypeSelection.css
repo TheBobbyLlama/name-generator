@@ -1,0 +1,17 @@
+#nameTypeSelection {
+	min-width: 300px;
+}
+
+#nameTypeSelection h2 {
+	margin-bottom: 4px;
+}
+
+#nameTypeSelection div {
+	align-items: center;
+	display:flex;
+	padding: 2px 8px;
+}
+
+#nameTypeSelection label {
+	width: 100px;
+}

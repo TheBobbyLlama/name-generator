@@ -1,0 +1,9 @@
+#selectionBlocks {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#selectionBlocks > * {
+	margin-right: 10px;
+}
