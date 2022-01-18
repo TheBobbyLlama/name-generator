@@ -2,7 +2,7 @@
 function getComponentLists(dataset, nameInfo) {
 	var result = [];
 	var componentIndex = 1;
-	const catIndex = dataset.findIndex(cat => ((!cat.category) || (cat.category === nameInfo.category)));
+	const catIndex = dataset.findIndex(cat => (cat.category === nameInfo.category));
 
 	if (catIndex < 0) {
 		return result;
@@ -10,11 +10,19 @@ function getComponentLists(dataset, nameInfo) {
 
 	while (true) {
 		let tmpResults = [];
+		let curSubcat;
+
+		if (dataset[catIndex].randomSubcategory) {
+			let tmpList = dataset[catIndex].subcategories.map(subcat => subcat.name).filter((subcat, index, self) => ((subcat) && (self.indexOf(subcat) === index)))
+			curSubcat = tmpList[getRandomIndex(tmpList.length)];
+		} else {
+			curSubcat = nameInfo.subcategory;
+		}
 
 		for (let x = 0; x < dataset[catIndex].subcategories.length; x++) {
 			let curSet = dataset[catIndex].subcategories[x];
 
-			if ((curSet.componentList.index === componentIndex) && ((!curSet.name) || (curSet.name === nameInfo.subcategory))) {
+			if ((curSet.componentList.index === componentIndex) && ((!curSet.name) || (curSet.name === curSubcat))) {
 
 				for (let i = 0; i < curSet.componentList.components.length; i++) {
 					if ((!curSet.componentList.components[i].filter) || (nameInfo.filters.indexOf(curSet.componentList.components[i].filter) > -1)) {
@@ -98,12 +106,16 @@ export const generateNames = function(dataset, nameInfo, resultCount) {
 	var results = [];
 
 	componentBucket = getComponentLists(dataset, nameInfo);
-	
+
 	for (let i = 0; i < resultCount; i++) {
 		var name = generateName(componentBucket).join(" ").replace(/- /g, "-").replace(/ >/g, "");
 
 		if (name) {
 			results.push(name);
+
+			if (dataset.find(cat => (cat.category === nameInfo.category))?.randomSubcategory) {
+				componentBucket = getComponentLists(dataset, nameInfo);
+			}
 		}
 	}
 

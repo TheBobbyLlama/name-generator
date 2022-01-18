@@ -2,6 +2,7 @@
 	{
 		"category": "Location",
 		"defaultFilters": [ "Maritime", "Rugged", "Settlement", "Wooded" ],
+		"randomSubcategory": true,
 		"subcategories": [
 			{
 				"name": "",
@@ -87,7 +88,7 @@
 						{
 							"filter": "Geological",
 							"length": 1,
-							"list": [ "Ashen", "Brimstone", "Bubbling", "Fractured", "Geode", "Obsidian", "Scorched", "Shattered", "Smoldering", "Sulphur_" ]
+							"list": [ "Ashen", "Brimstone", "Bubbling", "Fractured", "Geode", "Obsidian", "Scorched", "Shattered", "Smoldering", "Sulphur" ]
 						},
 						{
 							"filter": "Maritime",
@@ -102,7 +103,7 @@
 						{
 							"filter": "Rugged",
 							"length": 1,
-							"list": [ "Basalt", "Broken", "Carved_" ]
+							"list": [ "Basalt", "Broken", "Carved" ]
 						},
 						{
 							"filter": "Settlement",

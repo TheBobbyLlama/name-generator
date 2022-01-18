@@ -30,7 +30,7 @@ function NameTypeSelection() {
 	}
 
 	const categoryList = state.dataset?.map(category => category.category).filter((category, index, self) => ((category) && (self.indexOf(category) === index))) || [];
-	const subCatList = (state.nameInfo.category) ? state.dataset.find(cat => cat.category === state.nameInfo.category).subcategories.map(subcat => subcat.name).filter((subcat, index, self) => ((subcat) && (self.indexOf(subcat) === index))) : [];
+	const subCatList = ((state.nameInfo.category) && (!state.dataset.find(cat => cat.category === state.nameInfo.category).randomSubcategory)) ? state.dataset.find(cat => cat.category === state.nameInfo.category).subcategories.map(subcat => subcat.name).filter((subcat, index, self) => ((subcat) && (self.indexOf(subcat) === index))) : [];
 
 	return (
 		<section id="nameTypeSelection">

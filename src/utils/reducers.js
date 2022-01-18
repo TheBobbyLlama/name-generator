@@ -11,7 +11,7 @@ import {
 } from "./actions";
 
 function setNameCategory(state, categoryInfo) {
-	let defaultSubcategory = categoryInfo.subcategories.find(subcat => subcat.name)?.name || "";
+	let defaultSubcategory = categoryInfo.subcategories?.find(subcat => subcat.name)?.name || "";
 	state.nameInfo = { category: categoryInfo.category, subcategory: defaultSubcategory };
 	state.nameInfo.filters = categoryInfo.defaultFilters || getFilterList(state);
 	
@@ -25,7 +25,7 @@ export const reducer = (state, action) => {
 		case SET_NAME_SOURCE:
 			newState = { ...state };
 			newState.dataset = action.sourceData;
-			setNameCategory(newState, newState.dataset[0]);
+			setNameCategory(newState, newState.dataset.find(cat => cat.category));
 			return newState;
 		case SET_NAME_CATEGORY:
 			newState = { ...state };
