@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useStoreContext } from "../../utils/GlobalState";
 
 import { SET_NAME_SOURCE, SET_NAME_CATEGORY, SET_NAME_SUBCATEGORY } from "../../utils/actions";
@@ -6,12 +7,15 @@ import "./NameTypeSelection.css";
 
 function NameTypeSelection() {
 	const nameSources = require("../../data/ListIndex.json");
+	const params = new URLSearchParams(window.location.search);
 	const [state, dispatch] = useStoreContext();
+	const [curSource, setCurSource] = useState("");
 
-	const setNameSource = async function(source) {
+	const setNameSource = async function(source, category=null, subcategory=null) {
 		const sourceData = await require("../../data/namelists/" + source + ".json");
+		setCurSource(source);
 
-		dispatch({ type: SET_NAME_SOURCE, sourceData });
+		dispatch({ type: SET_NAME_SOURCE, sourceData, category, subcategory });
 	}
 
 	const setNameCategory = function(category) {
@@ -22,9 +26,19 @@ function NameTypeSelection() {
 		dispatch({ type: SET_NAME_SUBCATEGORY, subcategory });
 	}
 
-	// Default to the first option.
+	// Choose the first option.
 	if (!state.dataset) {
 		// TODO - Put up a spinner?
+		if (window.location.search) {
+			var tmpSrc = params.get("source");
+			var tmpItem = nameSources.find(src => src.file === tmpSrc);
+
+			if (tmpItem) {
+				setNameSource(tmpItem.file, params.get("cat"), params.get("subcat"));
+				return <></>
+			}
+		}
+
 		setNameSource(nameSources[0].file);
 		return <></>;
 	}
@@ -37,18 +51,18 @@ function NameTypeSelection() {
 			<h2>Name Types</h2>
 			<div>
 				<label htmlFor="nameSource">Source:</label>
-				<select name="nameSource" onChange={e => setNameSource(e.target.value)}>{nameSources.map(source => { return (<option key={source.file} value={source.file}>{source.name}</option>); })}</select>
+				<select name="nameSource" onChange={e => setNameSource(e.target.value)} value={curSource} disabled={params.get("source") === curSource}>{nameSources.map(source => { return (<option key={source.file} value={source.file}>{source.name}</option>); })}</select>
 			</div>
 			{(categoryList.length > 1) ?
 			<div>
 				<label htmlFor="nameCategory">Category:</label>
-				<select name="nameCategory" value={state.nameInfo.category} onChange={e => setNameCategory(e.target.value)}>{categoryList.map(category => { return (<option key={category}>{category}</option>); })}</select>
+				<select name="nameCategory" value={state.nameInfo.category} onChange={e => setNameCategory(e.target.value)} disabled={params.get("cat") === state.nameInfo.category}>{categoryList.map(category => { return (<option key={category}>{category}</option>); })}</select>
 			</div>
 			: <></>}
 			{(subCatList.length > 1) ?
 			<div>
 				<label htmlFor="nameSubcategory">Subcategory:</label>
-				<select name="nameSubcategory" value={state.nameInfo.subcategory} onChange={e => setNameSubcategory(e.target.value)}>{subCatList.map(subcat => { return (<option key={subcat}>{subcat}</option>); })}</select>
+				<select name="nameSubcategory" value={state.nameInfo.subcategory} onChange={e => setNameSubcategory(e.target.value)} disabled={params.get("subcat") === state.nameInfo.subcategory}>{subCatList.map(subcat => { return (<option key={subcat}>{subcat}</option>); })}</select>
 			</div>
 			: <></>}
 		</section>

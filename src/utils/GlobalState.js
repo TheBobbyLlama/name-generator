@@ -9,7 +9,7 @@ const StoreProvider = ({ value = [], ...props }) => {
 	// Set default state here.
 	const [state, dispatch] = useNameGenReducer({
 		dataset: undefined,
-		resultCount: 50,
+		resultCount: localStorage.getItem("NameGen:ResultCount") || 50,
 		results: []
 	});
 

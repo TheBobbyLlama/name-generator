@@ -25,7 +25,17 @@ export const reducer = (state, action) => {
 		case SET_NAME_SOURCE:
 			newState = { ...state };
 			newState.dataset = action.sourceData;
-			setNameCategory(newState, newState.dataset.find(cat => cat.category));
+
+			if (action.category) {
+				setNameCategory(newState, newState.dataset.find(cat => cat.category === action.category));
+
+				if (action.subcategory) {
+					newState.nameInfo = { ...newState.nameInfo, subcategory: action.subcategory };
+					newState.results = generateNames(newState.dataset, newState.nameInfo, newState.resultCount);
+				}
+			} else {
+				setNameCategory(newState, newState.dataset.find(cat => cat.category));
+			}
 			return newState;
 		case SET_NAME_CATEGORY:
 			newState = { ...state };
@@ -51,6 +61,7 @@ export const reducer = (state, action) => {
 			newState.results = generateNames(newState.dataset, newState.nameInfo, newState.resultCount);
 			return newState;
 		case SET_RESULT_COUNT:
+			localStorage.setItem("NameGen:ResultCount", action.resultCount);
 			newState = { ...state, resultCount: action.resultCount };
 			newState.results = generateNames(newState.dataset, newState.nameInfo, newState.resultCount);
 			return newState;
