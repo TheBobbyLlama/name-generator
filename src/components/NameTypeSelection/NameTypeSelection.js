@@ -28,7 +28,7 @@ function NameTypeSelection() {
 
 	// Choose the first option.
 	if (!state.dataset) {
-		// TODO - Put up a spinner?
+		// Put up a spinner,maybe?
 		if (window.location.search) {
 			var tmpSrc = params.get("source");
 			var tmpItem = nameSources.find(src => src.file === tmpSrc);

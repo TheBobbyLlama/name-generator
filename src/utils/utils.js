@@ -54,6 +54,7 @@ function generateName(workingList) {
 
 /// The heavy lifting of name generation - Chooses a component list and then builds a word from it.
 function createNameComponent(componentList) {
+	const endRegex = /^\+?[bcdfghjklmnpqrstvwxyz]*[aeiou]*/i;
 	var count = 0;
 	var random;
 	var curList = 0;
@@ -81,6 +82,9 @@ function createNameComponent(componentList) {
 
 	for (let i = 0; i < curLength; i++) {
 		var workingList;
+		var tmpComponent;
+		var tmpEnd;
+		var safety = 0;
 
 		if (i === 0) {
 			workingList = componentList[curList].list.filter(element => element[0] !== "+");
@@ -90,7 +94,17 @@ function createNameComponent(componentList) {
 			workingList = componentList[curList].list.filter(element => ((element[0] === "+") && (element[element.length - 1] === "+")));
 		}
 
-		result += workingList[getRandomIndex(workingList.length)];
+		tmpComponent = workingList[getRandomIndex(workingList.length)];
+		tmpEnd = tmpComponent.replace(endRegex, "");
+
+		// Prevents generation of names with repeated consonants, like Ilelaliel.
+		// Only checks against the end of the name so far, so something like Ilenalien (which is much less of a tongue twister) is still possible.
+		while ((safety++ < 100) && (tmpEnd) && (result.endsWith(tmpEnd))) {
+			tmpComponent = workingList[getRandomIndex(workingList.length)];
+			tmpEnd = tmpComponent.replace(endRegex, "");
+		}
+
+		result += tmpComponent;
 	}
 
 	return result.replace(/\+/g, "");
