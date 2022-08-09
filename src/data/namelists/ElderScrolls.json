@@ -407,19 +407,19 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Cie+", "Geo+", "My+", "Pau+", "+l", "+n", "+r" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Andr+", "Arn+", "Ast+", "Barn+", "Bir+", "Cirg+", "Dand+", "Dar+", "Dilb+", "Elb+", "Ern+", "Far+", "Fen+", "Franc+", "Frizk+", "Frost+", "Gab+", "Idhd+", "Inw+", "Irbr+", "Jad+", "Jer+", "Joc+", "Jonc+", "Juill+", "Lan+", "List+", "Man+", "Marc+", "Mer+", "Nol+", "Orm+", "Orr+", "Per+", "Phan+", "Rel+", "Rerl+", "Rur+", "Thetr+", "Varn+", "Ver+", "Ylb+", "+an", "+and", "+ard", "+as", "+av", "+ax", "+e", "+ean", "+el", "+en", "+ent", "+eon", "+ers", "+ert", "+es", "+ian", "+ic", "+ick", "+ie", "+ien", "+ier", "+is", "+ois", "+old", "+orn" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Al+", "Ber+", "Deb+", "Detr+", "Fer+", "Jeanc+", "Meb+", "Merth+", "Rob+", "Sim+", "Soc+", "+ar+", "+ed+", "+ent+", "+ert+", "+est+", "+iel+", "+ierr+", "+il+", "+in+", "+it+", "+itt+", "+od+", "+uc+", "+e", "+ie", "+ien", "+ius", "+o", "+us", "+y" ]
 						},
 						{
@@ -430,13 +430,13 @@
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Aelw+", "Al+", "Anc+", "Andr+", "Ast+", "Barth+", "Baur+", "Ber+", "Brad+", "Claud+", "Col+", "Corr+", "Dam+", "Did+", "Ed+", "Edg+", "Ern+", "Eug+", "Ferr+", "Flo+", "Franc+", "Gasp+", "Gast+", "Gep+", "Ger+", "Granth+", "Guilb+", "Hastr+", "Jakb+", "Jauffr+", "Jhar+", "Kast+", "Lew+", "Marc+", "Math+", "Matth+", "Norb+", "Og+", "Phil+", "Ren+", "Rol+", "Sam+", "Trael+", "Ulr+", "Vinc+", "+al", "+ald", "+am", "+an", "+and", "+ar", "+ard", "+av", "+e", "+ed", "+el", "+en", "+ent", "+ert", "+est", "+ian", "+ias", "+ich", "+ick", "+ier", "+ieu", "+in", "+ion", "+ip", "+ius", "+ix", "+ois", "+on", "+uard", "+uel", "+um", "+us", "+yd" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ach+", "Al+", "Alb+", "Am+", "Ambr+", "Ant+", "Bar+", "Bruc+", "Christ+", "Dav+", "Greg+", "Hann+", "Ist+", "Jean+", "Laz+", "Re+", "Rod+", "Rowl+", "Sal+", "Ther+", "Thorl+", "Tim+", "Vic+", "+-P+", "+ag+", "+an+", "+ar+", "+e+", "+ent+", "+er+", "+et+", "+iabl+", "+ib+", "+id+", "+ierr+", "+ill+", "+ir+", "+oin+", "+ois+", "+om+", "+oph+", "+or+", "+oth+", "+yn+", "+al", "+ald", "+e", "+ee", "+ic", "+is", "+on", "+us", "+y" ]
 						},
 						{
@@ -447,19 +447,19 @@
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Be+", "Brai+", "Dua+", "E+", "Kra+", "Pe+", "Ra+", "Sa+", "Stro+", "+ch", "+g", "+hd", "+m", "+mm", "+ndt", "+rj", "+rth" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Al+", "Am+", "Ant+", "Arn+", "Bann+", "Blais+", "Brand+", "Cedr+", "Cel+", "Clint+", "Cosn+", "Cynr+", "Dal+", "Delv+", "Donn+", "Dor+", "Dryst+", "Eltr+", "Enm+", "Enn+", "Esm+", "Franc+", "Gauld+", "Gir+", "Glov+", "Herl+", "Jouan+", "Merc+", "Mor+", "Morv+", "Nep+", "Odv+", "Oml+", "Phin+", "Rond+", "Staub+", "Thom+", "Tuth+", "Tyn+", "Will+", "+ach", "+ain", "+an", "+ann", "+as", "+aud", "+aund", "+e", "+el", "+em", "+en", "+er", "+ian", "+ic", "+iel", "+in", "+ing", "+is", "+ish", "+oc", "+ois", "+on", "+ond", "+os", "+uag", "+uin", "+ul", "+ur", "+ys" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ad+", "Ain+", "Bel+", "Belch+", "Deg+", "Del+", "Emm+", "Et+", "Garv+", "Ham+", "Hathr+", "Im+", "Mad+", "Malk+", "Maur+", "Oct+", "Seb+", "Ur+", "We+", "+ac+", "+acc+", "+ain+", "+an+", "+as+", "+ast+", "+e+", "+eb+", "+edhn+", "+el+", "+eth+", "+ic+", "+ienn+", "+iev+", "+im+", "+or+", "+yl+", "+ac", "+ach", "+ain", "+an", "+e", "+en", "+er", "+ian", "+il", "+in", "+or", "+ourt", "+uel", "+y", "+yn" ]
 						},
 						{
@@ -470,19 +470,19 @@
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Boeu+", "Bri+", "Caoi+", "Crai+", "Dra+", "Fra+", "Ga+", "Geo+", "Gi+", "Gry+", "Hue+", "Ja+", "Jea+", "Ki+", "Ki+", "Ku+", "Le+", "Leo+", "Lia+", "Loi+", "Lo+", "Lu+", "Lya+", "Mae+", "Mae+", "Noa+", "Oua+", "Stra+", "Ve+", "Vi+", "Wy+", "+b", "+c", "+f", "+g", "+l", "+m", "+n", "+nn", "+nck", "+p", "+rd", "+rk", "+rt", "+rth", "+ss", "+t" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ab+", "Ad+", "Adn+", "Adr+", "Adw+", "Ail+", "Aill+", "Aim+", "Aj+", "Al+", "Alb+", "Ald+", "Alfr+", "All+", "Alt+", "Alv+", "Anc+", "Andb+", "Andr+", "Ang+", "Ant+", "Aphr+", "Arb+", "Arm+", "Arn+", "Arth+", "As+", "Ath+", "Aub+", "Aud+", "Audr+", "Augl+", "Av+", "Ax+", "Bal+", "Barj+", "Bartr+", "Bast+", "Beaub+", "Beauc+", "Beaun+", "Begn+", "Bel+", "Ben+", "Benr+", "Ber+", "Berj+", "Bern+", "Bertr+", "Bistr+", "Blais+", "Blas+", "Blith+", "Bric+", "Brin+", "Brul+", "Brun+", "Bruss+", "Bun+", "Cald+", "Camb+", "Cant+", "Cav+", "Celn+", "Chant+", "Charbr+", "Charq+", "Chartr+", "Chedr+", "Cherv+", "Chrism+", "Christ+", "Cim+", "Claud+", "Claum+", "Clauv+", "Clem+", "Clov+", "Colb+", "Colw+", "Cond+", "Condr+", "Corb+", "Cord+", "Corl+", "Corw+", "Cren+", "Cyr+", "Daimb+", "Dain+", "Dal+", "Dam+", "Dan+", "Dand+", "Danf+", "Dar+", "Darc+", "Darr+", "Darv+", "Dav+", "Delr+", "Delv+", "Derr+", "Dhal+", "Did+", "Dil+", "Don+", "Dor+", "Doum+", "Drac+", "Drag+", "Drav+", "Driv+", "Dunc+", "Dur+", "Dyd+", "Dyr+", "Eal+", "Ed+", "Edg+", "Edm+", "Edr+", "Edw+", "El+", "Elb+", "Ell+", "Eln+", "Eltr+", "Emn+", "Enr+", "Er+", "Ern+", "Erw+", "Esm+", "Esq+", "Est+", "Eth+", "Eug+", "Eust+", "Ev+", "Evr+", "Faolch+", "Far+", "Farv+", "Fel+", "Fer+", "Ferr+", "Filb+", "Fin+", "Flor+", "Font+", "Fouc+", "Franq+", "Frencq+", "Fril+", "Frizw+", "Frub+", "Frug+", "Fug+", "Gab+", "Gabr+", "Gabry+", "Gaff+", "Gail+", "Gaill+", "Gan+", "Garb+", "Garr+", "Gasp+", "Gast+", "Gaub+", "Gav+", "Gavr+", "Gedr+", "Gel+", "Gelv+", "Geon+", "Georg+", "Ger+", "Gerb+", "Gern+", "Gerr+", "Gher+", "Gierr+", "Gilb+", "Gill+", "Gin+", "Giorg+", "Gir+", "Glaub+", "Gord+", "Grah+", "Gran+", "Granc+", "Grand+", "Griv+", "Grob+", "Grug+", "Gu+", "Gud+", "Guill+", "Guit+", "Gyr+", "Hal+", "Hand+", "Har+", "Harb+", "Harc+", "Hastr+", "Henr+", "Her+", "Herr+", "Hes+", "Hesc+", "Hier+", "Holb+", "Host+", "Hub+", "Hugh+", "Hulb+", "Igm+", "Ilz+", "Inw+", "Irbr+", "Irn+", "Irv+", "Jacm+", "Jad+", "Jak+", "Jans+", "Janv+", "Jarn+", "Jasc+", "Jasp+", "Jav+", "Jer+", "Jern+", "Jesp+", "Jim+", "Joil+", "Jon+", "Jonc+", "Jonn+", "Jord+", "Jorv+", "Joss+", "Jow+", "Jul+", "Just+", "Kaen+", "Kal+", "Kalh+", "Kar+", "Kathn+", "Kaur+", "Kell+", "Kelm+", "Kil+", "Kyl+", "Kyrt+", "Labhr+", "Lan+", "Land+", "Laur+", "Len+", "Lenn+", "Leob+", "Leon+", "Leonc+", "Leonh+", "Leov+", "Ler+", "Les+", "Lest+", "Lew+", "Lion+", "Lis+", "Lon+", "Lor+", "Louc+", "Loup+", "Louv+", "Luc+", "Lur+", "Maec+", "Maldr+", "Mand+", "Mar+", "Marb+", "Marc+", "March+", "Marj+", "Marn+", "Marr+", "Mart+", "Marw+", "Mat+", "Math+", "Matth+", "Mav+", "Max+", "Men+", "Mer+", "Mert+", "Mich+", "Mil+", "Miq+", "Mirt+", "Miv+", "Moll+", "Morr+", "Mort+", "Morv+", "Munch+", "Mur+", "Myl+", "Nell+", "Nem+", "Nep+", "Nil+", "Nol+", "Nomb+", "Nomp+", "Oct+", "Od+", "Ol+", "Olw+", "Ondr+", "Onfr+", "Onr+", "Orm+", "Orr+", "Orv+", "Osc+", "Ours+", "Ow+", "Pad+", "Paldr+", "Parq+", "Parr+", "Pasc+", "Patr+", "Paul+", "Pav+", "Per+", "Perc+", "Perr+", "Phaist+", "Phan+", "Phel+", "Phil+", "Phill+", "Phin+", "Pierj+", "Pierr+", "Pil+", "Pip+", "Pop+", "Prax+", "Quent+", "Quint+", "Quist+", "Rald+", "Rall+", "Ram+", "Rans+", "Raol+", "Raph+", "Ray+", "Redw+", "Reg+", "Rem+", "Ren+", "Rench+", "Renk+", "Renw+", "Rerl+", "Rich+", "Ricq+", "Rob+", "Rodm+", "Rog+", "Rohlb+", "Rol+", "Rolb+", "Rom+", "Rub+", "Ruff+", "Sad+", "Saeh+", "Sal+", "Sam+", "Samm+", "Sand+", "Sarv+", "Serg+", "Serr+", "Sil+", "Sir+", "Sor+", "Sos+", "Spenc+", "Stef+", "Stenw+", "Steph+", "Stern+", "Stibb+", "Strastn+", "Sun+", "Sur+", "Sutl+", "Sylv+", "Tam+", "Telf+", "Tetr+", "Theob+", "Theom+", "Ther+", "Therr+", "They+", "Thib+", "Thibr+", "Thierr+", "Thom+", "Tild+", "Tim+", "Timm+", "Tolw+", "Torv+", "Tourv+", "Trev+", "Trierr+", "Tryst+", "Tsin+", "Tur+", "Tyr+", "Urf+", "Vach+", "Vaf+", "Valc+", "Vall+", "Vanc+", "Vard+", "Vel+", "Ver+", "Verr+", "Vertr+", "Vicm+", "Victr+", "Vierr+", "Vign+", "Vil+", "Vilh+", "Vinc+", "Vont+", "Vorth+", "Vyct+", "Vyr+", "Wilk+", "Will+", "Wyl+", "Xand+", "Yan+", "Ync+", "Yngw+", "Yv+", "Zack+", "Zav+", "+a", "+ac", "+ach", "+aeg", "+ael", "+ag", "+ah", "+aidh", "+ain", "+air", "+aird", "+ais", "+al", "+ald", "+all", "+am", "+an", "+and", "+ant", "+aques", "+ar", "+arch", "+ard", "+arn", "+art", "+arz", "+as", "+au", "+aud", "+auld", "+ault", "+aume", "+aut", "+ax", "+e", "+ean", "+eau", "+ec", "+ed", "+ee", "+eem", "+eg", "+ei", "+eil", "+ein", "+el", "+eld", "+ell", "+em", "+en", "+enc", "+enn", "+ent", "+eo", "+eph", "+er", "+ers", "+ert", "+es", "+est", "+et", "+ew", "+ex", "+i", "+iam", "+ian", "+ias", "+ic", "+ich", "+ick", "+ie", "+iel", "+ien", "+ienn", "+ient", "+ier", "+ieu", "+ig", "+ik", "+il", "+ill", "+im", "+in", "+ind", "+inn", "+io", "+ion", "+iot", "+ious", "+is", "+ith", "+iuc", "+ius", "+o", "+oc", "+oen", "+of", "+oi", "+oic", "+oin", "+ois", "+oit", "+old", "+on", "+ond", "+ons", "+oph", "+or", "+ord", "+orth", "+os", "+ot", "+oth", "+ou", "+ouard", "+ouin", "+ouis", "+our", "+ourt", "+u", "+ual", "+ue", "+uel", "+ues", "+uier", "+uin", "+uld", "+um", "+un", "+und", "+ur", "+us", "+y", "+yd", "+yg", "+yn", "+yr", "+ys", "+yx" ]
 						},
 						{
 							"filter": "Online",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Abs+", "Ach+", "Ad+", "Adr+", "Aim+", "Al+", "All+", "Alph+", "Alv+", "Am+", "Amb+", "An+", "Andr+", "Ann+", "Ant+", "Aph+", "Ar+", "Arc+", "Arch+", "Arn+", "Arph+", "Ath+", "Atr+", "Aub+", "Aug+", "Av+", "Avr+", "Ban+", "Bar+", "Barn+", "Bas+", "Bast+", "Bed+", "Benj+", "Berj+", "Bern+", "Brun+", "Cah+", "Cal+", "Can+", "Cas+", "Ces+", "Charl+", "Christ+", "Churl+", "Co+", "Col+", "Cor+", "Curt+", "Cynt+", "Dac+", "Dant+", "Danw+", "Dar+", "Dav+", "Deg+", "Del+", "Dest+", "Dev+", "Dim+", "Dun+", "Em+", "Emm+", "End+", "Enn+", "Erb+", "Ern+", "Esc+", "Est+", "Et+", "Fabr+", "Far+", "Fed+", "Fel+", "Fil+", "Flor+", "Font+", "Franc+", "Fred+", "Gab+", "Garv+", "Gasc+", "Gasp+", "Gast+", "Gaw+", "Genn+", "Gep+", "Gess+", "Gilg+", "Git+", "Gond+", "Greg+", "Gu+", "Gust+", "Ham+", "Hann+", "Her+", "Herv+", "Hil+", "Id+", "Igl+", "Ign+", "Jav+", "Jer+", "Jerr+", "Joh+", "Jol+", "Joll+", "Jub+", "Kas+", "Kev+", "Krasd+", "Lan+", "Lar+", "Lart+", "Laur+", "Laz+", "Le+", "Lecl+", "Lud+", "Lum+", "Lur+", "Mar+", "Marc+", "Marl+", "Mart+", "Matth+", "Maur+", "Max+", "Med+", "Merth+", "Mich+", "Mill+", "Mort+", "Nak+", "Nath+", "Nic+", "Nich+", "Nir+", "Nol+", "Oct+", "Ol+", "Om+", "Oub+", "Ow+", "Par+", "Pars+", "Paul+", "Perr+", "Pev+", "Phel+", "Phil+", "Porth+", "Pug+", "Ra+", "Re+", "Ren+", "Rich+", "Roch+", "Rod+", "Rog+", "Rur+", "Sal+", "Seb+", "Serg+", "Sern+", "Sev+", "Sim+", "Sol+", "Stelv+", "Steph+", "Styr+", "Synd+", "Tev+", "Theod+", "Theoph+", "Thib+", "Thom+", "Thorl+", "Tim+", "Toph+", "Usq+", "Uth+", "Val+", "Var+", "Vaur+", "Venc+", "Ver+", "Verdr+", "Vern+", "Vinc+", "Virg+", "Warr+", "Wuhk+", "Xav+", "Ylb+", "Ylv+", "Yug+", "Zach+", "Zav+", "Zib+", "+'t+", "+a+", "+ab+", "+abl+", "+ac+", "+ad+", "+agn+", "+ain+", "+air+", "+al+", "+am+", "+an+", "+and+", "+andr+", "+ar+", "+ard+", "+arg+", "+as+", "+ast+", "+at+", "+aud+", "+aur+", "+av+", "+ay+", "+az+", "+e+", "+eb+", "+ecc+", "+edn+", "+el+", "+ell+", "+em+", "+en+", "+eng+", "+ent+", "+er+", "+es+", "+ess+", "+est+", "+et+", "+ev+", "+ex+", "+ez+", "+iach+", "+iaum+", "+ib+", "+ic+", "+ich+", "+id+", "+ienn+", "+ierr+", "+if+", "+ig+", "+il+", "+ill+", "+im+", "+imb+", "+in+", "+inn+", "+intth+", "+ip+", "+ipp+", "+ir+", "+is+", "+ist+", "+it+", "+itr+", "+iv+", "+ixt+", "+ob+", "+och+", "+og+", "+oin+", "+oir+", "+ol+", "+oll+", "+olph+", "+om+", "+on+", "+ons+", "+oph+", "+oq+", "+or+", "+ory+", "+oth+", "+oust+", "+ov+", "+ueb+", "+uen+", "+um+", "+un+", "+ur+", "+usq+", "+ust+", "+yb+", "+ych+", "+yct+", "+yl+", "+ym+", "+yn+", "+yr+", "+ys+", "+yv+", "+ac", "+ah", "+ain", "+air", "+ak", "+al", "+ald", "+an", "+ar", "+ard", "+as", "+aud", "+e", "+eau", "+ec", "+ee", "+el", "+em", "+en", "+eph", "+er", "+erl", "+ert", "+et", "+i", "+iac", "+ian", "+iard", "+ic", "+ick", "+ie", "+iel", "+ien", "+ier", "+in", "+io", "+ir", "+is", "+ius", "+o", "+ois", "+on", "+ond", "+or", "+ot", "+ou", "+ue", "+und", "+us", "+y", "+yn", "+yr", "+ys" ]
 						}
 					]
@@ -501,13 +501,13 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ab+", "Ad+", "Al+", "Am+", "Ar+", "Aurn+", "Dab+", "Der+", "Edr+", "Gul+", "Hen+", "Jan+", "Jeann+", "Josl+", "Lel+", "Lir+", "Mabr+", "Mal+", "Mar+", "Marth+", "Maurr+", "Mel+", "Mil+", "Mur+", "Pierl+", "Piern+", "Rel+", "Sos+", "Syn+", "+a", "+and", "+e", "+elle", "+es", "+ette", "+ia", "+ie", "+iel", "+iele", "+ielle", "+ienne", "+in", "+itte" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Am+", "Arb+", "Asc+", "Aur+", "Bel+", "Bovk+", "Dar+", "Edw+", "Em+", "Fas+", "Frel+", "Helv+", "Jeb+", "Mal+", "Mar+", "Mas+", "Mit+", "Rianc+", "Ron+", "Sur+", "Vir+", "+al+", "+an+", "+ann+", "+ar+", "+el+", "+en+", "+er+", "+ian+", "+ien+", "+il+", "+in+", "+inn+", "+iq+", "+us+", "+a", "+e", "+ette", "+ie", "+ue" ]
 						},
 						{
@@ -518,13 +518,13 @@
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Adr+", "Any+", "Ar+", "Bien+", "Blanch+", "Call+", "Chan+", "Claud+", "Est+", "Jeann+", "Jol+", "Jul+", "Mar+", "Nan+", "Pheb+", "Rael+", "Roch+", "Rox+", "+a", "+e", "+elle", "+ette", "+ia", "+ie", "+ielle", "+ienne", "+y", "+ynn" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Al+", "Ann+", "Ant+", "Beatr+", "Bern+", "Cand+", "Car+", "Delph+", "El+", "Erl+", "Ev+", "Franc+", "Ir+", "Is+", "Luc+", "Mar+", "Marg+", "Mat+", "Mel+", "Mir+", "Rox+", "Sab+", "Urs+", "Yv+", "+ab+", "+ad+", "+and+", "+ang+", "+ann+", "+ar+", "+el+", "+en+", "+ett+", "+ian+", "+ic+", "+iett+", "+ild+", "+in+", "+is+", "+it+", "+oin+", "+ol+", "+uer+", "+yss+", "+a", "+e", "+eau", "+elle", "+ette" ]
 						},
 						{
@@ -535,13 +535,13 @@
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Bab+", "Carc+", "Col+", "Daighr+", "Eol+", "Er+", "Fiann+", "Jul+", "Lael+", "Lis+", "Men+", "Mich+", "Modhn+", "Muir+", "Rhiad+", "Senn+", "Uail+", "Viv+", "Voad+", "+a", "+e", "+el", "+ette", "+i", "+ienne", "+ith" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ang+", "Both+", "Cair+", "Delph+", "Ild+", "Is+", "Mad+", "Mir+", "Sab+", "Sor+", "Syb+", "+ab+", "+el+", "+en+", "+ill+", "+in+", "+a", "+e", "+elle" ]
 						},
 						{
@@ -552,19 +552,19 @@
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Gwe+", "Py+", "Rhea+", "Tae+", "Thai+", "+lt", "+n", "+rn", "+s" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ab+", "Ad+", "Adr+", "Ael+", "Aj+", "Al+", "Am+", "Ambr+", "An+", "Andr+", "Andry+", "Ang+", "Ann+", "Ant+", "Any+", "Ar+", "Arl+", "Arm+", "Asht+", "Astr+", "Ax+", "Bedd+", "Bely+", "Berg+", "Bien+", "Blynn+", "Brel+", "Brend+", "Brunn+", "Brunw+", "Carl+", "Cel+", "Charl+", "Charm+", "Chat+", "Chent+", "Christ+", "Ciar+", "Clar+", "Claud+", "Dab+", "Dam+", "Dar+", "Darc+", "Dary+", "Desm+", "Diab+", "Dian+", "Dirdr+", "Dor+", "Dufr+", "Eirdr+", "El+", "Ell+", "Enn+", "Eol+", "Er+", "Esm+", "Ett+", "Fabr+", "Fal+", "Falh+", "Fiesq+", "Fin+", "Gabr+", "Gaell+", "Georg+", "Ger+", "Gin+", "Glor+", "Grac+", "Gran+", "Grig+", "Griv+", "Gwyn+", "Gwyss+", "Harb+", "Helw+", "Her+", "Hest+", "In+", "Ion+", "Jann+", "Jean+", "Jeann+", "Jenn+", "Joell+", "Jol+", "Jos+", "Jyll+", "Kaer+", "Kestr+", "Kon+", "Lael+", "Lan+", "Lar+", "Laur+", "Lean+", "Leil+", "Less+", "Lex+", "Lian+", "Liis+", "Lil+", "Limr+", "Lionn+", "Liv+", "Lod+", "Lor+", "Louard+", "Louis+", "Loul+", "Loun+", "Luc+", "Lurg+", "Lyd+", "Lyn+", "Lys+", "Lyss+", "Lyz+", "Mabr+", "Mad+", "Mael+", "Maell+", "Mar+", "Marc+", "Marg+", "Margr+", "Marth+", "Math+", "Max+", "May+", "Medy+", "Mer+", "Mich+", "Mim+", "Min+", "Mir+", "Miz+", "Moll+", "Morr+", "Moum+", "Muazz+", "Mur+", "Nahl+", "Nan+", "Naud+", "Nem+", "Neom+", "Ness+", "Nin+", "Noeb+", "Noem+", "Nyn+", "Nyom+", "Od+", "Op+", "Oth+", "Ouid+", "Pabl+", "Pep+", "Phoeb+", "Phylg+", "Pier+", "Piern+", "Pierr+", "Pypp+", "Quill+", "Quir+", "Rach+", "Rael+", "Rein+", "Rel+", "Riann+", "Rin+", "Rokry+", "Ros+", "Roum+", "Roz+", "Ryv+", "Sar+", "Senn+", "Shaell+", "Shal+", "Shil+", "Shill+", "Shorr+", "Sos+", "Sov+", "Steph+", "Sur+", "Sylv+", "Thay+", "Thylv+", "Til+", "Trem+", "Tyrry+", "Uail+", "Urv+", "Vaudr+", "Vend+", "Vers+", "Vim+", "Vinc+", "Viol+", "Vistr+", "Viv+", "Vyl+", "Xandr+", "Yurt+", "Yv+", "Zel+", "Ziz+", "Zouz+", "Zyll+", "Zyss+", "+a", "+ac", "+ah", "+ain", "+ais", "+al", "+an", "+arc", "+aud", "+aux", "+az", "+e", "+ee", "+el", "+eld", "+elle", "+en", "+enn", "+er", "+ert", "+es", "+et", "+ette", "+i", "+ia", "+ian", "+ic", "+id", "+ie", "+iel", "+iele", "+ielle", "+ien", "+ienne", "+ier", "+iet", "+igh", "+in", "+ind", "+itte", "+ix", "+oin", "+on", "+ot", "+ou", "+oux", "+ue", "+ut", "+y", "+yn", "+ynn", "+ys" ]
 						},
 						{
 							"filter": "Online",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ad+", "Ag+", "Al+", "All+", "Alth+", "Alv+", "Aly+", "Am+", "Ambr+", "An+", "And+", "Ann+", "Ar+", "Arc+", "Ard+", "Arl+", "Arm+", "Arn+", "Art+", "Arzh+", "Ast+", "Astr+", "Aubr+", "Aug+", "Aur+", "Av+", "Bab+", "Barb+", "Bel+", "Bell+", "Ber+", "Bern+", "Berr+", "Beth+", "Binl+", "Bre+", "Brenl+", "Brig+", "Brun+", "Ca+", "Cal+", "Call+", "Cam+", "Cand+", "Cap+", "Car+", "Carm+", "Cass+", "Cath+", "Cec+", "Cel+", "Cer+", "Ces+", "Chant+", "Charl+", "Charm+", "Cher+", "Cid+", "Clair+", "Clar+", "Claud+", "Clot+", "Clov+", "Col+", "Conc+", "Const+", "Coq+", "Cor+", "Cynd+", "Cyr+", "Dar+", "Del+", "Dem+", "Den+", "Der+", "Des+", "Dess+", "Dhal+", "Did+", "Dom+", "Don+", "Dor+", "Dov+", "Drus+", "Ed+", "Edw+", "Ees+", "El+", "Elg+", "Ell+", "Elv+", "Em+", "End+", "Enr+", "Er+", "Ern+", "Es+", "Esc+", "Esd+", "Est+", "Eub+", "Eud+", "Eug+", "Ev+", "Evv+", "Fal+", "Farl+", "Fel+", "Flor+", "Fort+", "Fran+", "Franc+", "Fre+", "Fred+", "Frel+", "Gabr+", "Gael+", "Gaet+", "Gal+", "Gan+", "Gen+", "Genv+", "Ger+", "Germ+", "Gerv+", "Gess+", "Gilb+", "Gis+", "Glend+", "Guend+", "Gwen+", "Gwynn+", "Hel+", "Hen+", "Hendr+", "Henn+", "Henr+", "Her+", "Herv+", "Hil+", "Hug+", "Hul+", "Ic+", "Il+", "In+", "Ingr+", "Ir+", "Is+", "Jacq+", "Jan+", "Jasm+", "Jav+", "Jean+", "Jeann+", "Jeb+", "Jeh+", "Joss+", "Jul+", "Jur+", "Jus+", "Karn+", "Katr+", "Ketr+", "Kris+", "Lach+", "Laet+", "Lan+", "Lant+", "Lar+", "Laud+", "Laur+", "Leon+", "Leont+", "Ler+", "Let+", "Lex+", "Lin+", "Lis+", "Liz+", "Ller+", "Lor+", "Luc+", "Lud+", "Ma+", "Mab+", "Mad+", "Maelr+", "Mag+", "Mahl+", "Mal+", "Man+", "Mar+", "Marc+", "Marg+", "Marl+", "Marq+", "Mart+", "Marth+", "Mat+", "Math+", "Max+", "Mel+", "Merv+", "Mich+", "Min+", "Miq+", "Mir+", "Mochv+", "Morg+", "Mort+", "Myl+", "Myr+", "Nad+", "Nan+", "Nath+", "Nic+", "Non+", "Nor+", "Norm+", "Nur+", "Nyr+", "Oc+", "Od+", "Of+", "Ol+", "Ondr+", "Oph+", "Or+", "Os+", "Par+", "Petr+", "Phil+", "Piet+", "Prud+", "Pyl+", "Rael+", "Re+", "Reb+", "Reg+", "Rel+", "Rem+", "Ren+", "Rom+", "Ron+", "Ros+", "Roul+", "Rox+", "Sab+", "Sabr+", "Sach+", "Sand+", "Sandr+", "Sar+", "Sav+", "Seg+", "Sel+", "Ser+", "Sev+", "Sib+", "Sim+", "Sir+", "Sos+", "Steph+", "Sur+", "Sus+", "Syb+", "Tab+", "Theon+", "Theoph+", "Thon+", "Tuec+", "Urs+", "Val+", "Van+", "Var+", "Vel+", "Ver+", "Vict+", "Victr+", "Vir+", "Virg+", "Vis+", "Vit+", "Viv+", "Vyct+", "Yasm+", "Yg+", "Yl+", "Yol+", "Ys+", "Yv+", "Zeph+", "Zin+", "Zoell+", "Zoz+", "+a+", "+ab+", "+ach+", "+ad+", "+aell+", "+ain+", "+ainn+", "+air+", "+ais+", "+ak+", "+al+", "+ald+", "+aly+", "+am+", "+amw+", "+an+", "+anc+", "+and+", "+andr+", "+ang+", "+ann+", "+aph+", "+ar+", "+ard+", "+arn+", "+arth+", "+as+", "+ast+", "+at+", "+ath+", "+aud+", "+aunc+", "+aus+", "+av+", "+aw+", "+ay+", "+e+", "+ean+", "+eb+", "+ecc+", "+ech+", "+ed+", "+ein+", "+eir+", "+el+", "+eld+", "+ell+", "+em+", "+en+", "+enc+", "+end+", "+eng+", "+enn+", "+ent+", "+eon+", "+eq+", "+er+", "+ern+", "+erv+", "+es+", "+ess+", "+est+", "+et+", "+ett+", "+ev+", "+evr+", "+ex+", "+iall+", "+iam+", "+ian+", "+iann+", "+ib+", "+ic+", "+id+", "+ien+", "+ierr+", "+iett+", "+iev+", "+if+", "+ighr+", "+il+", "+ild+", "+ill+", "+im+", "+in+", "+inn+", "+ipp+", "+iq+", "+ir+", "+is+", "+iss+", "+it+", "+iv+", "+o+", "+od+", "+oin+", "+oir+", "+ois+", "+ol+", "+old+", "+on+", "+ond+", "+onn+", "+or+", "+ord+", "+oth+", "+ott+", "+ub+", "+uc+", "+ueb+", "+uel+", "+uer+", "+uett+", "+uin+", "+ul+", "+umn+", "+und+", "+ur+", "+ust+", "+yc+", "+yd+", "+yg+", "+yl+", "+yld+", "+yll+", "+yn+", "+ynd+", "+ynn+", "+yr+", "+ys+", "+yss+", "+yv+", "+yw+", "+yz+", "+a", "+ah", "+ais", "+as", "+e", "+ea", "+eau", "+eaux", "+ec", "+ee", "+eigh", "+el", "+elle", "+en", "+er", "+erl", "+et", "+eth", "+ette", "+i", "+ia", "+ie", "+in", "+ind", "+ion", "+ith", "+itte", "+on", "+ue", "+und", "+y", "+yn", "+ynn", "+yr" ]
 						}
 					]
@@ -582,19 +582,19 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Fa+", "Fre+", "Je+", "Mau+", "Mo+", "Ni+", "+l", "+n", "+nck", "+rr", "+s" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Acq+", "Adr+", "Anc+", "Andr+", "Arth+", "Beauch+", "Bierl+", "Bir+", "Bracq+", "Brol+", "Bruty+", "Car+", "Char+", "Chrid+", "Elb+", "Enc+", "Endr+", "Frern+", "Gel+", "Gem+", "Gen+", "Gern+", "Gev+", "Gil+", "Hast+", "Jast+", "Jeann+", "Jod+", "Lim+", "Lir+", "Mad+", "Mann+", "Marq+", "Mast+", "Maur+", "Men+", "Mer+", "Mil+", "Mon+", "Morn+", "Nerm+", "Nest+", "Og+", "Pan+", "Phienc+", "Ran+", "Rirn+", "Risc+", "Rolst+", "Sel+", "Stiev+", "Stoin+", "Tail+", "Thierr+", "Vann+", "Ysc+", "Yv+", "+a", "+ach", "+ain", "+al", "+amp", "+arc", "+ard", "+ardl", "+as", "+ax", "+e", "+el", "+elle", "+ert", "+es", "+ia", "+ian", "+ic", "+ick", "+ie", "+iel", "+iele", "+ielle", "+ien", "+ienne", "+is", "+itte", "+oin", "+ois", "+oit", "+on", "+uardt", "+ues", "+y" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Adr+", "Am+", "Aul+", "Aur+", "Aurm+", "Bel+", "Car+", "Char+", "Dal+", "Des+", "Dolb+", "Eph+", "Er+", "Erg+", "Fral+", "Geont+", "Jel+", "Jolv+", "Jul+", "Kirb+", "Lael+", "Leor+", "Mac+", "Mas+", "Matr+", "Maul+", "Phil+", "Phirr+", "Ret+", "Rost+", "Sint+", "Sylb+", "Vir+", "Virm+", "+ac+", "+ain+", "+al+", "+all+", "+an+", "+ann+", "+asc+", "+ath+", "+aud+", "+aul+", "+ed+", "+ein+", "+el+", "+en+", "+es+", "+ian+", "+ien+", "+iev+", "+il+", "+in+", "+ipp+", "+ist+", "+ogn+", "+ol+", "+om+", "+or+", "+uell+", "+ul+", "+a", "+ard", "+ax", "+e", "+ee", "+el", "+ie", "+itte" ]
 						},
 						{
@@ -605,19 +605,19 @@
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Bra+", "Die+", "Do+", "Fra+", "Je+", "Lau+", "+l", "+n", "+nc", "+nck", "+nd" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ar+", "Arn+", "Bant+", "Bel+", "Binc+", "Brig+", "Brol+", "Cann+", "Chann+", "Eardw+", "Fan+", "Gal+", "Gen+", "Geon+", "Geor+", "Gern+", "Gul+", "Herr+", "Imb+", "Jean+", "Jur+", "Lel+", "Lell+", "Lem+", "Lirr+", "Loch+", "Lus+", "Mag+", "Man+", "Mar+", "Mast+", "Mel+", "Metr+", "Milv+", "Mon+", "Nath+", "Ott+", "Pal+", "Perr+", "Pet+", "Ren+", "Tilw+", "Trav+", "Tuss+", "Vel+", "Viern+", "Wir+", "+a", "+ain", "+al", "+ald", "+an", "+and", "+ans", "+ard", "+aud", "+ault", "+e", "+el", "+en", "+eph", "+es", "+et", "+ette", "+ian", "+ic", "+ich", "+ick", "+ie", "+ielle", "+ien", "+is", "+it", "+itte", "+ius", "+oit", "+onds", "+ulf", "+us" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Aeth+", "Afr+", "Al+", "Am+", "Aum+", "Bean+", "Bell+", "Ber+", "Blak+", "Corg+", "Den+", "Drac+", "Ern+", "Fanr+", "Fest+", "Fras+", "Gal+", "Jem+", "Jens+", "LaR+", "Lab+", "Lenc+", "Mab+", "Mal+", "Mar+", "Mer+", "Montr+", "Mot+", "Northw+", "Pen+", "Pierr+", "Ret+", "Sel+", "Stedr+", "Steg+", "Sur+", "Valt+", "Vautr+", "+am+", "+an+", "+ard+", "+e+", "+el+", "+elr+", "+en+", "+er+", "+ien+", "+ier+", "+ierr+", "+il+", "+in+", "+iq+", "+od+", "+ol+", "+on+", "+or+", "+os+", "+ouch+", "+ouett+", "+ow+", "+a", "+ald", "+e", "+ed", "+el", "+es", "+i", "+ia", "+ic", "+ie", "+ion", "+is", "+ius", "+ont", "+ue", "+y" ]
 						},
 						{
@@ -628,19 +628,19 @@
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Lo+", "Sa+", "Strou+", "+d", "+n", "+rt" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Adm+", "Beauf+", "Duf+", "End+", "Fre+", "Gan+", "Gest+", "Jondr+", "Jur+", "Letr+", "Lylv+", "Man+", "Merch+", "Morr+", "Nytt+", "On+", "Rarn+", "Stent+", "Tyn+", "+ad", "+and", "+ard", "+e", "+ell", "+elle", "+ette", "+ieve", "+is", "+ont", "+or", "+ort", "+ush", "+y" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Erv+", "Gem+", "Guev+", "Loth+", "Mall+", "Mar+", "Mot+", "Rol+", "Sidr+", "Vir+", "+ain+", "+air+", "+an+", "+e+", "+enc+", "+enn+", "+ierr+", "+in+", "+or+", "+e", "+y" ]
 						},
 						{
@@ -658,19 +658,19 @@
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Bra+", "Bro+", "Bru+", "Ce+", "Croi+", "Die+", "Fre+", "Fri+", "Je+", "Ke+", "Lo+", "Lo+", "Ma+", "Mau+", "Ne+", "Nie+", "O+", "Phie+", "Plou+", "Prau+", "Re+", "Sa+", "Scrae+", "Sou+", "Ste+", "Tha+", "Thro+", "Vie+", "+c", "+ff", "+g", "+hl", "+l", "+ld", "+lk", "+ltz", "+m", "+n", "+nck", "+nd", "+ng", "+rck", "+rt", "+x" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Aal+", "Acq+", "Adm+", "Agn+", "Aird+", "Al+", "Alt+", "Alth+", "Anc+", "Andr+", "Ant+", "Arn+", "Art+", "Asc+", "Ashcr+", "Ashh+", "Asht+", "Ast+", "Aug+", "Av+", "Bab+", "Bach+", "Bad+", "Balb+", "Bant+", "Barb+", "Barth+", "Beauch+", "Beauf+", "Bed+", "Begn+", "Bell+", "Ben+", "Ber+", "Berr+", "Bert+", "Bez+", "Bierl+", "Boch+", "Boiss+", "Bord+", "Boss+", "Bouch+", "Boul+", "Bout+", "Brass+", "Bridg+", "Brig+", "Brol+", "Brouss+", "Bruty+", "Cad+", "Call+", "Can+", "Cann+", "Capr+", "Car+", "Carl+", "Carm+", "Cart+", "Cass+", "Catr+", "Cedm+", "Ceir+", "Cerg+", "Chamr+", "Chann+", "Char+", "Charm+", "Charn+", "Chaudr+", "Chauvr+", "Chev+", "Chrian+", "Chrin+", "Chrirn+", "Cin+", "Cirg+", "Cottr+", "Coul+", "Croq+", "Crow+", "Daigr+", "Daill+", "Dal+", "Dan+", "Danc+", "Dant+", "Darkbl+", "Dath+", "Dauz+", "Dav+", "Delr+", "Denc+", "Dent+", "Derr+", "Det+", "Devr+", "Doisn+", "Donz+", "Dor+", "Douar+", "Dour+", "DuB+", "Dub+", "Dubr+", "Duf+", "Dug+", "Dulr+", "Dur+", "Dus+", "Dut+", "Duth+", "Ed+", "Edr+", "Elb+", "Ell+", "Elv+", "Em+", "En+", "Er+", "Erg+", "Err+", "Et+", "Eugn+", "Evr+", "Fac+", "Fairf+", "Fal+", "Falb+", "Falkw+", "Falv+", "Far+", "Farr+", "Faust+", "Favr+", "Feldr+", "Fevr+", "Finst+", "Flaub+", "Fouch+", "Fran+", "Frern+", "Gaer+", "Gaercr+", "Gagn+", "Gan+", "Gar+", "Garn+", "Garscr+", "Gaut+", "Gelv+", "Gen+", "Geon+", "Georn+", "Ger+", "Germ+", "Gern+", "Gest+", "Gev+", "Gidr+", "Gilb+", "Gimb+", "Gin+", "Gins+", "Gir+", "Gouss+", "Grang+", "Grond+", "Gueg+", "Guer+", "Guidr+", "Guill+", "Guiss+", "Gurl+", "Harb+", "Hast+", "Hawr+", "Hearthf+", "Heartw+", "Hed+", "Hemm+", "Hen+", "Herm+", "Hin+", "Hir+", "Hog+", "Hol+", "Hos+", "Hur+", "Imb+", "Inksk+", "Jasc+", "Jean+", "Jeann+", "Jer+", "Jeun+", "Jod+", "Jur+", "Just+", "Jutr+", "Kerb+", "Kinl+", "Knod+", "Lacr+", "Laf+", "Laff+", "Lam+", "Lan+", "Lanc+", "Landr+", "Lat+", "Laur+", "Lauss+", "Lauz+", "LeBl+", "Lem+", "Leonc+", "Ler+", "Lesch+", "Lev+", "Lianc+", "Litl+", "Loch+", "Lock+", "Long+", "Longt+", "Loum+", "Louv+", "Loz+", "Luill+", "Lur+", "Lurg+", "Lyd+", "Lylv+", "Lyn+", "Mac+", "Mad+", "Mal+", "Mall+", "Malv+", "Man+", "Mand+", "Mant+", "Marc+", "Marq+", "Mary+", "Math+", "Maucr+", "Maur+", "Men+", "Mer+", "Mield+", "Mil+", "Mill+", "Milv+", "Monb+", "Mont+", "Montcl+", "Montgr+", "Moorcr+", "Mor+", "Morf+", "Morr+", "Mort+", "Mour+", "Mun+", "Mur+", "Murr+", "Nalsk+", "Narc+", "Nashr+", "Nat+", "Nath+", "Nerv+", "Norm+", "Northw+", "Nott+", "Nun+", "Nur+", "Nytt+", "Od+", "On+", "Onc+", "Ondr+", "Onfr+", "Or+", "Osc+", "Our+", "Paj+", "Pam+", "Pan+", "Paum+", "Pav+", "Pen+", "Perr+", "Phienc+", "Pier+", "Pir+", "Plourd+", "Pouz+", "Prev+", "Puj+", "Quint+", "Quir+", "Rag+", "Rail+", "Raim+", "Rarn+", "Red+", "Reill+", "Rel+", "Reml+", "Ren+", "Rern+", "Rich+", "Rirn+", "Risc+", "Riss+", "Rob+", "Rocq+", "Rohd+", "Ror+", "Rouill+", "Rum+", "Sakl+", "Sel+", "Sell+", "Ser+", "Serp+", "Serr+", "Shald+", "Sin+", "Sor+", "Spen+", "Splet+", "Stend+", "Stenr+", "Stent+", "Sterr+", "Stogr+", "Stow+", "Surg+", "Tail+", "Tal+", "Tamr+", "Tan+", "Tard+", "Tauz+", "Teag+", "Them+", "Then+", "Thield+", "Thyb+", "Tibb+", "Toill+", "Tramn+", "Trev+", "Troiv+", "Tuss+", "Tust+", "Urb+", "Urs+", "Vall+", "Vann+", "Var+", "Vautr+", "Vel+", "Velm+", "Verv+", "Vin+", "Vir+", "Voir+", "Volc+", "Vrouard+", "Vyg+", "Vyn+", "Well+", "Wenn+", "Wickt+", "Yunl+", "Zamm+", "Zol+", "Zul+", "Zurr+", "+a", "+ac", "+ad", "+ain", "+air", "+al", "+ald", "+am", "+amp", "+an", "+anc", "+and", "+ans", "+ant", "+ar", "+arc", "+ard", "+arl", "+art", "+as", "+at", "+au", "+aud", "+auld", "+ault", "+aut", "+aux", "+ax", "+e", "+eau", "+eaux", "+eil", "+el", "+ell", "+elle", "+emps", "+en", "+end", "+ent", "+er", "+ert", "+es", "+et", "+ette", "+eur", "+i", "+ia", "+ian", "+ic", "+ick", "+ie", "+iel", "+ield", "+iele", "+ielle", "+ien", "+ienne", "+ier", "+ies", "+ieu", "+ieux", "+ieve", "+if", "+il", "+in", "+ind", "+ing", "+ins", "+inth", "+iou", "+is", "+ith", "+itte", "+o", "+oc", "+ock", "+oet", "+oft", "+oi", "+ois", "+oit", "+oix", "+ol", "+on", "+ond", "+onds", "+ons", "+ont", "+ood", "+oon", "+oq", "+or", "+ort", "+osc", "+ot", "+ott", "+ou", "+ouet", "+ouin", "+ound", "+ourt", "+oux", "+oz", "+uad", "+ue", "+ues", "+un", "+ur", "+us", "+usc", "+y", "+yn", "+ys" ]
 						},
 						{
 							"filter": "Online",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Adr+", "Al+", "Am+", "Anc+", "Andr+", "Anq+", "Arb+", "Arc+", "Arm+", "Arn+", "Ars+", "Asc+", "Aub+", "Av+", "Bab+", "Bacq+", "Baelb+", "Barcl+", "Barg+", "Bean+", "Bel+", "Ben+", "Ber+", "Bien+", "Blak+", "Bloodc+", "Bruss+", "Calh+", "Cant+", "Car+", "Cars+", "Cast+", "Cel+", "Cer+", "Chach+", "Charch+", "Charl+", "Chat+", "Clav+", "Con+", "Conr+", "Cor+", "Corn+", "Count+", "Courc+", "Cout+", "Dan+", "Dant+", "DeB+", "Dech+", "Del+", "Dem+", "Den+", "Der+", "Derc+", "Don+", "Dort+", "Dup+", "Ed+", "El+", "Ell+", "Em+", "Ep+", "Eph+", "Erg+", "Ern+", "Erv+", "Esm+", "Et+", "Eug+", "Fal+", "Farn+", "Fauc+", "Fen+", "Finl+", "Fontb+", "Fral+", "Fras+", "Frern+", "Gam+", "Gar+", "Garc+", "Gav+", "Ged+", "Gel+", "Gem+", "Geont+", "Geor+", "Gin+", "Gomb+", "Greg+", "Gu+", "Gust+", "Hel+", "Hen+", "Heq+", "Jegn+", "Jen+", "Jer+", "Jonn+", "Jul+", "Junc+", "Jur+", "Kor+", "Lael+", "Lang+", "Lar+", "Lav+", "Lem+", "Ler+", "Let+", "Lev+", "Liell+", "Lirl+", "Lon+", "Loth+", "Loz+", "Lul+", "Mac+", "Mag+", "Mal+", "Malh+", "Mall+", "Mar+", "Marg+", "Marv+", "Mast+", "Mat+", "Math+", "Matr+", "Mav+", "Maz+", "Men+", "Merc+", "Met+", "Miss+", "Mol+", "Mond+", "Monstr+", "Mont+", "Mor+", "Mot+", "Nis+", "Noell+", "Nos+", "Oc+", "Ond+", "Or+", "Path+", "Pe+", "Pell+", "Pendl+", "Phil+", "Raf+", "Ramb+", "Rang+", "Re+", "Rech+", "Rel+", "Ren+", "Rest+", "Ret+", "Rol+", "Ron+", "Ror+", "Ruq+", "Rus+", "Sans+", "Sant+", "Sauv+", "Se+", "Seph+", "Ser+", "Sidr+", "Sil+", "Silv+", "Sim+", "Steg+", "Stel+", "Stem+", "Ster+", "Ston+", "Sur+", "Sylb+", "Tal+", "Taln+", "Then+", "Treb+", "Trem+", "Ul+", "Urq+", "Val+", "Valt+", "Ved+", "Vil+", "Vin+", "Vir+", "Winv+", "Zyl+", "+a+", "+ac+", "+ach+", "+acq+", "+ad+", "+ag+", "+agn+", "+ain+", "+air+", "+aitr+", "+al+", "+all+", "+an+", "+and+", "+andr+", "+ann+", "+ap+", "+ar+", "+arb+", "+arn+", "+art+", "+arth+", "+asc+", "+asq+", "+att+", "+aud+", "+aum+", "+av+", "+ay+", "+e+", "+eak+", "+ebr+", "+ed+", "+egr+", "+eill+", "+ein+", "+el+", "+ell+", "+em+", "+en+", "+enc+", "+end+", "+eng+", "+eph+", "+eq+", "+er+", "+erd+", "+erf+", "+ergn+", "+err+", "+ersl+", "+ert+", "+erv+", "+es+", "+esh+", "+esm+", "+et+", "+ev+", "+ian+", "+ic+", "+ich+", "+ien+", "+ienn+", "+ier+", "+ierr+", "+if+", "+ign+", "+il+", "+ill+", "+in+", "+ing+", "+ion+", "+ipp+", "+iq+", "+ir+", "+irr+", "+is+", "+it+", "+iv+", "+ocq+", "+oett+", "+og+", "+ogn+", "+oin+", "+ol+", "+oll+", "+om+", "+on+", "+onn+", "+or+", "+orn+", "+os+", "+ouch+", "+oug+", "+ouill+", "+outt+", "+ouz+", "+uad+", "+uell+", "+uen+", "+uet+", "+uev+", "+uin+", "+uk+", "+ur+", "+us+", "+ych+", "+yl+", "+yn+", "+yr+", "+a", "+ac", "+ain", "+am", "+an", "+ard", "+aud", "+ault", "+aut", "+e", "+eau", "+eaux", "+ee", "+el", "+elle", "+en", "+ent", "+eph", "+er", "+es", "+et", "+ette", "+i", "+ic", "+ie", "+iele", "+ien", "+ier", "+il", "+in", "+is", "+ith", "+itte", "+on", "+ont", "+ot", "+ou", "+our", "+ue", "+uis", "+y", "+yn" ]
 						}
 					]
@@ -869,13 +869,13 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Af+", "All+", "Ar+", "Ast+", "Aun+", "Bar+", "Cacc+", "Calv+", "Carn+", "Cass+", "Cid+", "Cimb+", "Clag+", "Cod+", "Const+", "Crass+", "Crit+", "Crott+", "Crul+", "Cun+", "Dar+", "Drus+", "Dun+", "Dur+", "Ert+", "Falc+", "Fand+", "Frinn+", "Fur+", "Gerg+", "Glall+", "Gran+", "Grat+", "Hasph+", "Iul+", "Jon+", "Larr+", "Letr+", "Lev+", "Lin+", "Luc+", "Lur+", "Luv+", "Mars+", "Masq+", "Mat+", "Mil+", "Mor+", "Nasp+", "Nol+", "Perc+", "Pil+", "Pilp+", "Procy+", "Raxl+", "Saen+", "Sapr+", "Saul+", "Scel+", "Sell+", "Sil+", "Stent+", "Stlub+", "Strill+", "Sur+", "Tapp+", "Tien+", "Val+", "Valg+", "Valv+", "Var+", "Vinn+", "Zen+", "+a", "+an", "+ans", "+at", "+e", "+eius", "+en", "+er", "+es", "+ian", "+io", "+is", "+ius", "+o", "+on", "+ue", "+us" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Aeb+", "Alb+", "Ant+", "Ap+", "Ar+", "Arl+", "Arr+", "Att+", "Aud+", "Aug+", "Bac+", "Ben+", "Burc+", "Calv+", "Canct+", "Cap+", "Cav+", "Clas+", "Clec+", "Clib+", "Coc+", "Coirt+", "Corr+", "Dep+", "Duv+", "Esdr+", "Ganc+", "Gualt+", "Ign+", "Ild+", "Iln+", "Ir+", "Lar+", "Lucr+", "Lusp+", "Malp+", "Man+", "Mec+", "Molv+", "Mur+", "Murb+", "Nam+", "Nat+", "Nirt+", "Nitt+", "Or+", "Plit+", "Proc+", "Pust+", "Reb+", "Ruf+", "Sab+", "Seg+", "Sel+", "Sen+", "Sir+", "Sit+", "Som+", "Synn+", "Tas+", "Tic+", "Tin+", "Treb+", "Tur+", "Tyr+", "Vant+", "Vas+", "Vert+", "Vod+", "+ab+", "+al+", "+an+", "+ar+", "+at+", "+ec+", "+ed+", "+el+", "+ell+", "+em+", "+en+", "+ent+", "+er+", "+erg+", "+es+", "+ess+", "+est+", "+et+", "+ial+", "+ian+", "+iel+", "+ier+", "+il+", "+ilv+", "+in+", "+inn+", "+ir+", "+is+", "+ist+", "+it+", "+iul+", "+iulc+", "+iv+", "+og+", "+ol+", "+oll+", "+om+", "+on+", "+ond+", "+or+", "+ort+", "+ow+", "+ud+", "+uf+", "+ul+", "+un+", "+up+", "+ur+", "+us+", "+ust+", "+ut+", "+a", "+aus", "+e", "+eius", "+es", "+i", "+ian", "+ias", "+io", "+is", "+ius", "+ix", "+o", "+on", "+or", "+us" ]
 						},
 						{
@@ -886,13 +886,13 @@
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Adr+", "Am+", "Anc+", "Andr+", "Ant+", "Asht+", "Aud+", "Bend+", "Ber+", "Bett+", "Bremm+", "Briel+", "Brucc+", "Brusc+", "Car+", "Cartr+", "Cast+", "Claud+", "Corv+", "Cosm+", "Dan+", "Den+", "Ed+", "Fad+", "Fag+", "Fort+", "Fral+", "Galt+", "Garr+", "Gell+", "Ger+", "Helv+", "Herd+", "Hirr+", "Il+", "Im+", "In+", "Irl+", "It+", "Jan+", "Jar+", "Jes+", "Joof+", "Kant+", "Kast+", "Le+", "Lorgr+", "Luc+", "Lur+", "Luth+", "Mar+", "Mart+", "Matt+", "Mel+", "Men+", "Nerm+", "Olv+", "Ont+", "Ot+", "Penn+", "Pin+", "Plaut+", "Prim+", "Rall+", "Rem+", "Riel+", "Rol+", "Rufr+", "Savl+", "Serg+", "Stant+", "Steff+", "Sur+", "Tert+", "Tout+", "Tren+", "Ur+", "Val+", "Vant+", "Vel+", "Velw+", "Viat+", "Vont+", "Zedr+", "+a", "+an", "+as", "+av", "+eas", "+el", "+en", "+end", "+ens", "+er", "+ian", "+iand", "+ich", "+ick", "+iel", "+ien", "+in", "+io", "+ir", "+is", "+ius", "+o", "+or", "+u", "+uard", "+us", "+y", "+yn" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ad+", "Al+", "Am+", "Amm+", "Ar+", "Arct+", "Basz+", "Bel+", "Car+", "Carm+", "Cic+", "Coll+", "Cont+", "Cyr+", "Dec+", "Des+", "Dran+", "Flor+", "Gem+", "Giov+", "Glenr+", "Greg+", "Had+", "Hier+", "Hum+", "Jan+", "Jir+", "Kasl+", "La+", "Langl+", "Ler+", "Mal+", "Mar+", "Merc+", "Nig+", "Orm+", "Pel+", "Pin+", "Ram+", "Reg+", "Rim+", "Rod+", "Serv+", "Sev+", "Sul+", "Tert+", "Tyr+", "Val+", "Vand+", "Vir+", "Vlan+", "Vlanh+", "Vlar+", "+ag+", "+al+", "+all+", "+am+", "+an+", "+andr+", "+ann+", "+ant+", "+ar+", "+at+", "+e+", "+el+", "+ell+", "+ent+", "+er+", "+ex+", "+id+", "+il+", "+im+", "+in+", "+int+", "+ior+", "+is+", "+o+", "+od+", "+ol+", "+on+", "+ond+", "+or+", "+ow+", "+uar+", "+ul+", "+ull+", "+um+", "+ur+", "+ym+", "+yth+", "+al", "+e", "+en", "+er", "+i", "+ian", "+ic", "+il", "+in", "+is", "+ius", "+o", "+or", "+us", "+y", "+yn", "+ys" ]
 						},
 						{
@@ -903,13 +903,13 @@
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Aer+", "Agr+", "Cresc+", "Dex+", "Gall+", "Gavr+", "Leont+", "Luc+", "Mall+", "Nost+", "Orth+", "Pav+", "Plaut+", "Quent+", "Quint+", "Rex+", "Sam+", "Serg+", "Sil+", "Sor+", "Sull+", "Telr+", "Ter+", "Tit+", "Vant+", "Varn+", "Xand+", "+a", "+an", "+av", "+ek", "+er", "+ex", "+in", "+ion", "+is", "+ius", "+o", "+os", "+uel", "+us" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ad+", "Adv+", "Al+", "Aq+", "Av+", "Bass+", "Cal+", "Cic+", "Const+", "Corp+", "Enn+", "Flor+", "Marc+", "Met+", "Par+", "Prov+", "Reb+", "Rog+", "Salv+", "Sept+", "Sev+", "Tac+", "Taur+", "Tyr+", "Ven+", "Ver+", "+an+", "+ant+", "+ar+", "+at+", "+ent+", "+er+", "+eth+", "+ian+", "+il+", "+im+", "+in+", "+it+", "+ixt+", "+od+", "+on+", "+uill+", "+ul+", "+ur+", "+urr+", "+io", "+ius", "+o", "+us" ]
 						},
 						{
@@ -920,13 +920,13 @@
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Abn+", "Aet+", "Agr+", "Andr+", "Ant+", "App+", "Art+", "Ast+", "Atr+", "Aug+", "Auiph+", "Aul+", "Aur+", "Beld+", "Bland+", "Bremm+", "Briel+", "Bruc+", "Brucc+", "Cadw+", "Calv+", "Car+", "Cast+", "Cel+", "Cels+", "Chaer+", "Cid+", "Cimb+", "Claud+", "Cod+", "Cont+", "Cor+", "Cord+", "Corl+", "Crass+", "Crisp+", "Dar+", "Dec+", "Dex+", "Dirg+", "Dob+", "Don+", "Enn+", "Fab+", "Falc+", "Fam+", "Ferr+", "Fim+", "Flor+", "Fluv+", "Fort+", "Fral+", "Gav+", "Gor+", "Gracc+", "Har+", "Hil+", "Hum+", "In+", "Iul+", "Jad+", "Jan+", "Jav+", "Kast+", "Lael+", "Lar+", "Larr+", "Leon+", "Leont+", "Lin+", "Liod+", "Liv+", "Lorgr+", "Luc+", "Lul+", "Lup+", "Luv+", "Mall+", "Mar+", "Marc+", "Marg+", "Mart+", "Max+", "Mer+", "Muln+", "Mus+", "Nem+", "Nep+", "Ner+", "Nir+", "Non+", "Null+", "Orl+", "Orm+", "Ot+", "Oth+", "Panth+", "Paol+", "Pav+", "Perc+", "Phil+", "Phrast+", "Pilp+", "Pitr+", "Pix+", "Plaut+", "Porc+", "Post+", "Prisc+", "Quatr+", "Quint+", "Rav+", "Rem+", "Rex+", "Rol+", "Saev+", "Sanct+", "Saul+", "Sav+", "Scar+", "Scel+", "Scip+", "Sept+", "Serg+", "Serv+", "Sext+", "Sil+", "Stat+", "Strill+", "Sur+", "Sylv+", "Tapp+", "Tat+", "Teld+", "Ters+", "Tert+", "Tin+", "Tit+", "Tract+", "Tran+", "Tull+", "Valt+", "Valv+", "Var+", "Varn+", "Ver+", "Verr+", "Vib+", "Vinn+", "Vir+", "Vit+", "Vitr+", "Volg+", "Vyr+", "+a", "+ad", "+ag", "+an", "+and", "+ar", "+as", "+av", "+ax", "+e", "+eas", "+el", "+eld", "+ell", "+en", "+er", "+es", "+ian", "+iand", "+ias", "+ic", "+iel", "+ier", "+im", "+io", "+ion", "+is", "+ius", "+o", "+oius", "+on", "+orr", "+ot", "+ur", "+us", "+ust" ]
 						},
 						{
 							"filter": "Online",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ab+", "Abs+", "Acc+", "Ad+", "Ag+", "Agr+", "Anc+", "Aq+", "Ar+", "Arl+", "Arr+", "Art+", "Aspr+", "Aug+", "Av+", "Azsh+", "Bel+", "Caec+", "Cait+", "Car+", "Carm+", "Cast+", "Cav+", "Cic+", "Clas+", "Clem+", "Coll+", "Comp+", "Corn+", "Crisp+", "Dec+", "Dom+", "Dran+", "Duv+", "Eb+", "Fabr+", "Fer+", "Flam+", "Flor+", "Flov+", "Front+", "Gad+", "Gall+", "Greg+", "Had+", "Herm+", "Hor+", "Imp+", "Ioc+", "Iul+", "Jar+", "Jir+", "Just+", "Lig+", "Lup+", "Malp+", "Mar+", "Marc+", "Mart+", "Max+", "Med+", "Merc+", "Molv+", "Mont+", "Mur+", "Nat+", "Nem+", "Nep+", "Nic+", "Nov+", "Oct+", "Or+", "Ov+", "Pan+", "Par+", "Paul+", "Per+", "Petr+", "Plaut+", "Quent+", "Reb+", "Reg+", "Ruf+", "Sab+", "Sal+", "Sav+", "Scaev+", "Sen+", "Serg+", "Serv+", "Sev+", "Sig+", "Sir+", "Sor+", "Sul+", "Tam+", "Ter+", "Thal+", "Tib+", "Tin+", "Tut+", "Val+", "Var+", "Vent+", "Ver+", "Vin+", "Vis+", "Vit+", "Zel+", "+a+", "+al+", "+alk+", "+all+", "+an+", "+and+", "+ap+", "+ar+", "+at+", "+av+", "+el+", "+ell+", "+en+", "+ent+", "+er+", "+es+", "+et+", "+ex+", "+ial+", "+ian+", "+ic+", "+id+", "+il+", "+im+", "+in+", "+inn+", "+inth+", "+ipp+", "+ir+", "+is+", "+ist+", "+it+", "+od+", "+ol+", "+oll+", "+om+", "+on+", "+or+", "+ow+", "+ud+", "+uil+", "+ul+", "+und+", "+ur+", "+urr+", "+urt+", "+us+", "+a", "+al", "+an", "+as", "+e", "+ia", "+ian", "+ias", "+ien", "+in", "+io", "+is", "+ius", "+ix", "+o", "+on", "+u", "+us", "+yn", "+yr" ]
 						}
 					]
@@ -945,13 +945,13 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Blatt+", "Can+", "Cat+", "Cin+", "Cind+", "Clil+", "Craet+", "El+", "Flaen+", "Fralv+", "Frusc+", "Germ+", "Lad+", "Leon+", "Liv+", "Lun+", "Maes+", "Mor+", "Neb+", "Pall+", "Pan+", "Prit+", "Raes+", "Rucc+", "Selv+", "Sol+", "Val+", "Vian+", "Viatr+", "Vicc+", "Vilb+", "+a", "+e", "+ea", "+ia", "+ias", "+is", "+ix", "+oe" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Adr+", "Agr+", "Ah+", "Alc+", "Apr+", "Ar+", "Aud+", "Can+", "Cov+", "Em+", "Ep+", "Ett+", "Fall+", "Famm+", "Fent+", "Flac+", "Hor+", "Id+", "Is+", "Lal+", "Lar+", "Lass+", "Laur+", "Mar+", "Pel+", "Pell+", "Per+", "Sabr+", "Sarm+", "Sev+", "Syl+", "Thracc+", "Volr+", "+ain+", "+ais+", "+an+", "+ar+", "+ass+", "+at+", "+ec+", "+ed+", "+egr+", "+el+", "+en+", "+ent+", "+er+", "+et+", "+ien+", "+ienn+", "+in+", "+ipp+", "+ob+", "+od+", "+on+", "+or+", "+os+", "+ot+", "+ul+", "+a", "+e", "+ea", "+el", "+ia", "+is" ]
 						},
 						{
@@ -962,13 +962,13 @@
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ast+", "Britt+", "Cael+", "Carg+", "Cast+", "Caul+", "Ciirt+", "Id+", "Is+", "It+", "Jant+", "Jast+", "Jen+", "Lenk+", "Lyr+", "Nasp+", "Pist+", "Ren+", "Ron+", "Rus+", "Schler+", "Tert+", "Un+", "Vier+", "+a", "+as", "+ee", "+ia", "+us" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Al+", "Ar+", "Arn+", "Arr+", "Ast+", "Aug+", "Av+", "Avr+", "Brons+", "Bunt+", "Cald+", "Cam+", "Carm+", "Dum+", "Dyn+", "Er+", "Et+", "Faust+", "Herm+", "Jan+", "Jast+", "Jav+", "Jul+", "Luc+", "Mar+", "Marl+", "Mart+", "Mill+", "Nar+", "Per+", "Prax+", "Rest+", "Rom+", "Ros+", "Sal+", "Sel+", "Sib+", "Sil+", "Simpl+", "Vil+", "Vin+", "Ys+", "+ab+", "+an+", "+ar+", "+ed+", "+en+", "+enn+", "+ent+", "+es+", "+ess+", "+ian+", "+ic+", "+iel+", "+ier+", "+il+", "+ill+", "+in+", "+ir+", "+it+", "+itt+", "+ol+", "+on+", "+or+", "+ust+", "+yll+", "+a", "+e", "+el", "+es", "+i", "+ia" ]
 						},
 						{
@@ -979,13 +979,13 @@
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Edd+", "Gann+", "Gemm+", "Giann+", "Gilfr+", "Ill+", "Luc+", "Mil+", "Pant+", "Saf+", "Silv+", "Sos+", "Valg+", "Vigd+", "Viol+", "+a", "+e", "+ea", "+ia", "+is" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ad+", "Adr+", "Al+", "Arc+", "Cam+", "Carl+", "Const+", "Ind+", "Lar+", "Leon+", "Sal+", "Sil+", "Vitt+", "+ad+", "+ais+", "+an+", "+anc+", "+andr+", "+ar+", "+el+", "+ess+", "+ex+", "+iann+", "+ill+", "+in+", "+on+", "+or+", "+ott+", "+a", "+e", "+ia" ]
 						},
 						{
@@ -996,13 +996,13 @@
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Alm+", "Am+", "Ann+", "Apph+", "Arr+", "At+", "Blatt+", "Britt+", "Can+", "Candr+", "Card+", "Cass+", "Caul+", "Ciirt+", "Cin+", "Cliv+", "Cloel+", "Dian+", "Din+", "Dur+", "Duv+", "Elsk+", "Fab+", "Fam+", "Faust+", "Felr+", "Fin+", "Flav+", "Flor+", "Fralv+", "Frusc+", "Gall+", "Gann+", "Gemm+", "Helv+", "Hestr+", "Holl+", "Host+", "Ilfr+", "Ill+", "Jant+", "Jast+", "Jen+", "Jer+", "Jul+", "Jun+", "Just+", "Kyl+", "Lad+", "Leon+", "Let+", "Lin+", "Liv+", "Luc+", "Lyr+", "Maer+", "Magn+", "Marj+", "Mor+", "Naiss+", "Nar+", "Neb+", "Pall+", "Pan+", "Pant+", "Pat+", "Phedr+", "Pist+", "Porc+", "Port+", "Prit+", "Quint+", "Ril+", "Ron+", "Sad+", "Saf+", "Senn+", "Sler+", "Sos+", "Tal+", "Terr+", "Tert+", "This+", "Tur+", "Vac+", "Val+", "Valg+", "Vast+", "Vest+", "Vian+", "Viatr+", "Vicc+", "Vil+", "Vilb+", "Viol+", "Vit+", "+a", "+ae", "+an", "+as", "+e", "+ea", "+eus", "+i", "+ia", "+is", "+ix" ]
 						},
 						{
 							"filter": "Online",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ac+", "Acc+", "Aem+", "Al+", "Alc+", "Am+", "An+", "Ant+", "Aq+", "As+", "Ast+", "Aug+", "Aur+", "Av+", "Bell+", "Caec+", "Caes+", "Cal+", "Cald+", "Can+", "Car+", "Carl+", "Cass+", "Cat+", "Cel+", "Cic+", "Com+", "Conc+", "Const+", "Cov+", "Dam+", "Darv+", "Den+", "Dom+", "Drus+", "Dulc+", "Dum+", "Ed+", "Edw+", "Eg+", "El+", "Eng+", "Ep+", "Er+", "Et+", "Eur+", "Eutr+", "Falt+", "Far+", "Faust+", "Fel+", "Flac+", "Flor+", "Fort+", "Gal+", "Glend+", "Grat+", "Hel+", "Herm+", "Hil+", "Hon+", "Hor+", "Hyp+", "Id+", "Infr+", "Ioc+", "Ir+", "It+", "Jan+", "Jer+", "Jul+", "Just+", "Ker+", "Kir+", "La+", "Lal+", "Lar+", "Laur+", "Lav+", "Lek+", "Lep+", "Lib+", "Lic+", "Luc+", "Lucr+", "Lus+", "Mar+", "Marc+", "Mart+", "Max+", "Mel+", "Mic+", "Mid+", "Min+", "Mir+", "Oct+", "Or+", "Orn+", "Ostr+", "Pel+", "Per+", "Pin+", "Plac+", "Plad+", "Plex+", "Pon+", "Prax+", "Pud+", "Pulch+", "Raf+", "Ras+", "Reg+", "Sab+", "Sand+", "Sarm+", "Sel+", "Sept+", "Sev+", "Shek+", "Sil+", "Son+", "Tac+", "Tal+", "Ter+", "Thor+", "Ur+", "Val+", "Van+", "Var+", "Ven+", "Vent+", "Ver+", "Vil+", "Vin+", "Vist+", "Vit+", "Vod+", "Volc+", "Volr+", "+ad+", "+ain+", "+al+", "+am+", "+an+", "+and+", "+andr+", "+ann+", "+ant+", "+ar+", "+as+", "+ass+", "+at+", "+av+", "+ax+", "+ed+", "+el+", "+eld+", "+ell+", "+en+", "+enc+", "+end+", "+endr+", "+enn+", "+ent+", "+er+", "+ert+", "+es+", "+ess+", "+estr+", "+et+", "+ex+", "+iak+", "+ian+", "+iandr+", "+iann+", "+ib+", "+ic+", "+id+", "+ier+", "+iet+", "+il+", "+ill+", "+im+", "+in+", "+ip+", "+ir+", "+is+", "+ist+", "+it+", "+itt+", "+iv+", "+ix+", "+od+", "+ois+", "+ol+", "+on+", "+onn+", "+op+", "+or+", "+ord+", "+os+", "+ott+", "+uil+", "+ul+", "+un+", "+us+", "+ust+", "+yr+", "+yt+", "+a", "+ae", "+as", "+e", "+ea", "+el", "+es", "+i", "+ia", "+is", "+us" ]
 						}
 					]
@@ -1020,13 +1020,13 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Aer+", "All+", "Amn+", "Amph+", "Ang+", "Aurr+", "Autr+", "Baen+", "Bern+", "Blon+", "Car+", "Carb+", "Cat+", "Ced+", "Cen+", "Cin+", "Claev+", "Clanl+", "Closc+", "Cnis+", "Crun+", "Cull+", "Cur+", "Den+", "Derg+", "Ent+", "Fac+", "Faus+", "Faust+", "Flacc+", "Grat+", "Grav+", "Iul+", "Jann+", "Laen+", "Lior+", "Lus+", "Macr+", "Mag+", "Mar+", "Mat+", "Mer+", "Merc+", "Mic+", "Mid+", "Muc+", "Mun+", "Nucc+", "Nunc+", "Pleb+", "Pon+", "Pull+", "Pund+", "Quarr+", "Quasp+", "Rat+", "Rosc+", "Sacc+", "Scer+", "Scin+", "Sial+", "Sos+", "Spur+", "Trupt+", "Tull+", "Urt+", "Val+", "Var+", "Varr+", "Velv+", "Vunn+", "+a", "+e", "+eius", "+er", "+es", "+ia", "+ian", "+io", "+is", "+ius", "+o", "+or", "+us" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ab+", "Ac+", "Afr+", "Agr+", "Alb+", "Alf+", "Am+", "Ant+", "Ap+", "Art+", "Atr+", "Burt+", "Caer+", "Call+", "Cat+", "Catr+", "Cel+", "Cer+", "Col+", "Con+", "Conc+", "Cos+", "Del+", "Dur+", "Egn+", "Esdr+", "Ess+", "Fam+", "Fel+", "Flar+", "Flav+", "Fulb+", "Fulc+", "Fur+", "Gab+", "Gal+", "Glor+", "Han+", "Harm+", "Hars+", "Hat+", "Her+", "Hert+", "Hor+", "Juc+", "Jull+", "Laec+", "Lal+", "Leont+", "Macr+", "Mant+", "Mar+", "Max+", "Men+", "Mev+", "Mus+", "Musp+", "Muss+", "Nig+", "Nucc+", "Olc+", "Or+", "Ost+", "Ot+", "Pal+", "Pel+", "Pet+", "Pev+", "Plal+", "Plat+", "Pont+", "Pop+", "Pos+", "Pur+", "Rul+", "Sec+", "Sib+", "Sir+", "Statl+", "Tal+", "Tir+", "Tun+", "Urg+", "Uul+", "Val+", "Vand+", "Vant+", "Vic+", "Vin+", "Vit+", "+ab+", "+ac+", "+ad+", "+aenn+", "+ag+", "+agr+", "+al+", "+an+", "+ann+", "+ar+", "+arn+", "+as+", "+ass+", "+at+", "+ec+", "+ed+", "+el+", "+ell+", "+en+", "+eng+", "+enn+", "+ent+", "+ep+", "+er+", "+ev+", "+iat+", "+ic+", "+id+", "+if+", "+il+", "+ilch+", "+ill+", "+im+", "+in+", "+inn+", "+ios+", "+iot+", "+ipt+", "+ir+", "+is+", "+it+", "+iul+", "+ius+", "+iust+", "+oc+", "+od+", "+ol+", "+oll+", "+on+", "+or+", "+ot+", "+uc+", "+ud+", "+ugr+", "+ul+", "+un+", "+ur+", "+us+", "+utt+", "+a", "+an", "+eius", "+er", "+es", "+ia", "+ian", "+is", "+ius", "+ix", "+o", "+us" ]
 						},
 						{
@@ -1037,13 +1037,13 @@
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ab+", "Acc+", "Amn+", "Ancr+", "And+", "Ann+", "Ar+", "At+", "Aur+", "Ax+", "Binc+", "Blackw+", "Bland+", "Brad+", "Brod+", "Brol+", "Cal+", "Car+", "Cart+", "Carv+", "Cec+", "Chen+", "Cinn+", "Col+", "Cosm+", "Dann+", "Dont+", "Dor+", "Falv+", "Flav+", "Flon+", "Flor+", "Gon+", "Ha+", "Han+", "Hir+", "Hodg+", "In+", "Inv+", "Jar+", "Jir+", "Kvinch+", "Laftr+", "Lann+", "Ler+", "Loll+", "Long+", "Lor+", "Maen+", "Mall+", "Mat+", "Monr+", "Mosl+", "Nan+", "Nir+", "Non+", "Od+", "Ol+", "Ops+", "Or+", "Ott+", "Patn+", "Pind+", "Plot+", "Pol+", "Prel+", "Prent+", "Prev+", "Ram+", "Rien+", "Ril+", "Ruf+", "Seny+", "Sest+", "Sext+", "Silv+", "Sint+", "Val+", "Valg+", "Van+", "Varr+", "Ved+", "Ver+", "Vesn+", "Vir+", "Vlindr+", "Von+", "Wavr+", "Wotr+", "+a", "+ain", "+al", "+an", "+av", "+e", "+eim", "+el", "+eld", "+ell", "+er", "+ia", "+ian", "+ich", "+ick", "+id", "+iel", "+iil", "+im", "+in", "+is", "+ius", "+o", "+ol", "+on", "+or", "+us", "+yn" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Afr+", "All+", "Anch+", "Andr+", "Ant+", "Arc+", "Arm+", "Art+", "Aur+", "Av+", "Ben+", "Bruss+", "Cal+", "Call+", "Cass+", "Cat+", "Che+", "Civ+", "Clut+", "Dar+", "Dec+", "Drac+", "Dralg+", "Dur+", "Fal+", "Fav+", "Fralm+", "Gall+", "Garr+", "Gav+", "Gaw+", "Geon+", "Goldw+", "Greg+", "Hass+", "Hos+", "Id+", "Inv+", "Jer+", "Lach+", "Log+", "Lov+", "Mab+", "Mar+", "Mel+", "Oh+", "Or+", "Pet+", "Phill+", "Quint+", "Ros+", "Run+", "Rus+", "Scrib+", "Sen+", "Statl+", "Ter+", "Treb+", "Turr+", "Umbr+", "Vass+", "Vid+", "Vin+", "Vlin+", "Whit+", "+ad+", "+ak+", "+an+", "+anc+", "+ar+", "+at+", "+e+", "+ect+", "+ell+", "+en+", "+ent+", "+er+", "+estr+", "+ett+", "+ian+", "+ic+", "+id+", "+il+", "+ild+", "+ill+", "+in+", "+iot+", "+ir+", "+iss+", "+ol+", "+on+", "+or+", "+orm+", "+osl+", "+ot+", "+uc+", "+umn+", "+unc+", "+yn+", "+a", "+aeia", "+an", "+e", "+eia", "+el", "+er", "+i", "+ia", "+ian", "+in", "+is", "+iun", "+ius", "+o", "+on", "+or", "+ox", "+us", "+y" ]
 						},
 						{
@@ -1054,13 +1054,13 @@
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ar+", "Arr+", "At+", "Att+", "Ax+", "Baen+", "Cael+", "Car+", "Carv+", "Cip+", "Corr+", "Duil+", "Jun+", "Lor+", "Macc+", "Mar+", "Med+", "Pap+", "Petr+", "Plin+", "Salv+", "Sign+", "Trag+", "Tull+", "Ur+", "Ves+", "Vic+", "Vin+", "Vulp+", "+ain", "+e", "+eia", "+eius", "+i", "+ia", "+iel", "+in", "+is", "+ium", "+ius", "+o", "+uius", "+us" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Aer+", "Ar+", "Av+", "Caer+", "Caes+", "Dec+", "Des+", "End+", "Ev+", "Giord+", "Leot+", "Nav+", "Pel+", "Quint+", "Sall+", "Salv+", "Sor+", "Tit+", "Treb+", "Trem+", "Turr+", "Val+", "Vend+", "Vin+", "+ag+", "+al+", "+an+", "+ar+", "+at+", "+ell+", "+en+", "+enn+", "+ensh+", "+ent+", "+er+", "+es+", "+et+", "+ian+", "+ic+", "+icc+", "+id+", "+il+", "+im+", "+in+", "+ul+", "+ust+", "+e", "+eius", "+i", "+ia", "+ield", "+io", "+ius", "+o", "+us" ]
 						},
 						{
@@ -1071,13 +1071,13 @@
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ab+", "Ag+", "Alb+", "All+", "Amph+", "Ancr+", "And+", "Ang+", "Ant+", "Ar+", "At+", "Atr+", "Att+", "Auct+", "Aur+", "Ax+", "Baen+", "Bern+", "Binc+", "Blas+", "Brol+", "Brutt+", "Buc+", "Burs+", "But+", "Caec+", "Caep+", "Cal+", "Calv+", "Cap+", "Car+", "Carv+", "Casc+", "Cat+", "Caud+", "Cec+", "Ced+", "Cen+", "Cent+", "Centh+", "Chrian+", "Cinn+", "Cip+", "Clan+", "Clin+", "Col+", "Corv+", "Coss+", "Cur+", "Darll+", "Den+", "Dent+", "Der+", "Din+", "Dor+", "Dorm+", "Dors+", "Drag+", "Drus+", "Em+", "Falc+", "Falt+", "Falv+", "Faus+", "Faust+", "Fest+", "Fil+", "Flacc+", "Flav+", "Flor+", "Font+", "Fort+", "Fre+", "Fur+", "Gall+", "Get+", "Geth+", "Glauc+", "Glyc+", "Grat+", "Grav+", "Gurg+", "Ha+", "Helv+", "Her+", "Hers+", "Imbr+", "Inv+", "Iul+", "Iull+", "Jan+", "Jar+", "Jul+", "Junc+", "Laec+", "Laftr+", "Ler+", "Lib+", "Lior+", "Loch+", "Mac+", "Mall+", "Mar+", "Mat+", "Matt+", "Ment+", "Merc+", "Merv+", "Mun+", "Murr+", "Nerv+", "Nir+", "Nucc+", "Pap+", "Pel+", "Pict+", "Pit+", "Plav+", "Pleb+", "Plot+", "Poen+", "Pol+", "Port+", "Prent+", "Prev+", "Prisc+", "Pull+", "Pund+", "Quarr+", "Quett+", "Raet+", "Rag+", "Ram+", "Ran+", "Redh+", "Ren+", "Renm+", "Ril+", "Ros+", "Ruf+", "Rull+", "Russ+", "Sacc+", "Salv+", "Sang+", "Scaev+", "Scav+", "Scip+", "Sel+", "Sendr+", "Seny+", "Serp+", "Sest+", "Sext+", "Sial+", "Sint+", "Sir+", "Soph+", "Stol+", "Strab+", "Sull+", "Syll+", "Tapp+", "Tras+", "Trupt+", "Tucc+", "Tust+", "Ulp+", "Van+", "Var+", "Varg+", "Varr+", "Ved+", "Ver+", "Verr+", "Vir+", "Vols+", "Von+", "Vor+", "Vuls+", "West+", "+a", "+ain", "+al", "+ald", "+an", "+ands", "+as", "+av", "+ax", "+e", "+eius", "+el", "+eo", "+er", "+es", "+ex", "+ia", "+ial", "+ian", "+ias", "+ier", "+in", "+io", "+is", "+iun", "+ius", "+o", "+ol", "+on", "+or", "+us", "+y", "+yn" ]
 						},
 						{
 							"filter": "Online",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ac+", "Afr+", "Agr+", "Ah+", "Al+", "Alb+", "Alf+", "Amb+", "Amm+", "Anch+", "Andr+", "Ant+", "Ap+", "Aq+", "Arb+", "Arm+", "Arq+", "Art+", "Arv+", "As+", "Asc+", "At+", "Atr+", "Att+", "Aur+", "Aus+", "Av+", "Ax+", "Barb+", "Cad+", "Caep+", "Caer+", "Cal+", "Call+", "Cals+", "Calv+", "Camp+", "Cand+", "Cant+", "Capr+", "Carl+", "Cast+", "Cat+", "Catr+", "Caud+", "Cel+", "Cens+", "Clod+", "Con+", "Cond+", "Cong+", "Cor+", "Corg+", "Corn+", "Corv+", "Crusc+", "Cur+", "Dec+", "Del+", "Des+", "Dest+", "Did+", "Dob+", "Don+", "Drac+", "Dur+", "Egn+", "Enn+", "Eq+", "Ern+", "Eud+", "Fam+", "Fid+", "Fort+", "Gab+", "Gal+", "Garr+", "Ged+", "Gem+", "Gen+", "Glor+", "Gracch+", "Hadr+", "Hel+", "Her+", "Herm+", "Hert+", "Hos+", "Id+", "Illv+", "Inv+", "Is+", "Jem+", "Jer+", "Jull+", "Kirb+", "Lact+", "Laec+", "Laet+", "Laev+", "Lal+", "Lent+", "Liv+", "Luc+", "Mac+", "Mam+", "Man+", "Mant+", "Mar+", "Marc+", "Marcr+", "Med+", "Mel+", "Mess+", "Mev+", "Min+", "Mun+", "Musp+", "Nab+", "Nas+", "Net+", "Nov+", "Num+", "Oc+", "Ocl+", "Oct+", "Op+", "Or+", "Pas+", "Pat+", "Pell+", "Peltr+", "Pet+", "Pev+", "Phil+", "Plan+", "Plat+", "Pont+", "Pop+", "Prox+", "Quint+", "Reb+", "Reg+", "Ros+", "Ruf+", "Rul+", "Rus+", "Sal+", "Salv+", "Saul+", "Scrib+", "Sec+", "Sent+", "Sert+", "Sib+", "Sid+", "Sil+", "Sis+", "Sol+", "Statl+", "Tir+", "Torq+", "Treb+", "Turr+", "Umbr+", "Urth+", "Val+", "Vand+", "Vass+", "Vel+", "Verg+", "Verr+", "Vet+", "Vett+", "Vid+", "Vin+", "Virg+", "Vit+", "Vitt+", "Voc+", "Vop+", "Vot+", "+ab+", "+ac+", "+adr+", "+aenn+", "+agr+", "+al+", "+an+", "+ar+", "+ard+", "+arn+", "+as+", "+at+", "+ath+", "+aur+", "+av+", "+ed+", "+el+", "+ell+", "+en+", "+eng+", "+enn+", "+ent+", "+ep+", "+er+", "+erc+", "+ern+", "+et+", "+ext+", "+iac+", "+iag+", "+ian+", "+ic+", "+id+", "+ien+", "+if+", "+il+", "+ill+", "+im+", "+in+", "+inn+", "+inth+", "+ios+", "+is+", "+isc+", "+it+", "+itt+", "+ius+", "+iv+", "+od+", "+og+", "+ol+", "+on+", "+or+", "+os+", "+ox+", "+uat+", "+uc+", "+ud+", "+uil+", "+uit+", "+ul+", "+ull+", "+un+", "+unc+", "+und+", "+ur+", "+urr+", "+uss+", "+ust+", "+ut+", "+yll+", "+a", "+as", "+e", "+eia", "+el", "+en", "+er", "+i", "+ia", "+ian", "+ias", "+io", "+ios", "+is", "+ius", "+ix", "+o", "+ox", "+ua", "+us" ]
 						}
 					]
@@ -1462,73 +1462,73 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Ba+", "Bo+", "Du+", "Glu+", "Gra+", "Gua+", "Ma+", "Mo+", "Mu+", "Na+", "Na+", "Na+", "Sha+", "Sha+", "Ya+", "Ya+", "+g", "+k", "+kh", "+m", "+l", "+r", "+rg", "+sh", "+t", "+th" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "At+", "Az+", "Bar+", "Bash+", "Bog+", "Bor+", "Bugd+", "Bugh+", "Bugr+", "Bumb+", "Bur+", "Dul+", "Dum+", "Dumb+", "Durb+", "Durg+", "Durz+", "Garz+", "Gashn+", "Gham+", "Ghamb+", "Ghorl+", "Gruzg+", "Gur+", "Khadb+", "Khagr+", "Kharg+", "Larg+", "Lorz+", "Lugd+", "Lugr+", "Lur+", "Mat+", "Mauh+", "Maz+", "Mogh+", "Morb+", "Mugd+", "Mur+", "Murk+", "Murz+", "Muzg+", "Ogr+", "Olf+", "Or+", "Rogd+", "Sham+", "Sharg+", "Shark+", "Shazg+", "Shul+", "Shur+", "Shurk+", "Shuz+", "Snagl+", "Snakh+", "Ugd+", "Ugh+", "Ul+", "Um+", "Ur+", "Urz+", "Ush+", "Yadb+", "Yag+", "Yamb+", "Yarg+", "Yashn+", "Yat+", "+a", "+ag", "+ak", "+akh", "+am", "+amph", "+ar", "+arz", "+ash", "+at", "+im", "+in", "+ob", "+og", "+ol", "+ong", "+onk", "+orn", "+orz", "+ub", "+ug", "+uk", "+ul", "+ulg", "+um", "+umph", "+ur", "+urz" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Bag+", "Bazg+", "Bol+", "Gar+", "Ghor+", "Koff+", "Lorb+", "Ogr+", "Ol+", "Yamb+", "+ag+", "+agd+", "+am+", "+ogr+", "+othm+", "+ul+", "+um+", "+umb+", "+utt+", "+a", "+o", "+ol", "+orn", "+u", "+ub", "+uk", "+ul", "+ush" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Ba+", "Bra+", "Bu+", "Du+", "Gu+", "Ha+", "Ku+", "Lu+", "Mu+", "Shu+", "+g", "+l", "+m", "+nz", "+rz", "+t" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Baz+", "Bogr+", "Brok+", "Brug+", "Bug+", "Dub+", "Dulf+", "Dulph+", "Dum+", "Gat+", "Ghol+", "Ghor+", "Gogr+", "Gorg+", "Grakl+", "Gram+", "Gromm+", "Krogn+", "Kurd+", "Lumd+", "Lur+", "Mag+", "Magr+", "Makn+", "Or+", "Rugd+", "Shag+", "Shagr+", "Shob+", "Ulm+", "Ur+", "Urb+", "Ushn+", "Uz+", "+a", "+ag", "+ak", "+an", "+ar", "+il", "+ish", "+o", "+ob", "+ok", "+ol", "+on", "+onk", "+ub", "+ug", "+ul", "+um", "+umph", "+ur", "+urn" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Agr+", "Bur+", "+am+", "+on+", "+ak", "+og" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Ga+", "Lo+", "Ma+", "Mo+", "Mu+", "Ya+", "+b", "+hk", "+l", "+r", "+t", "+th" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Bashn+", "Bork+", "Burg+", "Dur+", "Gadb+", "Gham+", "Ghorb+", "Ghunz+", "Grogm+", "Grushn+", "Khar+", "Lar+", "Lurb+", "Makh+", "Malk+", "Mod+", "Mogr+", "Mul+", "Nagr+", "Og+", "Ogl+", "Ol+", "Ul+", "Um+", "Ur+", "Yam+", "+a", "+ag", "+ak", "+ar", "+arz", "+ash", "+el", "+ig", "+ol", "+orz", "+ub", "+uk", "+ul", "+ur", "+urn", "+us", "+ush" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Bal+", "Dushn+", "Gul+", "Mauh+", "+ag+", "+am+", "+arz+", "+ul+", "+akh", "+ob", "+og", "+ub" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Ba+", "Bo+", "Bro+", "Bu+", "Du+", "Fhe+", "Ga+", "Gha+", "Gho+", "Ghru+", "Gla+", "Glo+", "Gloo+", "Glu+", "Go+", "Gro+", "Groo+", "Gru+", "Gu+", "Hru+", "Kha+", "Kla+", "Kro+", "Ku+", "Lo+", "Lu+", "Mo+", "Mu+", "Na+", "Oo+", "Rho+", "Roo+", "Sha+", "Sma+", "Smau+", "Sna+", "Sne+", "Snoo+", "Snu+", "So+", "Sto+", "Tha+", "Tho+", "Thoo+", "Thra+", "Thre+", "Thru+", "To+", "U+", "Uu+", "Vu+", "Wo+", "Ya+", "Yo+", "Za+", "Zbu+", "Zgo+", "Zho+", "Zo+", "+b", "+d", "+g", "+gb", "+gg", "+gh", "+h", "+k", "+kh", "+kk", "+l", "+lg", "+lph", "+lth", "+m", "+mth", "+ng", "+np", "+rd", "+rg", "+rgh", "+rkh", "+rn", "+rnt", "+rsh", "+rt", "+rz", "+rzh", "+sh", "+sn", "+t", "+th", "+z", "+zb", "+zg", "+zh" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Abz+", "Abzr+", "Ag+", "Agh+", "Agn+", "Agr+", "Agst+", "Ahz+", "Argh+", "Ashz+", "At+", "Avr+", "Az+", "Azr+", "Bal+", "Balkn+", "Balm+", "Balr+", "Balz+", "Barg+", "Bargr+", "Batgr+", "Bazr+", "Beg+", "Begn+", "Bekhw+", "Bhagr+", "Bikn+", "Blodr+", "Boag+", "Bogh+", "Bogn+", "Bogz+", "Bold+", "Bolgr+", "Bor+", "Borb+", "Borg+", "Borm+", "Borz+", "Braad+", "Bragh+", "Brogd+", "Brugd+", "Brul+", "Bug+", "Bugn+", "Bull+", "Bulz+", "Bumn+", "Bur+", "Burzgr+", "Buz+", "Carz+", "Charlv+", "Cogn+", "Dagn+", "Dorz+", "Drag+", "Drom+", "Drud+", "Dug+", "Dugr+", "Dugt+", "Dul+", "Dulr+", "Dum+", "Dur+", "Dush+", "Dushg+", "Dushk+", "Fang+", "Farb+", "Gah+", "Gahgd+", "Gahzn+", "Gar+", "Garg+", "Garm+", "Garn+", "Gash+", "Gashd+", "Gashz+", "Gez+", "Gezd+", "Ghagr+", "Ghak+", "Ghakn+", "Gham+", "Ghamr+", "Ghash+", "Ghat+", "Ghatr+", "Ghob+", "Ghog+", "Ghorn+", "Ghrat+", "Ghromr+", "Gladb+", "Glagb+", "Glam+", "Glaz+", "Glazg+", "Gleg+", "Gloor+", "Gloth+", "Glund+", "Glunr+", "Glurd+", "Glush+", "Gluth+", "Gob+", "Godr+", "Gog+", "Gogb+", "Gogr+", "Goh+", "Golb+", "Goorg+", "Gor+", "Gorb+", "Gorbl+", "Gord+", "Gorg+", "Gorgr+", "Gorl+", "Gorr+", "Gorz+", "Goth+", "Goz+", "Graal+", "Grag+", "Gralt+", "Grash+", "Grashb+", "Grav+", "Grazhw+", "Grezg+", "Grishd+", "Gron+", "Grubd+", "Grugn+", "Grul+", "Grulb+", "Gruld+", "Grulz+", "Grund+", "Gruny+", "Grushb+", "Grushn+", "Gruud+", "Gruzd+", "Gruzn+", "Gul+", "Gulb+", "Gulz+", "Gund+", "Gunr+", "Gur+", "Gurl+", "Gush+", "Gwilh+", "Hag+", "Hazb+", "Hor+", "Hothm+", "Ilth+", "Kadr+", "Kargn+", "Kaz+", "Kelr+", "Kent+", "Kharsth+", "Khart+", "Khral+", "Kirg+", "Klov+", "Kog+", "Krad+", "Krod+", "Krogr+", "Kur+", "Kurl+", "Lag+", "Lagr+", "Lahkg+", "Lakh+", "Lakhd+", "Lar+", "Larh+", "Lashb+", "Lat+", "Laur+", "Lazg+", "Logb+", "Lorb+", "Lothd+", "Lothg+", "Lozr+", "Lozw+", "Lug+", "Lugb+", "Lugd+", "Lugn+", "Lugr+", "Lugz+", "Lumg+", "Lungr+", "Lur+", "Luzm+", "Maag+", "Mag+", "Magr+", "Makh+", "Marg+", "Marz+", "Maug+", "Mauh+", "Mazgr+", "Meg+", "Mek+", "Mogr+", "Mokh+", "Mokhr+", "Monr+", "Mordr+", "Morg+", "Morgbr+", "Morl+", "Mud+", "Mugl+", "Mugr+", "Mul+", "Mulg+", "Mulz+", "Mungr+", "Mur+", "Murg+", "Murgr+", "Murl+", "Murz+", "Muzb+", "Muzdr+", "Muzg+", "Nag+", "Nagr+", "Nahz+", "Nahzgr+", "Nakh+", "Nar+", "Narh+", "Nashr+", "Nen+", "Norg+", "Nug+", "Nugw+", "Nunk+", "Obd+", "Obg+", "Obr+", "Ofgl+", "Og+", "Ogm+", "Ogr+", "Ogz+", "Okr+", "Olf+", "Olfr+", "Olg+", "Ood+", "Oogr+", "Oorg+", "Oorl+", "Ord+", "Org+", "Ornt+", "Orz+", "Osgr+", "Oth+", "Othb+", "Othz+", "Oz+", "Perg+", "Put+", "Rabl+", "Ragb+", "Ragn+", "Ram+", "Razg+", "Rogb+", "Rogn+", "Rogr+", "Rok+", "Roogh+", "Roogl+", "Rorb+", "Roz+", "Rugdr+", "Rugm+", "Ruzgr+", "Sgag+", "Sgol+", "Shag+", "Shagr+", "Shakh+", "Sham+", "Shaml+", "Sharg+", "Sharn+", "Shog+", "Shugr+", "Shuk+", "Shulth+", "Shurk+", "Shurr+", "Skag+", "Skagw+", "Skalg+", "Skar+", "Skord+", "Skorg+", "Skulz+", "Slagw+", "Slay+", "Slegb+", "Snagb+", "Snagd+", "Snakz+", "Snal+", "Snarg+", "Snaz+", "Snegb+", "Snegh+", "Snikhb+", "Snug+", "Snushb+", "Spag+", "Stugbr+", "Szugb+", "Targ+", "Tazg+", "Thag+", "Thagb+", "Thagbr+", "Thak+", "Thar+", "Thark+", "Thaz+", "Thazn+", "Theg+", "Ther+", "Thol+", "Thorzh+", "Thrag+", "Thragd+", "Thrun+", "Thukb+", "Thungd+", "Todr+", "Togbr+", "Togr+", "Tor+", "Tug+", "Tungth+", "Ufth+", "Ug+", "Ugd+", "Uggn+", "Ul+", "Ulgh+", "Ungr+", "Unr+", "Unthr+", "Ur+", "Urdb+", "Urgd+", "Ush+", "Uug+", "Uulg+", "Uzn+", "Varg+", "Vulm+", "Vundr+", "Wagh+", "Ward+", "Wuzg+", "Yag+", "Yak+", "Yar+", "Yarg+", "Yarn+", "Yat+", "Ygg+", "Yggn+", "Yggr+", "Yzzg+", "Zagr+", "Zeg+", "Zhag+", "Zhas+", "Zilb+", "Zogb+", "Zugn+", "Zulb+", "Zulg+", "Zulgr+", "Zum+", "Zung+", "Zunl+", "+a", "+ab", "+ad", "+ag", "+agg", "+ahg", "+ain", "+ak", "+akh", "+al", "+alg", "+alt", "+am", "+an", "+ang", "+ar", "+ard", "+arg", "+argh", "+arkh", "+arth", "+arz", "+ash", "+ast", "+at", "+ath", "+aug", "+auk", "+az", "+azz", "+eg", "+egg", "+ek", "+el", "+erg", "+erm", "+esh", "+ig", "+ik", "+ikh", "+im", "+im", "+in", "+o", "+ob", "+od", "+og", "+ogg", "+ok", "+okh", "+ol", "+olg", "+om", "+on", "+onk", "+onkh", "+ook", "+ooth", "+oq", "+or", "+org", "+orgh", "+orkh", "+orn", "+orz", "+os", "+osh", "+ot", "+oth", "+ots", "+ov", "+oz", "+u", "+ub", "+ud", "+uf", "+ug", "+ugd", "+ugg", "+ugh", "+uk", "+ukh", "+ul", "+ulg", "+ulz", "+um", "+umph", "+un", "+unh", "+ur", "+urg", "+urgh", "+url", "+urn", "+urz", "+us", "+ush", "+ut", "+uth", "+uz" ]
 						},
 						{
 							"filter": "Online",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Agg+", "Agr+", "Arghr+", "Az+", "Azg+", "Bash+", "Beg+", "Bisq+", "Bog+", "Bogg+", "Bor+", "Borz+", "Both+", "Brug+", "Brugh+", "Bul+", "Bur+", "Burz+", "Dug+", "Dulph+", "Gag+", "Ghorn+", "Ghrub+", "Glorgz+", "Gloth+", "Glun+", "Gob+", "Goh+", "Gor+", "Grod+", "Grom+", "Grud+", "Gun+", "Gur+", "Gurg+", "Gush+", "In+", "Kham+", "Khor+", "Log+", "Loz+", "Lugd+", "Lurb+", "Lurg+", "Makh+", "Maz+", "Mog+", "Mor+", "Morbr+", "Mord+", "Moth+", "Muh+", "Mul+", "Murd+", "Murg+", "Muz+", "Nam+", "Nargb+", "Nark+", "Narkh+", "Obg+", "Og+", "Ol+", "Ont+", "Ood+", "Org+", "Orgd+", "Orgdr+", "Orzb+", "Osg+", "Oth+", "Ram+", "Razg+", "Rog+", "Rugd+", "Shakh+", "Sham+", "Shark+", "Smagb+", "Snab+", "Snarb+", "Snegb+", "Stugb+", "Szug+", "Tug+", "Tum+", "Ug+", "Ugr+", "Ul+", "Ulgd+", "Ulm+", "Und+", "Undr+", "Ur+", "Usn+", "Yagr+", "Yam+", "Yarn+", "Zagh+", "Zul+", "Zulg+", "+ab+", "+ag+", "+agd+", "+agr+", "+aim+", "+am+", "+an+", "+ar+", "+at+", "+aw+", "+azb+", "+azg+", "+azk+", "+azz+", "+eg+", "+er+", "+ig+", "+igh+", "+imb+", "+ob+", "+od+", "+og+", "+ogr+", "+oh+", "+ol+", "+on+", "+or+", "+org+", "+ot+", "+oth+", "+othm+", "+oz+", "+uel+", "+ug+", "+ugb+", "+ugr+", "+uk+", "+ul+", "+um+", "+ung+", "+unt+", "+ur+", "+urb+", "+urg+", "+uth+", "+uz+", "+a", "+ag", "+ak", "+akh", "+al", "+alg", "+ar", "+arg", "+arz", "+as", "+ash", "+ek", "+ig", "+ikh", "+in", "+o", "+ob", "+od", "+og", "+ol", "+or", "+orn", "+osh", "+oth", "+u", "+ub", "+ud", "+ug", "+uk", "+ukh", "+ul", "+ulg", "+ur", "+ush", "+usk", "+uz", "+yk" ]
 						}
 					]
@@ -1554,73 +1554,73 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Bu+", "Du+", "Gho+", "Glo+", "Go+", "Gra+", "Mo+", "Sha+", "+b", "+m", "+nk", "+rn", "+rz", "+t" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Agr+", "Badb+", "Bash+", "Bogd+", "Bul+", "Bulf+", "Bur+", "Burz+", "Dur+", "Durg+", "Gashn+", "Glash+", "Glur+", "Graz+", "Gulf+", "Kharz+", "Lag+", "Lamb+", "Lazg+", "Mog+", "Mur+", "Murz+", "Narg+", "Orb+", "Rag+", "Rolf+", "Rulf+", "Shadb+", "Shag+", "Shagd+", "Shar+", "Shel+", "Ul+", "Urz+", "Ush+", "Yazg+", "+a", "+ak", "+akh", "+ar", "+ash", "+at", "+im", "+ish", "+ob", "+og", "+ol", "+onk", "+oth", "+ub", "+ug", "+uk", "+ul", "+ur", "+ush" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Bugd+", "Sloom+", "Ul+", "+al+", "+umph+", "+ur+", "+a", "+ah", "+ash" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Bu+", "Mo+", "Sna+", "+g", "+k", "+mph", "+r" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Bat+", "Borb+", "Homr+", "Ogh+", "Or+", "Rogb+", "Rogm+", "Ug+", "Um+", "+a", "+ag", "+ak", "+ar", "+ash", "+az", "+esh", "+og", "+ul", "+ut" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Maz+", "+og+", "+a" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Bo+", "Gha+", "Gu+", "La+", "She+", "Ya+", "+g", "+k", "+l", "+r", "+sh" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Ar+", "At+", "Bagr+", "Bat+", "Bol+", "Borg+", "Dul+", "Gar+", "Ghar+", "Ghorz+", "Lush+", "Mogd+", "Murb+", "Shar+", "Shufth+", "Ug+", "Ur+", "Yat+", "+a", "+ak", "+akh", "+amph", "+ar", "+arz", "+ob", "+og", "+ol", "+or", "+ub", "+ug", "+ul", "+um", "+urz" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Urz+", "+og+", "+a" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Baa+", "Ga+", "Gha+", "Gla+", "Gle+", "Glu+", "Gnu+", "Gra+", "Gua+", "Gu+", "Guu+", "Gu+", "I+", "Ku+", "Li+", "Sgu+", "Shgra+", "Sho+", "Slu+", "Snoo+", "The+", "U+", "Vo+", "Vu+", "Zaa+", "Zu+", "+g", "+gh", "+lg", "+rl", "+rn", "+rz", "+sh", "+t", "+th", "+z", "+zh" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Adk+", "Agd+", "Agl+", "Agr+", "Agz+", "Ak+", "Akgr+", "Akkr+", "Akl+", "Alg+", "Algr+", "Ar+", "Arz+", "Ashg+", "Az+", "Azg+", "Baag+", "Bad+", "Bag+", "Bagd+", "Barz+", "Bhagr+", "Bizr+", "Blug+", "Bol+", "Bolg+", "Bor+", "Borbg+", "Borgh+", "Borz+", "Brekg+", "Bugb+", "Bugh+", "Bul+", "Bulf+", "Bumb+", "Drienn+", "Drok+", "Drug+", "Dufb+", "Dulfr+", "Dulkh+", "Dulr+", "Dur+", "Durg+", "Durh+", "Dush+", "Fnagd+", "Gahgr+", "Garg+", "Garl+", "Ghamz+", "Ghesh+", "Ghob+", "Ghog+", "Ghor+", "Ghorb+", "Glag+", "Glath+", "Gleg+", "Glorg+", "Gloth+", "Glurd+", "Glurmgh+", "Glurz+", "Gluth+", "Gog+", "Golg+", "Gonb+", "Goorg+", "Gorsh+", "Grab+", "Gragh+", "Grah+", "Grahl+", "Grakg+", "Graklh+", "Grash+", "Grashl+", "Grazd+", "Grenb+", "Grodd+", "Grub+", "Grugl+", "Grul+", "Grumgh+", "Grund+", "Gul+", "Gulz+", "Gunzg+", "Gur+", "Gurh+", "Gursth+", "Guurz+", "Guz+", "Hagh+", "Harfz+", "Harz+", "Jorth+", "Junl+", "Khag+", "Khagr+", "Khar+", "Kharz+", "Khazr+", "Kor+", "Korgh+", "Krithgr+", "Krom+", "Kruag+", "Kuhl+", "Lagb+", "Lagr+", "Lahzg+", "Lam+", "Lamb+", "Larzg+", "Lash+", "Lashb+", "Lashg+", "Lashz+", "Lazgh+", "Legd+", "Logr+", "Lokr+", "Lor+", "Lork+", "Lug+", "Lugh+", "Lulgr+", "Lurg+", "Mabgr+", "Maugr+", "Mazgr+", "Mazr+", "Megr+", "Mog+", "Mogd+", "Mogr+", "Mordr+", "Morg+", "Morn+", "Mornd+", "Mozg+", "Mug+", "Mul+", "Mulgr+", "Mult+", "Mulz+", "Murzg+", "Nar+", "Narzb+", "Narzd+", "Nazh+", "Nulr+", "Nunch+", "Nuz+", "Ogz+", "Oorg+", "Oorz+", "Orb+", "Othr+", "Ozr+", "Pruz+", "Pruzg+", "Rakh+", "Ran+", "Rog+", "Rogb+", "Rogz+", "Rok+", "Rolfz+", "Rolg+", "Ron+", "Rulbz+", "Ruld+", "Rulf+", "Rulfz+", "Rulg+", "Sgal+", "Sgrugb+", "Sgrugh+", "Sgrul+", "Shab+", "Shabgr+", "Shagr+", "Shak+", "Shal+", "Sham+", "Shar+", "Sharbz+", "Shard+", "Sharg+", "Shargr+", "Shaz+", "Sheb+", "Shelb+", "Sher+", "Shufd+", "Shufgr+", "Shug+", "Shugz+", "Shurk+", "Shuzr+", "Snarg+", "Sneeh+", "Snilg+", "Snushb+", "Solgr+", "Stilg+", "Strod+", "Stug+", "Stughr+", "Stulg+", "Thegb+", "Theshg+", "Thog+", "Thogr+", "Thrugr+", "Thugn+", "Thulg+", "Thushl+", "Torgh+", "Tugh+", "Ud+", "Ufg+", "Ufgr+", "Ufth+", "Ugd+", "Ugr+", "Ul+", "Ulg+", "Ulsh+", "Und+", "Urbz+", "Urshr+", "Ush+", "Uth+", "Uzk+", "Vumn+", "Vush+", "Yakh+", "Yarl+", "Yatz+", "Zagl+", "Zazsh+", "Zuug+", "Zuuth+", "+a", "+aag", "+aal", "+ag", "+ah", "+ahz", "+ai", "+ak", "+akh", "+al", "+amph", "+an", "+ar", "+arkh", "+arsh", "+arz", "+ash", "+az", "+azh", "+e", "+eg", "+eh", "+ekh", "+el", "+esh", "+et", "+i", "+ik", "+ikh", "+ilkh", "+ish", "+ock", "+og", "+ogg", "+oi", "+ol", "+on", "+or", "+orz", "+osh", "+oth", "+u", "+ual", "+uan", "+uar", "+ub", "+ug", "+uhl", "+uk", "+ul", "+um", "+un", "+ur", "+urz", "+ush", "+ut", "+uur" ]
 						},
 						{
 							"filter": "Online",
 							"length": 3,
-							"realNamesAllowed": true,
+							"allowedWords": "any",
 							"list": [ "Ab+", "Adl+", "Ag+", "Agr+", "Ak+", "Alz+", "Anb+", "Arg+", "Arz+", "Ash+", "Ashg+", "Ashr+", "At+", "Atz+", "Az+", "Azhn+", "Azl+", "Bafth+", "Bag+", "Bagr+", "Bar+", "Bash+", "Bashg+", "Bat+", "Bazb+", "Bazg+", "Bol+", "Borb+", "Borgb+", "Borgd+", "Borgr+", "Bum+", "Bumz+", "Dag+", "Dar+", "Dul+", "Dulfr+", "Dulz+", "Dum+", "Dur+", "Durg+", "Er+", "Gar+", "Gham+", "Ghar+", "Ghorz+", "Ghrat+", "Glar+", "Glolb+", "Glur+", "Glurb+", "Gluth+", "Gol+", "Golg+", "Gonb+", "Gond+", "Grash+", "Grat+", "Graz+", "Grub+", "Gruzb+", "Gul+", "Gulg+", "Gulz+", "Gur+", "Guzm+", "Hur+", "Irs+", "Kash+", "Kel+", "Khag+", "Kharz+", "Lag+", "Lagb+", "Lagd+", "Lagr+", "Lakh+", "Lam+", "Lamb+", "Lamz+", "Lashb+", "Lashd+", "Lashg+", "Lazd+", "Lazg+", "Lhazb+", "Lob+", "Logd+", "Logl+", "Lor+", "Lug+", "Lugl+", "Lugr+", "Lur+", "Mabg+", "Mabgr+", "Mag+", "Mar+", "Maz+", "Mogl+", "Mor+", "Mornd+", "Mug+", "Mulg+", "Mulz+", "Mur+", "Murb+", "Muzgr+", "Nar+", "Naz+", "Nazd+", "Nazh+", "Nog+", "Oorz+", "Or+", "Orc+", "Ord+", "Org+", "Orl+", "Orth+", "Orz+", "Orzb+", "Orzd+", "Oshg+", "Oth+", "Othb+", "Othg+", "Othr+", "Rag+", "Ragb+", "Rak+", "Raz+", "Razb+", "Rog+", "Rolb+", "Rolf+", "Rulb+", "Ruldz+", "Rulf+", "Shab+", "Shag+", "Shagd+", "Shald+", "Shar+", "Sharb+", "Shard+", "Shardz+", "Sharg+", "Shargd+", "Shel+", "Shub+", "Shufth+", "Sloobd+", "Sloog+", "Snab+", "Snabgr+", "Snag+", "Snagh+", "Snar+", "Snarg+", "Snarz+", "Tam+", "Thegsh+", "Thesh+", "Thishn+", "Ubz+", "Uf+", "Ufg+", "Ug+", "Ul+", "Uld+", "Ull+", "Um+", "Umb+", "Umg+", "Umz+", "Und+", "Uns+", "Ur+", "Urb+", "Urdb+", "Urg+", "Urz+", "Ush+", "Ushr+", "Yagr+", "Yar+", "Yash+", "Yat+", "Yaz+", "Yazgr+", "Zag+", "Zelg+", "Zub+", "Zuuth+", "+ab+", "+adh+", "+ag+", "+agm+", "+ak+", "+akh+", "+al+", "+alg+", "+am+", "+an+", "+ar+", "+arg+", "+arh+", "+arl+", "+arn+", "+ash+", "+at+", "+ath+", "+av+", "+az+", "+azg+", "+ek+", "+ekh+", "+el+", "+en+", "+esh+", "+eshg+", "+et+", "+ezh+", "+ic+", "+ig+", "+igb+", "+ik+", "+ikh+", "+ikl+", "+imf+", "+is+", "+og+", "+ogb+", "+ogd+", "+ogn+", "+ol+", "+olg+", "+or+", "+org+", "+ot+", "+oth+", "+oz+", "+ub+", "+ud+", "+ug+", "+ugb+", "+ugh+", "+uk+", "+ukh+", "+ul+", "+ulg+", "+ull+", "+um+", "+un+", "+ur+", "+urb+", "+urg+", "+urkg+", "+urth+", "+urz+", "+ush+", "+ushn+", "+ut+", "+uth+", "+uz+", "+a", "+ab", "+ag", "+ah", "+ai", "+ak", "+akh", "+al", "+am", "+an", "+ar", "+ash", "+at", "+az", "+eg", "+ek", "+esh", "+i", "+ob", "+og", "+ol", "+orz", "+u", "+ub", "+uk", "+ul", "+urn" ]
 						}
 					]
@@ -1645,56 +1645,67 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
+							"allowedWords": "any",
 							"list": [ "Ba+", "Bo+", "Bu+", "Du+", "Ga+", "Gha+", "Glu+", "Kha+", "La+", "Lu+", "Ma+", "Mu+", "Ri+", "Ru+", "Sha+", "Ya+", "+g", "+k", "+l", "+m", "+mph", "+r", "+rn", "+rz", "+sh", "+t" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 2,
+							"allowedWords": "any",
 							"list": [ "Ag+", "Agl+", "At+", "Badb+", "Bag+", "Bagd+", "Bagr+", "Bam+", "Barg+", "Bashn+", "Bat+", "Bog+", "Bogh+", "Bogl+", "Bogr+", "Bol+", "Borb+", "Bug+", "Bul+", "Bulf+", "Bur+", "Burb+", "Buzg+", "Dug+", "Dul+", "Dum+", "Dur+", "Durg+", "Gash+", "Ghol+", "Gholf+", "Ghor+", "Gilg+", "Glorz+", "Glurk+", "Gorz+", "Gramb+", "Gulf+", "Gur+", "Kash+", "Khagd+", "Kharb+", "Khashn+", "Khat+", "Khaz+", "Lagd+", "Larg+", "Lazg+", "Log+", "Logh+", "Logr+", "Lorg+", "Lum+", "Lumb+", "Lurk+", "Luzg+", "Mag+", "Magr+", "Mar+", "Mashn+", "Mogd+", "Mogh+", "Mugh+", "Mul+", "Mur+", "Murg+", "Muzg+", "Og+", "Ogd+", "Ol+", "Rug+", "Rush+", "Shadb+", "Shagd+", "Shagr+", "Sham+", "Shar+", "Sharb+", "Sharg+", "Shat+", "Shaz+", "Shug+", "Shugh+", "Shul+", "Shumb+", "Shuzg+", "Skand+", "Snag+", "Snagd+", "Ufth+", "Ul+", "Ulf+", "Urg+", "Ush+", "Uz+", "Uzg+", "Yag+", "Yarg+", "Yarz+", "+a", "+ag", "+ak", "+akh", "+am", "+amph", "+an", "+ar", "+arn", "+arz", "+ash", "+at", "+el", "+im", "+imph", "+ish", "+ob", "+og", "+ol", "+olg", "+or", "+u", "+ub", "+uf", "+ug", "+uk", "+ul", "+ulg", "+um", "+umph", "+ur", "+urn", "+ush" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 3,
+							"allowedWords": "any",
 							"list": [ "Ag+", "Az+", "Bog+", "Ghash+", "Ol+", "Orb+", "Ugr+", "+adb+", "+am+", "+arz+", "+ork+", "+um+", "+urb+", "+a", "+akh", "+ol", "+u" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 2,
+							"allowedWords": "any",
 							"list": [ "Bha+", "Bo+", "Bro+", "Bu+", "Ga+", "Gha+", "Gho+", "Go+", "Kha+", "Sha+", "Shu+", "+g", "+gk", "+k", "+l", "+mph", "+nk", "+r", "+rg", "+rz", "+sh", "+th" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 2,
+							"allowedWords": "any",
 							"list": [ "Ag+", "Bar+", "Barg+", "Bolm+", "Bugl+", "Bur+", "Burb+", "Cobl+", "Cromg+", "Drag+", "Gal+", "Gam+", "Glurz+", "Golp+", "Grul+", "Hubr+", "Mag+", "Mal+", "Mar+", "Mog+", "Morgr+", "Murg+", "Muzg+", "Or+", "Ork+", "Rugd+", "Shar+", "Shat+", "Shur+", "Shurg+", "Ugd+", "Urg+", "Uz+", "Uzg+", "Yar+", "+a", "+ad", "+ag", "+ak", "+akh", "+am", "+amph", "+ash", "+ob", "+og", "+ok", "+ol", "+orn", "+oth", "+ub", "+ug", "+ul", "+ulg", "+um", "+ump", "+ur", "+ush" ]
 						},
 						{
 							"filter": "Oblivion",
 							"length": 3,
+							"allowedWords": "any",
 							"list": [ "Na+", "Shadb+", "+org+", "+yb+", "+ek", "+ob" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 2,
+							"allowedWords": "any",
 							"list": [ "Ba+", "Shu+", "+b", "+r" ]
 						},
 						{
 							"filter": "Skyrim",
 							"length": 2,
+							"allowedWords": "any",
 							"list": [ "Bag+", "Burz+", "Dushn+", "Gat+", "Gilg+", "Gortw+", "Larg+", "Nol+", "Ragd+", "Sharg+", "Shug+", "Shurk+", "+ag", "+akh", "+am", "+ar", "+ash", "+ikh", "+ob", "+og", "+ol", "+uk", "+ul", "+urz" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
+							"allowedWords": "any",
 							"list": [ "Ba+", "Be+", "Bo+", "Bu+", "Dro+", "Du+", "Gha+", "Gho+", "Graau+", "Gru+", "Gu+", "Ko+", "Kree+", "Kru+", "Ku+", "Lo+", "Ma+", "Na+", "Ra+", "Ru+", "Ruu+", "Sha+", "Shu+", "Stu+", "+b", "+g", "+gg", "+gh", "+k", "+kh", "+l", "+m", "+msh", "+nk", "+r", "+rn", "+rt", "+rz", "+sh", "+ts" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
+							"allowedWords": "any",
 							"list": [ "Agd+", "Agl+", "Arz+", "Badb+", "Bag+", "Barb+", "Bashn+", "Baz+", "Bazg+", "Birg+", "Borg+", "Bug+", "Bum+", "Burb+", "Burg+", "Burk+", "Buzb+", "Das+", "Drubl+", "Dugr+", "Dul+", "Dumb+", "Durb+", "Durg+", "Dushn+", "Fak+", "Garb+", "Gat+", "Ghamm+", "Ghral+", "Gold+", "Gorz+", "Grum+", "Gul+", "Gurb+", "Guthr+", "Izb+", "Kham+", "Khamb+", "Kharg+", "Khaz+", "Khazg+", "Kor+", "Korl+", "Korm+", "Ladb+", "Logd+", "Lorg+", "Lum+", "Lumb+", "Lur+", "Madb+", "Makl+", "Mal+", "Marg+", "Mash+", "Mor+", "Mork+", "Mur+", "Murg+", "Murkh+", "Murt+", "Nam+", "Narz+", "Ogl+", "Ol+", "Org+", "Othm+", "Rim+", "Rug+", "Sgrugd+", "Shag+", "Shagr+", "Shar+", "Shat+", "Shazg+", "Sheg+", "Shel+", "Shugd+", "Shugh+", "Shuhgh+", "Shurg+", "Shurk+", "Stugb+", "Thorm+", "Ugr+", "Ul+", "Ur+", "Urk+", "Uz+", "Uzg+", "Vort+", "Wrogg+", "Yarz+", "Yashn+", "Yggr+", "+a", "+ad", "+ag", "+ak", "+akh", "+al", "+amph", "+ar", "+arz", "+ash", "+at", "+az", "+ee", "+ik", "+ikh", "+in", "+ish", "+ith", "+o", "+ob", "+og", "+ok", "+ol", "+olg", "+onk", "+or", "+orn", "+orz", "+oth", "+u", "+ub", "+uf", "+ug", "+uk", "+ul", "+ulg", "+um", "+un", "+ur", "+urg", "+urn", "+urz", "+ush", "+uz" ]
 						},
 						{
 							"filter": "Online",
 							"length": 3,
+							"allowedWords": "any",
 							"list": [ "Barkb+", "Bulf+", "Goldf+", "Kham+", "Lar+", "Nogr+", "Ogd+", "Othm+", "Shugd+", "Ur+", "Ush+", "+ag+", "+ark+", "+em+", "+im+", "+ish+", "+it+", "+oll+", "+ul+", "+urb+", "+urg+", "+a", "+ak", "+am", "+ash", "+e", "+or", "+orn", "+u", "+y" ]
 						}
 					]
@@ -1713,13 +1724,13 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Cha+", "Chre+", "Di+", "Fri+", "Go+", "Ia+", "Ja+", "+lm", "Ji+", "Jo+", "Rai+", "She+", "+g", "+m", "+n", "+nk", "+r", "+rk", "+rt" ]
 						},
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ach+", "Bod+", "Cam+", "Clus+", "Dar+", "Din+", "Dort+", "Enn+", "Farm+", "Ganc+", "Garr+", "Has+", "Hick+", "Hin+", "Ild+", "Jel+", "Jin+", "Jon+", "Karr+", "Kay+", "Lan+", "Nach+", "Pen+", "Racc+", "Sad+", "Sas+", "Sor+", "Sosc+", "Starg+", "Sten+", "Therd+", "Tral+", "Wa+", "+ael", "+ah", "+ald", "+an", "+as", "+e", "+ean", "+een", "+el", "+ell", "+en", "+er", "+et", "+ian", "+im", "+in", "+is", "+od", "+odd", "+ok", "+olm", "+on", "+y", "+yn" ]
 						},
 						{
@@ -1730,7 +1741,7 @@
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Am+", "Arm+", "Ath+", "Azz+", "Baur+", "Bold+", "Casn+", "Cirr+", "Curt+", "Cyr+", "Delm+", "Dor+", "Ern+", "Gog+", "Haekw+", "Hill+", "Isl+", "Jalb+", "Junc+", "Kell+", "Kelv+", "Kew+", "Khaf+", "Kinth+", "Kithl+", "Lath+", "Lim+", "Orr+", "Ow+", "Phint+", "Pran+", "Pyk+", "Rel+", "Rell+", "Rhan+", "Rusl+", "Sham+", "Sheld+", "Stan+", "Tal+", "Thedr+", "Wilb+", "Will+", "Wins+", "+al", "+an", "+and", "+ar", "+ark", "+e", "+eer", "+eif", "+en", "+er", "+ert", "+est", "+et", "+ian", "+ias", "+in", "+ir", "+is", "+iz", "+o", "+oc", "+od", "+on", "+ur", "+us", "+yn" ]
 						},
 						{
@@ -1741,7 +1752,7 @@
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Aht+", "Amr+", "At+", "Bar+", "Bren+", "End+", "Enn+", "Fal+", "Fir+", "Hald+", "Isr+", "Ka+", "Maj+", "Man+", "Naz+", "Tal+", "+af", "+al", "+an", "+ar", "+eem", "+en", "+i", "+ib", "+id", "+ion", "+ir", "+is", "+on", "+uin", "+yd", "+yn" ]
 						},
 						{
@@ -1752,13 +1763,13 @@
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Bai+", "Bho+", "Bra+", "Bu+", "Dhu+", "Ei+", "Gwa+", "Je+", "Ka+", "Kha+", "Khe+", "Kho+", "Maee+", "Ma+", "Naee+", "Nai+", "Na+", "Qa+", "Raa+", "Re+", "Sa+", "Sha+", "To+", "U+", "Vho+", "You+", "Ze+", "Zi+", "+b", "+d", "+dr", "+hrz", "+hrzh", "+jb", "+kh", "+l", "+ld", "+m", "+md", "+mn", "+nd", "+nsh", "+r", "+rbzr", "+rh", "+rz", "+s", "+sr", "+ss", "+th", "+thz", "+zd", "+zz" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ab+", "Abr+", "Ad+", "Afsh+", "Afw+", "Agh+", "Ah+", "Ahd+", "Ahm+", "Ahr+", "Aiz+", "Akhb+", "Alb+", "Alk+", "Alm+", "Alq+", "Am+", "Amj+", "Amjh+", "Aml+", "Andr+", "Anj+", "Any+", "Ar+", "Arf+", "Arm+", "Ash+", "Asht+", "At+", "Az+", "Babh+", "Bah+", "Bahb+", "Bahr+", "Bar+", "Bard+", "Barr+", "Bas+", "Basr+", "Behsh+", "Benz+", "Bhos+", "Bir+", "Bizh+", "Burh+", "Carr+", "Cart+", "Cas+", "Casn+", "Casp+", "Corw+", "Curn+", "Curr+", "Cyr+", "Dad+", "Daj+", "Dam+", "Dar+", "Darw+", "Degm+", "Der+", "Dhak+", "Dih+", "Dinm+", "Div+", "Dom+", "Dozh+", "Drag+", "Eb+", "Ebd+", "Ebz+", "Ehr+", "Ehs+", "Ehsh+", "Ehw+", "Eilr+", "Elb+", "Em+", "Ems+", "En+", "End+", "Enn+", "Ern+", "Esh+", "Eshr+", "Esm+", "Fab+", "Fad+", "Fah+", "Fahr+", "Fahrz+", "Fair+", "Farr+", "Farsh+", "Farv+", "Fath+", "Faw+", "Fawz+", "Fer+", "Ferh+", "Ferm+", "Fert+", "Ferz+", "Fint+", "Fir+", "Fran+", "Frand+", "Gab+", "Gagn+", "Gaid+", "Garr+", "Ghaff+", "Ghan+", "Gheerm+", "Ghern+", "Ghiy+", "Gib+", "Gid+", "Gilz+", "Gin+", "Gir+", "Gith+", "Glanl+", "Gourd+", "Gov+", "Greb+", "Gud+", "Guib+", "Had+", "Haerd+", "Hahd+", "Hahn+", "Haid+", "Hak+", "Hal+", "Hald+", "Hall+", "Ham+", "Hamz+", "Hann+", "Haqm+", "Har+", "Has+", "Hass+", "Haw+", "Helkh+", "Hezh+", "Hif+", "Hinh+", "Hinth+", "Hinz+", "His+", "Hish+", "Hlaur+", "Hodr+", "Hosn+", "Hoss+", "Hub+", "Hur+", "Husn+", "Ibr+", "Ihd+", "Ihlq+", "Ikr+", "Ilw+", "Imr+", "Ir+", "Irw+", "Isc+", "Isl+", "Iss+", "Ist+", "Jagn+", "Jah+", "Jahs+", "Jairr+", "Jak+", "Jal+", "Jamb+", "Jamsh+", "Jarr+", "Jav+", "Jaw+", "Jay+", "Jehr+", "Jeir+", "Jeng+", "Jhiinv+", "Jibr+", "Jir+", "Jom+", "Jor+", "Juc+", "Ka+", "Kah+", "Kal+", "Kalb+", "Kalm+", "Kalr+", "Kalrz+", "Kalv+", "Kam+", "Kamz+", "Kar+", "Kard+", "Kas+", "Kass+", "Kath+", "Kavr+", "Kavsh+", "Kavz+", "Kay+", "Kem+", "Kha+", "Khabz+", "Khafn+", "Khamb+", "Khamm+", "Khamz+", "Kharb+", "Khav+", "Khemsh+", "Khemz+", "Khnany+", "Khorsh+", "Khosr+", "Khubzy+", "Kiar+", "Kill+", "Kints+", "Kith+", "Kok+", "Kott+", "Kour+", "Lak+", "Lakh+", "Lanr+", "Laqsh+", "Lat+", "Lathd+", "Leb+", "Lew+", "Lith+", "Loqm+", "Luqm+", "Mach+", "Mahb+", "Mahj+", "Mahr+", "Maj+", "Majd+", "Majh+", "Makd+", "Mal+", "Mam+", "Mamh+", "Mans+", "Mar+", "Marghr+", "Mars+", "Masd+", "Math+", "Mauj+", "Maz+", "Mazd+", "Mazh+", "Mazr+", "Mazz+", "Mehdb+", "Mehdz+", "Mehr+", "Mehrz+", "Mer+", "Merr+", "Mesh+", "Midr+", "Mihr+", "Mirz+", "Mizh+", "Mon+", "Muahd+", "Muaz+", "Mubd+", "Mukh+", "Mulh+", "Mur+", "Mushg+", "Myam+", "Nab+", "Nabsh+", "Nad+", "Nahr+", "Nahzh+", "Naj+", "Namm+", "Namv+", "Nand+", "Nansh+", "Nar+", "Nasd+", "Nav+", "Naz+", "Nazh+", "Nazz+", "Neb+", "Nebz+", "Nib+", "Nilth+", "Nim+", "Nimsh+", "Nizr+", "Nuz+", "Oany+", "Ohl+", "Ohrm+", "Onw+", "Orr+", "Padr+", "Pald+", "Parh+", "Paul+", "Pehr+", "Penn+", "Per+", "Phar+", "Phaz+", "Pierj+", "Pinn+", "Pit+", "Prald+", "Pran+", "Qab+", "Qad+", "Qam+", "Qar+", "Qas+", "Qasr+", "Qav+", "Qelw+", "Qes+", "Qiar+", "Qub+", "Qum+", "Qus+", "Rabb+", "Rad+", "Rah+", "Raif+", "Raj+", "Rajd+", "Rajm+", "Rak+", "Ral+", "Ram+", "Ramz+", "Ras+", "Rat+", "Raw+", "Raz+", "Razh+", "Razz+", "Rell+", "Ren+", "Rhadr+", "Rhan+", "Rhanb+", "Rih+", "Risl+", "Rocc+", "Rosh+", "Run+", "Sab+", "Sabh+", "Sad+", "Sadb+", "Sadz+", "Sah+", "Sahl+", "Sahm+", "Sahp+", "Saly+", "Sam+", "Sarg+", "Sart+", "Sary+", "Seqb+", "Ser+", "Shab+", "Shabh+", "Shah+", "Shal+", "Sham+", "Shamm+", "Shaz+", "Shell+", "Sir+", "Siv+", "Skeev+", "Sohr+", "Sorh+", "Stann+", "Stern+", "Sur+", "Syr+", "Tab+", "Tah+", "Tahm+", "Tal+", "Tam+", "Tan+", "Tar+", "Tarj+", "Tav+", "Tawf+", "Tem+", "Teqh+", "Thadr+", "Thal+", "Tharw+", "Thedr+", "Thod+", "Tim+", "Tohr+", "Tors+", "Tray+", "Trel+", "Udh+", "Udw+", "Uf+", "Uhr+", "Um+", "Un+", "Uthm+", "Var+", "Varn+", "Varsh+", "Ver+", "Vhar+", "Vird+", "Vish+", "Wak+", "Wal+", "Wall+", "Wild+", "Winr+", "Xakhw+", "Xav+", "Xhemg+", "Yabh+", "Yadh+", "Yagd+", "Yahy+", "Yan+", "Yash+", "Yat+", "Yehkb+", "Yeqd+", "Ync+", "Yon+", "Youss+", "Zab+", "Zafr+", "Zagr+", "Zakh+", "Zal+", "Zalb+", "Zamn+", "Zamy+", "Zand+", "Zany+", "Zart+", "Zaw+", "Zen+", "Zerd+", "Zerzh+", "Zhub+", "Zil+", "Zim+", "Ziy+", "Zul+", "Zulf+", "+a", "+aan", "+ab", "+ad", "+adr", "+aeel", "+ael", "+af", "+ah", "+ahd", "+ahdr", "+ahmn", "+ahn", "+ahz", "+aid", "+aif", "+ait", "+aj", "+ak", "+al", "+ald", "+am", "+an", "+and", "+aq", "+ar", "+ard", "+arh", "+arj", "+arq", "+arz", "+as", "+ash", "+at", "+ath", "+az", "+azh", "+azz", "+e", "+ean", "+eb", "+ebh", "+ec", "+eed", "+eel", "+eem", "+een", "+eer", "+eesh", "+eez", "+eff", "+eft", "+eg", "+eh", "+ehm", "+ei", "+ek", "+el", "+ell", "+em", "+en", "+end", "+enzh", "+eq", "+er", "+ers", "+esh", "+esht", "+et", "+eth", "+ez", "+ezh", "+i", "+ian", "+iar", "+ias", "+ib", "+ic", "+id", "+ien", "+ier", "+if", "+ig", "+ih", "+iin", "+ij", "+ik", "+il", "+ill", "+im", "+in", "+ind", "+ion", "+iq", "+ir", "+is", "+ish", "+it", "+ith", "+ius", "+o", "+od", "+odd", "+of", "+oh", "+ok", "+okh", "+on", "+ood", "+oon", "+oq", "+or", "+os", "+osh", "+osht", "+oub", "+our", "+ouz", "+ouzh", "+u", "+ua", "+uar", "+ub", "+ud", "+udh", "+uf", "+uhl", "+uin", "+uk", "+ul", "+un", "+uq", "+ur", "+urj", "+urjj", "+urz", "+us", "+ush", "+uur", "+uz", "+uzh", "+y", "+yd", "+yn", "+yr" ]
 						},
 						{
@@ -1777,7 +1788,7 @@
 						{
 							"filter": "Morrowind",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Bal+", "Dands+", "Domb+", "Dul+", "En+", "Er+", "Erl+", "Jam+", "Jeann+", "Jold+", "Kan+", "Kat+", "Lair+", "Land+", "Lett+", "Min+", "Rithl+", "Shard+", "Sin+", "Tiel+", "+a", "+an", "+e", "+een", "+et", "+i", "+ia", "+ian", "+ie", "+iel", "+y" ]
 						},
 						{
@@ -1788,7 +1799,7 @@
 						{
 							"filter": "Oblivion",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Branw+", "Carm+", "Chan+", "Cles+", "Dahl+", "Dhol+", "Kiar+", "Neesh+", "Rhiann+", "Rienn+", "Rohss+", "Ron+", "Tav+", "Tierr+", "Trev+", "+a", "+aia", "+an", "+el", "+en", "+ia", "+on" ]
 						},
 						{
@@ -1799,7 +1810,7 @@
 						{
 							"filter": "Skyrim",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ahl+", "Anw+", "Atm+", "Fal+", "Im+", "Jonn+", "Ker+", "Lu'+", "Saad+", "Saff+", "Sal+", "Salm+", "Ser+", "Sud+", "Yisr+", "Zar+", "+a", "+ah", "+am", "+an", "+een", "+en", "+i", "+ia", "+iah", "+ir" ]
 						},
 						{
@@ -1810,13 +1821,13 @@
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "He+", "Ko+", "Lai+", "Lea+", "Ma+", "Ria+", "+h", "+hl", "+j", "+l", "+z" ]
 						},
 						{
 							"filter": "Online",
 							"length": 2,
-							"realNamesAllowed": true,
+							"allowedWords": "names",
 							"list": [ "Ab+", "Abr+", "Ad+", "Afs+", "Afz+", "Ahl+", "Ahn+", "Ahr+", "Ahy+", "Aid+", "Air+", "Aish+", "Al+", "Alth+", "Amj+", "Arj+", "As+", "At+", "Az+", "Badr+", "Bahr+", "Bail+", "Bal+", "Balq+", "Ban+", "Beert+", "Ber+", "Bezhn+", "Bouss+", "Brazz+", "Burw+", "Casm+", "Chan+", "Clel+", "Cless+", "Dahl+", "Dar+", "Dasr+", "Delb+", "Delk+", "Dh'ands+", "Dhol+", "Diw+", "Dom+", "Dul+", "Eln+", "En+", "Enn+", "Esm+", "Esth+", "Fad+", "Fahd+", "Fall+", "Fan+", "Farr+", "Fav+", "Fawz+", "Fawzh+", "Fezhr+", "Fihr+", "Fith+", "Gian+", "Gib+", "Gles+", "Golb+", "Gond+", "Guit+", "Gwenn+", "Had+", "Hafs+", "Hafz+", "Haid+", "Hail+", "Hann+", "Har+", "Hatm+", "Hawn+", "Hay+", "Hazz+", "Heen+", "Hel+", "Herv+", "Hill+", "Hon+", "Huly+", "Hum+", "Hur+", "Ianw+", "Il+", "Ilkh+", "Im+", "Ir+", "Jad+", "Jah+", "Jarl+", "Jawn+", "Jessm+", "Joss+", "Jun+", "Juw+", "Kal+", "Kar+", "Karr+", "Kash+", "Khad+", "Khar+", "Khorsh+", "Ku'+", "Kush+", "Laad+", "Ladr+", "Laim+", "Lan'+", "Lash+", "Laur+", "Leil+", "Lej+", "Lejk+", "Len+", "Lendhy+", "Lett+", "Lev+", "Lidy+", "Lienn+", "Lol+", "Loud+", "Luahn+", "Lual+", "Madj+", "Madr+", "Magg+", "Mahr+", "Maht+", "Mail+", "Maj+", "Mak+", "Mal+", "Man+", "Mar+", "Marw+", "Marzy+", "Masn+", "Mehf+", "Mehr+", "Mehrn+", "Memy+", "Midy+", "Mihr+", "Milt+", "Min+", "Mirv+", "Mony+", "Mozhd+", "Muh+", "Muny+", "Mur+", "Nadw+", "Nady+", "Naif+", "Nal+", "Nams+", "Nanz+", "Nar+", "Nasl+", "Nasm+", "Nazm+", "Neen+", "Nees+", "Negh+", "Nesht+", "Nesr+", "Nih+", "Nil+", "Nish+", "Nithl+", "Niy+", "Noush+", "Nuz+", "Oiar+", "Orlsh+", "Ouf+", "Parv+", "Penw+", "Qany+", "Qar+", "Qasn+", "Qaw+", "Qism+", "Quar+", "Qumr+", "Radw+", "Ramz+", "Ran+", "Ras+", "Rash+", "Rasn+", "Raz+", "Ren+", "Rhin+", "Rid+", "Riz+", "Rizm+", "Roud+", "Rozhb+", "Rozz+", "Run+", "Ryesht+", "Saf+", "Sagh+", "Sah+", "Sahb+", "Salm+", "Sams+", "Samy+", "San+", "Sefr+", "Serm+", "Shadr+", "Shaff+", "Sham+", "Sheed+", "Shehrb+", "Shelm+", "Sherv+", "Shir+", "Sim+", "Sion+", "Sorm+", "Sud+", "Sulm+", "Taf+", "Tahl+", "Tal+", "Tann+", "Tenv+", "Thal+", "Tharl+", "Thelm+", "Tiel+", "Tir+", "Tiz+", "Tonl+", "Toub+", "Tour+", "Trav+", "Trevv+", "Ubr+", "Vand+", "Ven+", "Waq+", "Wiy+", "Xhemsh+", "Yan+", "Yar+", "Zahr+", "Zakm+", "Zakr+", "Zalw+", "Zeil+", "Zeir+", "Zet+", "Zhil+", "Zib+", "Zin+", "Zohr+", "Zouf+", "Zyll+", "+a", "+ab", "+ad", "+ah", "+ahr", "+ai", "+aia", "+aith", "+an", "+ann", "+ar", "+arh", "+as", "+ash", "+at", "+ath", "+az", "+azh", "+e", "+ea", "+eah", "+ed", "+ee", "+eed", "+een", "+eesh", "+eet", "+eh", "+el", "+en", "+enh", "+et", "+eth", "+i", "+ia", "+iah", "+ian", "+id", "+ie", "+iel", "+in", "+iq", "+irh", "+ith", "+okh", "+on", "+oon", "+oush", "+u", "+uh", "+uush", "+y", "+yn" ]
 						},
 						{

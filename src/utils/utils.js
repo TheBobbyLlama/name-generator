@@ -1,9 +1,9 @@
-import spellcheck from "./spellcheck";
+import checkWordConflict from "./spellcheck";
 
 /// Applies our filters and returns an array valid component lists for each possible word in the name.
 function getComponentLists(dataset, nameInfo) {
-	var result = [];
-	var componentIndex = 1;
+	const result = [];
+	let componentIndex = 1;
 	const catIndex = dataset.findIndex(cat => (cat.category === nameInfo.category));
 
 	if (catIndex < 0) {
@@ -20,10 +20,10 @@ function getComponentLists(dataset, nameInfo) {
 	}
 
 	while (true) {
-		let tmpResults = [];
+		const tmpResults = [];
 
 		for (let x = 0; x < dataset[catIndex].subcategories.length; x++) {
-			let curSet = dataset[catIndex].subcategories[x];
+			const curSet = dataset[catIndex].subcategories[x];
 
 			if ((curSet.componentList.index === componentIndex) && ((!curSet.name) || (curSet.name === curSubcat))) {
 
@@ -62,12 +62,12 @@ function createNameComponent(componentList, stack = 0) {
 		return "N/A";
 	}
 
-	const endRegex = /^\+?[bcdfghjklmnpqrstvwxyz]*[aeiou]*/i;
-	var count = 0;
-	var random;
-	var curList = 0;
-	var curLength;
-	var result = "";
+	const endRegex = /^\+?[bcdfghjklmnpqrstvwxyz]*[aeiou]*/i; // From the start of the string, optionally match any consonants, then any vowels.
+	let count = 0;
+	let random;
+	let curList = 0;
+	let curLength;
+	let result = "";
 
 	for (let i = 0; i < componentList.length; i++) {
 		count += componentList[i].list.length;
@@ -81,7 +81,7 @@ function createNameComponent(componentList, stack = 0) {
 	}
 
 	if (typeof(componentList[curList].length) === "string") {
-		var tmpVals = componentList[curList].length.split("-").map(element => parseInt(element));
+		const tmpVals = componentList[curList].length.split("-").map(element => parseInt(element));
 		// Extra Math.random() is there to create a bias toward lower end of the scale!
 		curLength = tmpVals[0] + Math.floor((((tmpVals[1] - tmpVals[0]) * Math.random()) + 1) * Math.random());
 	} else {
@@ -89,10 +89,10 @@ function createNameComponent(componentList, stack = 0) {
 	}
 
 	for (let i = 0; i < curLength; i++) {
-		var workingList;
-		var tmpComponent;
-		var tmpEnd;
-		var safety = 0;
+		let workingList;
+		let tmpComponent;
+		let tmpEnd;
+		let safety = 0;
 
 		if (i === 0) {
 			workingList = componentList[curList].list.filter(element => element[0] !== "+");
@@ -118,9 +118,9 @@ function createNameComponent(componentList, stack = 0) {
 	result = result.replace(/\+/g, "");
 
 	// If this is made up of syllables mashed together, don't let it collide with real words.
-	if ((curLength > 1) && (!componentList[curList].realNamesAllowed) && (spellcheck(result.toLowerCase()))) {
+	if ((curLength > 1) && (checkWordConflict(result, componentList[curList].allowedWords))) {
 		// console.log("Name '" + result + "' is a real word.  Trying again.");
-		return createNameComponent(componentList, stack+1);
+		return createNameComponent(componentList, stack + 1);
 	}
 
 	return result;
@@ -132,13 +132,12 @@ function getRandomIndex(max) {
 }
 
 export const generateNames = function(dataset, nameInfo, resultCount) {
-	var componentBucket;
-	var results = [];
+	const results = [];
 
-	componentBucket = getComponentLists(dataset, nameInfo);
+	let componentBucket = getComponentLists(dataset, nameInfo);
 
 	for (let i = 0; i < resultCount; i++) {
-		var name = generateName(componentBucket).join(" ").replace(/- /g, "-").replace(/ >/g, "");
+		const name = generateName(componentBucket).join(" ").replace(/- /g, "-").replace(/ >/g, "");
 
 		if (name) {
 			results.push(name);
@@ -148,6 +147,8 @@ export const generateNames = function(dataset, nameInfo, resultCount) {
 			}
 		}
 	}
+
+	results.sort();
 
 	return results;
 }
