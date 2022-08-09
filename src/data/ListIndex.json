@@ -1,14 +1,17 @@
 [
 	{
 		"name": "Location",
+		"abbr": "Location",
 		"file": "Locations"
 	},
 	{
 		"name": "A Song of Ice & Fire",
+		"abbr": "ASoIaF",
 		"file": "ASoIaF"
 	},
 	{
 		"name": "The Elder Scrolls",
+		"abbr": "TES",
 		"file": "ElderScrolls"
 	}
 ]

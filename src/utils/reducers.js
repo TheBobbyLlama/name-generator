@@ -27,7 +27,13 @@ export const reducer = (state, action) => {
 			newState.dataset = action.sourceData;
 
 			if (action.category) {
-				setNameCategory(newState, newState.dataset.find(cat => cat.category === action.category));
+				let tmpCat = newState.dataset.find(cat => cat.category?.toLowerCase() === action.category.toLowerCase());
+
+				if (!tmpCat) {
+					tmpCat = newState.dataset.find(cat => cat.category?.toLowerCase().startsWith(action.category.toLowerCase()));
+				}
+
+				setNameCategory(newState, tmpCat);
 
 				if (action.subcategory) {
 					newState.nameInfo = { ...newState.nameInfo, subcategory: action.subcategory };

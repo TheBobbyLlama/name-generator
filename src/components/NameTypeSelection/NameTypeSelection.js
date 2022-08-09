@@ -30,11 +30,15 @@ function NameTypeSelection() {
 	if (!state.dataset) {
 		// Put up a spinner,maybe?
 		if (window.location.search) {
-			var tmpSrc = params.get("source");
-			var tmpItem = nameSources.find(src => src.file === tmpSrc);
+			var tmpSrc = (params.get("source") || params.get("src") || params.get("s"))?.toLowerCase();
+			var tmpItem = nameSources.find(src => src.name.toLowerCase() === tmpSrc || src.abbr.toLowerCase() === tmpSrc);
 
 			if (tmpItem) {
-				setNameSource(tmpItem.file, params.get("cat"), params.get("subcat"));
+				var tmpCat = params.get("category") || params.get("cat") || params.get("c");
+				var tmpSubcat = params.get("subcategory") || params.get("subcat") || params.get("sc");
+
+				setNameSource(tmpItem.file, tmpCat, tmpSubcat);
+
 				return <></>
 			}
 		}
