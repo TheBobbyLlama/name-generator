@@ -8,6 +8,13 @@
 	justify-content: space-between;
 }
 
+#resultsHeader > div {
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
 #resultsHeader > div > * + * {
 	margin-left: 6px;
 }
@@ -21,6 +28,7 @@
 }
 
 #resultsList > div {
+	align-items: center;
 	border: solid 1px var(--item-border);
 	display: flex;
 	justify-content: space-between;
@@ -49,5 +57,14 @@
 
 	#resultsHeader h2 {
 		display: none;
+	}
+
+	#resultsHeader button {
+		flex-basis: 100%;
+	}
+
+	#resultsList > div {
+		height: 32px;
+		width: 100%;
 	}
 }

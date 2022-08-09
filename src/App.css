@@ -1,7 +1,7 @@
 :root {
-  --panel-background: #404040;
-  --panel-border: #202020;
-  --item-border: #202020;
+  --panel-background: #26272a;
+  --panel-border: #101418;
+  --item-border: black;
 }
 
 body {
@@ -25,4 +25,11 @@ section {
   border: solid 2px var(--panel-border);
   border-radius: 8px;
   padding: 10px 20px;
+}
+
+@media screen and (max-width: 440px) {
+	button, select {
+    height: 32px;
+    padding: 4px 8px;
+  }
 }

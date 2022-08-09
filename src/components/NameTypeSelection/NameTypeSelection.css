@@ -7,7 +7,7 @@
 }
 
 #nameTypeSelection > div {
-	align-items: flex-end;
+	align-items: center;
 	display:flex;
 	padding: 2px 8px;
 }
