@@ -24,7 +24,7 @@ function NameFilters() {
 
 	return (
 		<section id="nameFilters">
-			<h2>Filters</h2>
+			<h2>{state.dataset[0].filterText || "Filters"}</h2>
 			<div>
 				{filterList.map(filter => {
 					return (<div key={filter}>

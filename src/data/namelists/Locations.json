@@ -1,5 +1,8 @@
 [
 	{
+		"filterText": "Location Characteristics"
+	},
+	{
 		"category": "Location",
 		"defaultFilters": [ "Maritime", "Rugged", "Settlement", "Wooded" ],
 		"randomSubcategory": true,

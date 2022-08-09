@@ -1,6 +1,7 @@
 [
 	{
-		"source": "https://en.uesp.net/wiki/Lore:Names"
+		"source": "https://en.uesp.net/wiki/Lore:Names",
+		"filterText": "Generate From Game"
 	},
 	{
 		"category": "Altmer (High Elf)",
