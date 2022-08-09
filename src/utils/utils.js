@@ -1,3 +1,5 @@
+import spellcheck from "./spellcheck";
+
 /// Applies our filters and returns an array valid component lists for each possible word in the name.
 function getComponentLists(dataset, nameInfo) {
 	var result = [];
@@ -53,7 +55,12 @@ function generateName(workingList) {
 }
 
 /// The heavy lifting of name generation - Chooses a component list and then builds a word from it.
-function createNameComponent(componentList) {
+function createNameComponent(componentList, stack = 0) {
+	if (stack >= 100) {
+		console.warn("Unable to generate name: All results were real words.")
+		return "N/A";
+	}
+
 	const endRegex = /^\+?[bcdfghjklmnpqrstvwxyz]*[aeiou]*/i;
 	var count = 0;
 	var random;
@@ -107,7 +114,15 @@ function createNameComponent(componentList) {
 		result += tmpComponent;
 	}
 
-	return result.replace(/\+/g, "");
+	result = result.replace(/\+/g, "");
+
+	// If this is made up of syllables mashed together, don't let it collide with real words.
+	if ((curLength > 1) && (!componentList[curList].realNamesAllowed) && (spellcheck(result.toLowerCase()))) {
+		console.log("Name '" + result + "' is a real word.  Trying again.");
+		return createNameComponent(componentList, stack+1);
+	}
+
+	return result;
 }
 
 /// Helper function for random numbers.
