@@ -10,16 +10,17 @@ function getComponentLists(dataset, nameInfo) {
 		return result;
 	}
 
+	let curSubcat;
+
+	if (dataset[catIndex].randomSubcategory) {
+		let tmpList = dataset[catIndex].subcategories.map(subcat => subcat.name).filter((subcat, index, self) => ((subcat) && (self.indexOf(subcat) === index)))
+		curSubcat = tmpList[getRandomIndex(tmpList.length)];
+	} else {
+		curSubcat = nameInfo.subcategory;
+	}
+
 	while (true) {
 		let tmpResults = [];
-		let curSubcat;
-
-		if (dataset[catIndex].randomSubcategory) {
-			let tmpList = dataset[catIndex].subcategories.map(subcat => subcat.name).filter((subcat, index, self) => ((subcat) && (self.indexOf(subcat) === index)))
-			curSubcat = tmpList[getRandomIndex(tmpList.length)];
-		} else {
-			curSubcat = nameInfo.subcategory;
-		}
 
 		for (let x = 0; x < dataset[catIndex].subcategories.length; x++) {
 			let curSet = dataset[catIndex].subcategories[x];
@@ -118,7 +119,7 @@ function createNameComponent(componentList, stack = 0) {
 
 	// If this is made up of syllables mashed together, don't let it collide with real words.
 	if ((curLength > 1) && (!componentList[curList].realNamesAllowed) && (spellcheck(result.toLowerCase()))) {
-		console.log("Name '" + result + "' is a real word.  Trying again.");
+		// console.log("Name '" + result + "' is a real word.  Trying again.");
 		return createNameComponent(componentList, stack+1);
 	}
 
