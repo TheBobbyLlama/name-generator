@@ -57,7 +57,7 @@ function NameTypeSelection() {
 				<label htmlFor="nameSource">Source:</label>
 				<select name="nameSource" onChange={e => setNameSource(e.target.value)} value={curSource} disabled={urlSource === curSource}>{nameSources.map(source => { return (<option key={source.file} value={source.file}>{source.name}</option>); })}</select>
 				{!urlSource &&
-					<div title="Get a link using this source." onClick={e => { navigator.clipboard.writeText(window.location.host + window.location.pathname + "?s=" + curSource); }}>
+					<div title="Get a link using this source." onClick={e => { navigator.clipboard.writeText(window.location.href.split("?")[0] + "?s=" + curSource); }}>
 						<i className="fas fa-solid fa-link"></i>
 					</div>
 				}
@@ -67,7 +67,7 @@ function NameTypeSelection() {
 				<label htmlFor="nameCategory">Category:</label>
 				<select name="nameCategory" value={state.nameInfo.category} onChange={e => setNameCategory(e.target.value)} disabled={urlCat === state.nameInfo.category}>{categoryList.map(category => { return (<option key={category}>{category}</option>); })}</select>
 				{!urlCat &&
-					<div title="Get a link using this source &amp; category." onClick={e => { navigator.clipboard.writeText(window.location.host + window.location.pathname + "?s=" + curSource + "&c=" + state.nameInfo.category); }}>
+					<div title="Get a link using this source &amp; category." onClick={e => { navigator.clipboard.writeText(window.location.href.split("?")[0] + "?s=" + curSource + "&c=" + state.nameInfo.category); }}>
 						<i className="fas fa-solid fa-link"></i>
 					</div>
 				}
@@ -78,7 +78,7 @@ function NameTypeSelection() {
 				<label htmlFor="nameSubcategory">Subcategory:</label>
 				<select name="nameSubcategory" value={state.nameInfo.subcategory} onChange={e => setNameSubcategory(e.target.value)} disabled={urlSubcat === state.nameInfo.subcategory}>{subCatList.map(subcat => { return (<option key={subcat}>{subcat}</option>); })}</select>
 				{!urlSubcat &&
-					<div title="Get a link using this source, category, &amp; subcategory." onClick={e => { navigator.clipboard.writeText(window.location.host + window.location.pathname + "?s=" + curSource + "&c=" + state.nameInfo.category + "&sc=" + state.nameInfo.subcategory); }}>
+					<div title="Get a link using this source, category, &amp; subcategory." onClick={e => { navigator.clipboard.writeText(window.location.href.split("?")[0] + "?s=" + curSource + "&c=" + state.nameInfo.category + "&sc=" + state.nameInfo.subcategory); }}>
 						<i className="fas fa-solid fa-link"></i>
 					</div>
 				}
