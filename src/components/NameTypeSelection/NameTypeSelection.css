@@ -9,9 +9,27 @@
 #nameTypeSelection > div {
 	align-items: center;
 	display:flex;
-	padding: 2px 8px;
+	padding: 2px 0px 2px 8px;
 }
 
 #nameTypeSelection label {
 	width: 100px;
+}
+
+#nameTypeSelection select {
+	flex-grow: 1;
+}
+
+#nameTypeSelection > div > div:last-child {
+	position: relative;
+	right: -8px;
+}
+
+#nameTypeSelection i.fas {
+	cursor: pointer;
+}
+
+#nameTypeSelection i.fas:hover {
+	cursor: pointer;
+	text-shadow: 0px 0px 5px lime;
 }

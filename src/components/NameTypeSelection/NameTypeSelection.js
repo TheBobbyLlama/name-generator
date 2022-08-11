@@ -8,6 +8,10 @@ import "./NameTypeSelection.css";
 function NameTypeSelection() {
 	const nameSources = require("../../data/ListIndex.json");
 	const params = new URLSearchParams(window.location.search);
+	const urlSource = params.get("source") || params.get("src") || params.get("s");
+	const urlCat = params.get("category") || params.get("cat") || params.get("c");
+	const urlSubcat = params.get("subcategory") || params.get("subcat") || params.get("sc");
+
 	const [state, dispatch] = useStoreContext();
 	const [curSource, setCurSource] = useState("");
 
@@ -30,14 +34,10 @@ function NameTypeSelection() {
 	if (!state.dataset) {
 		// Put up a spinner,maybe?
 		if (window.location.search) {
-			const tmpSrc = (params.get("source") || params.get("src") || params.get("s"))?.toLowerCase();
-			const tmpItem = nameSources.find(src => src.name.toLowerCase() === tmpSrc || src.abbr.toLowerCase() === tmpSrc);
+			const tmpItem = nameSources.find(src => src.name === urlSource || src.file === urlSource);
 
 			if (tmpItem) {
-				const tmpCat = params.get("category") || params.get("cat") || params.get("c");
-				const tmpSubcat = params.get("subcategory") || params.get("subcat") || params.get("sc");
-
-				setNameSource(tmpItem.file, tmpCat, tmpSubcat);
+				setNameSource(tmpItem.file, urlCat, urlSubcat);
 
 				return <></>
 			}
@@ -55,18 +55,33 @@ function NameTypeSelection() {
 			<h2>Name Types</h2>
 			<div>
 				<label htmlFor="nameSource">Source:</label>
-				<select name="nameSource" onChange={e => setNameSource(e.target.value)} value={curSource} disabled={params.get("source") === curSource}>{nameSources.map(source => { return (<option key={source.file} value={source.file}>{source.name}</option>); })}</select>
+				<select name="nameSource" onChange={e => setNameSource(e.target.value)} value={curSource} disabled={urlSource === curSource}>{nameSources.map(source => { return (<option key={source.file} value={source.file}>{source.name}</option>); })}</select>
+				{!urlSource &&
+					<div title="Get a link using this source." onClick={e => { navigator.clipboard.writeText(window.location.host + window.location.pathname + "?s=" + curSource); }}>
+						<i className="fas fa-solid fa-link"></i>
+					</div>
+				}
 			</div>
 			{(categoryList.length > 1) ?
 			<div>
 				<label htmlFor="nameCategory">Category:</label>
-				<select name="nameCategory" value={state.nameInfo.category} onChange={e => setNameCategory(e.target.value)} disabled={params.get("cat") === state.nameInfo.category}>{categoryList.map(category => { return (<option key={category}>{category}</option>); })}</select>
+				<select name="nameCategory" value={state.nameInfo.category} onChange={e => setNameCategory(e.target.value)} disabled={urlCat === state.nameInfo.category}>{categoryList.map(category => { return (<option key={category}>{category}</option>); })}</select>
+				{!urlCat &&
+					<div title="Get a link using this source &amp; category." onClick={e => { navigator.clipboard.writeText(window.location.host + window.location.pathname + "?s=" + curSource + "&c=" + state.nameInfo.category); }}>
+						<i className="fas fa-solid fa-link"></i>
+					</div>
+				}
 			</div>
 			: <></>}
 			{(subCatList.length > 1) ?
 			<div>
 				<label htmlFor="nameSubcategory">Subcategory:</label>
-				<select name="nameSubcategory" value={state.nameInfo.subcategory} onChange={e => setNameSubcategory(e.target.value)} disabled={params.get("subcat") === state.nameInfo.subcategory}>{subCatList.map(subcat => { return (<option key={subcat}>{subcat}</option>); })}</select>
+				<select name="nameSubcategory" value={state.nameInfo.subcategory} onChange={e => setNameSubcategory(e.target.value)} disabled={urlSubcat === state.nameInfo.subcategory}>{subCatList.map(subcat => { return (<option key={subcat}>{subcat}</option>); })}</select>
+				{!urlSubcat &&
+					<div title="Get a link using this source, category, &amp; subcategory." onClick={e => { navigator.clipboard.writeText(window.location.host + window.location.pathname + "?s=" + curSource + "&c=" + state.nameInfo.category + "&sc=" + state.nameInfo.subcategory); }}>
+						<i className="fas fa-solid fa-link"></i>
+					</div>
+				}
 			</div>
 			: <></>}
 		</section>

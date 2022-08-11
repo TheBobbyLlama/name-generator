@@ -15,3 +15,12 @@
 #nameFilters > div > *:last-child {
 	margin-right: 0px;
 }
+
+#nameFilters input[type='checkbox'], #nameFilters label {
+	cursor: pointer;
+}
+
+#nameFilters label:hover {
+	cursor: pointer;
+	text-shadow: 0px 0px 2px white;
+}

@@ -18,8 +18,8 @@ function NameFilters() {
 		return <></>;
 	}
 
-	const toggleFilter = function(e) {
-		dispatch({ type: TOGGLE_NAME_FILTER, filter: e.target.name });
+	const toggleFilter = function(name) {
+		dispatch({ type: TOGGLE_NAME_FILTER, filter: name });
 	}
 
 	return (
@@ -27,9 +27,11 @@ function NameFilters() {
 			<h2>{state.dataset[0].filterText || "Filters"}</h2>
 			<div>
 				{filterList.map(filter => {
+					const changeFunc = () => { toggleFilter(filter); }
+
 					return (<div key={filter}>
-							<input name={filter} type="checkbox" checked={!!(state.nameInfo.filters.indexOf(filter) > -1)} onChange={toggleFilter}></input>
-							<label htmlFor={filter}>{filter}</label>
+							<input name={filter} type="checkbox" checked={!!(state.nameInfo.filters.indexOf(filter) > -1)} onChange={changeFunc}></input>
+							<label htmlFor={filter} onClick={changeFunc}>{filter}</label>
 						</div>);
 				})}
 			</div>
