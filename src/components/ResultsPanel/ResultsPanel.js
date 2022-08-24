@@ -37,9 +37,9 @@ function ResultsPanel() {
 			{(state.results.length) ?
 				<div id="resultsList">
 					{state.results.map((result, index) => { return (
-						<div key={index + result}>
-							<div>{result}</div>
-							<div title="Copy" onClick={e => { navigator.clipboard.writeText(result); }}><i className="fas fa-clipboard"></i></div></div>
+						<div key={index + result.text} title={result.annotations.join(" + ")}>
+							<div>{result.text}</div>
+							<div title={`Copy ${result.text}`} onClick={e => { navigator.clipboard.writeText(result.text); }}><i className="fas fa-clipboard"></i></div></div>
 					);})}
 				</div>
 			: <></>}

@@ -10,5 +10,9 @@
 	{
 		"name": "The Elder Scrolls",
 		"file": "ElderScrolls"
+	},
+	{
+		"name": "Lord of the Rings",
+		"file": "LotR"
 	}
 ]

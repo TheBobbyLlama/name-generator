@@ -1,0 +1,93 @@
+[
+	{
+		"SindarinSource": "https://www.ambar-eldaron.com/english/downloads/sindarin-english.pdf"
+	},
+	{
+		"category": "Hobbit",
+		"subcategories": [
+			{
+				"name": "Male",
+				"componentList": {
+					"index": 1,
+					"components": [
+						{
+							"length": "2-3",
+							"reduceStems": true,
+							"list": [ "Ad+", "And+", "Balb+", "Band+", "Bilb+", "Bing+", "Bod+", "Bung+", "Cott+", "Din+", "Dod+", "Drog+", "Dud+", "Erl+", "Ev+", "Falc+", "Fast+", "Fer+", "Ferd+", "Fil+", "Folc+", "Fort+", "Fosc+", "Fred+", "Frod+", "Ger+", "Gorb+", "Gorh+", "Gorm+", "Griff+", "Half+", "Hard+", "Hend+", "Holf+", "Hug+", "Ilb+", "Is+", "Larg+", "Long+", "Loth+", "Mad+", "Marm+", "Mer+", "Mil+", "Mint+", "Mor+", "Mosc+", "Mung+", "Od+", "Ol+", "Org+", "Oth+", "Per+", "Pol+", "Pont+", "Port+", "Posc+", "Reg+", "Rob+", "Ror+", "Row+", "Rud+", "Sad+", "Sam+", "Sanch+", "Sar+", "Ser+", "Sig+", "Tob+", "Tog+", "Wil+", "+ac+", "+ad+", "+al+", "+ed+", "+el+", "+emb+", "+end+", "+er+", "+eb+", "+eg+", "+egr+", "+en+", "+eng+", "+er+", "+iad+", "+ibr+", "+ig+", "+im+", "+in+", "+inbr+", "+ism+", "+obr+", "+od+", "+ont+", "+ov+", "+ul+", "+umbr+", "+ac", "+ad", "+an", "+and", "+ar", "+ard", "+as", "+ert", "+grim", "+ic", "+in", "+ing", "+ius", "+o", "+oc", "+ol", "+old", "+olph", "+ond", "+red", "+wise" ]
+						}
+					]
+				}
+			},
+			{
+				"name": "Female",
+				"componentList": {
+					"index": 1,
+					"components": [
+						{
+							"length": "2-3",
+							"reduceStems": true,
+							"list": [ "Ad+", "Am+", "Ang+", "Asph+", "Belb+", "Ber+", "Cam+", "Cel+", "Chic+", "Donn+", "Egl+", "El+", "Est+", "Hann+", "Hild+", "Lal+", "Laur+", "Lob+", "Malv+", "Mel+", "Men+", "Mim+", "Perv+", "Prim+", "Prisc+", "Ros+", "Salv+", "Tant+", "+aldr+", "+am+", "+an+", "+and+", "+ant+", "+ar+", "+eg+", "+el+", "+ell+", "+ibr+", "+ic+", "+id+", "+il+", "+inc+", "+ir+", "+od+", "+os+", "+ul+", "+und+", "+yll+", "+a", "+and", "+anth", "+el", "+ia", "+ilda", "+ine", "+ot", "+or" ]
+						}
+					]
+				}
+			},
+			{
+				"name": "",
+				"componentList": {
+					"index": 2,
+					"components": [
+						{
+							"length": 1,
+							"list": [ "Baggins", "Banks", "Boffin", "Bolger", "Bracegirdle", "Brandybuck", "Brockhouse", "Brown", "Brownlock", "Bunce", "Burrows", "Butcher", "Chubb", "Clayhanger", "Cotton", "Diggle", "Fairbairn", "Fallohide", "Gamgee", "Gammidge", "Gamwich", "Gardner", "Gawkroger", "Goldworthy", "Goodbody", "Goodchild", "Goold", "Greenhand", "Grubb", "Hansen", "Harfoot", "Hayward", "Headstrong", "Hogg", "Hornblower", "Lightfoot", "Longholes", "Maggot", "Mugwort", "Noakes", "Oldbuck", "Proudfoot", "Puddifoot", "Roper", "Rumble", "Sackville", "Sandheaver", "Sandyman", "Smallburrow", "Stoor", "Took", "Tunnelly", "Twofoot", "Underhill", "Whitfoot" ]
+						},
+						{
+							"length": 2,
+							"list": [ "Brace+", "Brock+", "Clay+", "Fair+", "Gam+", "Gold+", "Good+", "Green+", "Light+", "Long+", "Old+", "Proud+", "Sand+", "Small+", "Whit+", "+bairn", "+body", "+burrow", "+child", "+foot", "+girdle", "+hand", "+hanger", "+heaver", "+hill", "+house", "+wich", "+worthy" ]
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"category": "Sindarin",
+		"subcategories": [
+			{
+				"name": "Male",
+				"componentList": {
+					"index": 1,
+					"components": [
+						{
+							"length": 2,
+							"reduceStems": true,
+							"list": ["Achas[Dread]+", "Aeg[Sharp]+", "Aer[Sea]+", "Alag[Impetuous]+", "Amrún[Sunrise]+", "Ang[Iron]+", "Angol[Lore]+", "Angos[Horror]+", "Arad[Day]+", "Araf[Wolf]+", "Aras[Deer]+", "Ast[Ash]+", "Aur[Morning]+", "Auth[War]+", "Balch[Cruel]+", "Bara[Eager]+", "Barad[Doomed]+", "Baran[Brown]+", "Bel[Strength]+", "Beren[Bold]+", "Braig[Fierce]+", "Brôg[Bear]+", "Cabor[Frog]+", "Calan[Daylight]+", "Calen[Green]+", "Caran[Red]+", "Celeb[Silver]+", "Côl[Gold]+", "Craban[Crow]+", "Cúron[Crescent moon]+", "Dam[Hammer]+", "Dannas[Autumn]+", "Dath[Chasm]+", "Dínen[Silent]+", "Doron[Oak]+", "Dû[Dusk]+", "Echuir[Spring]+", "Elu[Pale blue]+", "Eryn[Wood]+", "Fain[White]+", "Farad[Hunt]+", "Fim[Slim]+", "Galad[Light]+", "Gath[Cave]+", "Gelir[Merry]+", "Gîl[Spark]+", "Goll[Wise]+", "Gwest[Oath]+", "Heleg[Ice]+", "Hîth[Mist]+", "Iâr[Blood]+", "Ithil[Moon]+", "Lach[Flame]+", "Laer[Song]+", "Lang[Sword]+", "Lith[Ash]+", "Lum[Shadow]+", "Maen[Clever]+", "Malen[Yellow]+", "Maur[Gloom]+", "Mith[Grey]+", "Morn[Black]+", "Pilin[Arrow]+", "Ring[Cold]+", "Rusc[Fox]+", "Rust[Copper]+", "Sarch[Grave]+", "Sarn[Stone]+", "Taen[Summit]+", "Tamin[Forge]+", "Tathar[Willow]+", "Taur[Forest]+", "Thand[Shield]+", "Thôn[Pine]+", "Thôr[Eagle]+", "Tithen[Little]+", "+adar[father]", "+agar[glory]", "+gorn[valour]", "+hanar[brother]", "+ion[son]", "+or", "+uil", "+uin"]
+						},
+						{
+							"length": 3,
+							"reduceStems": true,
+							"list": [ "Aeg[Sharp]+", "Alag[Impetuous]+", "And[Long]+", "Ang[Iron]+", "Balch[Cruel]+", "Bara[Eager]+", "Barad[Doomed]+", "Baran[Brown]+", "Beren[Bold]+", "Braig[Fierce]+", "Calen[Green]+", "Caran[Red]+", "Celeb[Silver]+", "Côl[Gold]+", "Coru[Cunning]+", "Dem[Sad]+", "Dínen[Silent]+", "Elu[Pale blue]+", "Er[Lone]+", "Fain[White]+", "Fim[Slim]+", "Gelir[Merry]+", "Gem[Sickly]+", "Goll[Wise]+", "Hell[Naked]+", "Maen[Clever]+", "Malen[Yellow]+", "Mith[Grey]+", "Morn[Black]+", "Nim[Pale]+", "Raun[Wandering]+", "Rhaw[Wild]+", "Ring[Cold]+", "Rust[Copper]+", "Thala[Stalwart]+", "Tithen[Little]+", "+achas[dread]+", "+aer[sea]+", "+agar[glory]+", "+amlug[snake]+", "+arad[day]+", "+araf[wolf]+", "+ast[dust]+", "+aur[morning]+", "+auth[war]+", "+bâd[path]+", "+baul[torment]+", "+bel[strength]+", "+brôg[bear]+", "+cabor[frog]+", "+calan[daylight]+", "+cam[hand]+", "+caul[burden]+", "+cerch[sickle]+", "+craban[crow]+", "+cûm[mound]+", "+cúron[crescent moon]+", "+dam[hammer]+", "+dannas[autumn]+", "+dath[chasm]+", "+doron[oak]+", "+dû[dusk]+", "+êg[thorn]+", "+êl[star]+", "+eryn[wood]+", "+falas[shore]+", "+farad[hunt]+", "+galad[light]+", "+gath[cave]+", "+gîl[spark]+", "+heledh[glass]+", "+heleg[ice]+", "+hîth[mist]+", "+hûn[heart]+", "+iâr[blood]+", "+ist[knowledge]+", "+lach[flame]+", "+laer[song]+", "+lang[sword]+", "+lass[leaf]+", "+lith[ash]+", "+lum[shadow]+", "+maur[gloom]+", "+mîr[jewel]+", "+nand[valley]+", "+nell[bell]+", "+pess[feather]+", "+pilin[arrow]+", "+rî[crown]+", "+rom[trumpet]+", "+rusc[fox]+", "+sant[garden]+", "+sarch[grave]+", "+sarn[stone]+", "+sigil[dagger]+", "+taen[summit]+", "+tamin[forge]+", "+tathar[willow]+", "+taur[forest]+", "+thand[shield]+", "+thôn[pine]+", "+thôr[eagle]+", "+adar[father]", "+gorn[valour]", "+ion[son]", "+or", "+uil", "+uin" ]
+						}
+					]
+				}
+			},
+			{
+				"name": "Female",
+				"componentList": {
+					"index": 1,
+					"components": [
+						{
+							"length": 2,
+							"reduceStems": true,
+							"list": [ "Achas[Dread]+", "Aeg[Sharp]+", "Aer[Sea]+", "Alag[Impetuous]+", "Amrún[Sunrise]+", "Ang[Iron]+", "Angol[Lore]+", "Angos[Horror]+", "Arad[Day]+", "Araf[Wolf]+", "Aras[Deer]+", "Ast[Ash]+", "Aur[Morning]+", "Auth[War]+", "Bain[Beautiful]+", "Balch[Cruel]+", "Bara[Eager]+", "Barad[Doomed]+", "Baran[Brown]+", "Beren[Bold]+", "Braig[Fierce]+", "Brôg[Bear]+", "Cabor[Frog]+", "Calan[Daylight]+", "Calen[Green]+", "Caran[Red]+", "Celeb[Silver]+", "Côl[Gold]+", "Craban[Crow]+", "Cúron[Crescent moon]+", "Dam[Hammer]+", "Dannas[Autumn]+", "Dath[Chasm]+", "Dínen[Silent]+", "Doron[Oak]+", "Dû[Dusk]+", "Echuir[Spring]+", "Eilian[Rainbow]+", "Elu[Pale blue]+", "Eryn[Wood]+", "Fain[White]+", "Farad[Hunt]+", "Fim[Slender]+", "Galad[Light]+", "Gath[Cave]+", "Gelir[Merry]+", "Gîl[Spark]+", "Goll[Wise]+", "Gwest[Oath]+", "Heleg[Ice]+", "Hîth[Mist]+", "Iâr[Blood]+", "Ithil[Moon]+", "Lach[Flame]+", "Laer[Song]+", "Lang[Sword]+", "Lith[Ash]+", "Lum[Shadow]+", "Maen[Clever]+", "Malen[Yellow]+", "Maur[Gloom]+", "Meril[Rose]+", "Mith[Grey]+", "Morn[Black]+", "Pilin[Arrow]+", "Ring[Cold]+", "Rusc[Fox]+", "Rust[Copper]+", "Sarch[Grave]+", "Sarn[Stone]+", "Taen[Summit]+", "Tamin[Forge]+", "Tathar[Willow]+", "Taur[Forest]+", "Thand[Shield]+", "Thôn[Pine]+", "Thôr[Eagle]+", "Tithen[Little]+", "+baneth[beauty]", "+dess[girl]", "+el", "+emel[mother]", "+gwaloth[blossom]", "+gwathel[sister]", "+gwend[maiden]", "+iel[daughter]", "+neth[girl]", "+wen[maiden]" ]
+						},
+						{
+							"length": 3,
+							"reduceStems": true,
+							"list": [ "Aeg[Sharp]+", "Alag[Impetuous]+", "And[Long]+", "Ang[Iron]+", "Bain[Beautiful]+", "Balch[Cruel]+", "Bara[Eager]+", "Barad[Doomed]+", "Baran[Brown]+", "Beren[Bold]+", "Braig[Fierce]+", "Calen[Green]+", "Caran[Red]+", "Celeb[Silver]+", "Côl[Gold]+", "Coru[Cunning]+", "Dem[Sad]+", "Dínen[Silent]+", "Elu[Pale blue]+", "Er[Lone]+", "Fain[White]+", "Fim[Slender]+", "Gelir[Merry]+", "Gem[Sickly]+", "Goll[Wise]+", "Hell[Naked]+", "Maen[Clever]+", "Malen[Yellow]+", "Mith[Grey]+", "Morn[Black]+", "Nim[Pale]+", "Raun[Wandering]+", "Rhaw[Wild]+", "Ring[Cold]+", "Rust[Copper]+", "Thala[Stalwart]+", "Tithen[Little]+", "+achas[dread]+", "+aer[sea]+", "+aew[bird]+", "+agar[glory]+", "+amlug[snake]+", "+arad[day]+", "+araf[wolf]+", "+ast[dust]+", "+aur[morning]+", "+auth[war]+", "+bâd[path]+", "+baneth[beauty]+", "+baul[torment]+", "+brôg[bear]+", "+cabor[frog]+", "+calan[daylight]+", "+cam[hand]+", "+caul[burden]+", "+cerch[sickle]+", "+craban[crow]+", "+cûm[mound]+", "+cúron[crescent moon]+", "+dam[hammer]+", "+dannas[autumn]+", "+dath[chasm]+", "+doron[oak]+", "+dû[dusk]+", "+êg[thorn]+", "+eilian[rainbow]+", "+êl[star]+", "+eryn[wood]+", "+falas[shore]+", "+farad[hunt]+", "+galad[light]+", "+gath[cave]+", "+gîl[spark]+", "+heledh[glass]+", "+heleg[ice]+", "+hîth[mist]+", "+hûn[heart]+", "+iâr[blood]+", "+ist[knowledge]+", "+lach[flame]+", "+laer[song]+", "+lang[sword]+", "+lass[leaf]+", "+lith[ash]+", "+lum[shadow]+", "+maur[gloom]+", "+meril[rose]+", "+mîr[jewel]+", "+nand[valley]+", "+nell[bell]+", "+pess[feather]+", "+pilin[arrow]+", "+rî[crown]+", "+rom[trumpet]+", "+rusc[fox]+", "+sant[garden]+", "+sarch[grave]+", "+sarn[stone]+", "+sigil[dagger]+", "+taen[summit]+", "+tamin[forge]+", "+tathar[willow]+", "+taur[forest]+", "+thand[shield]+", "+thôn[pine]+", "+thôr[eagle]+", "+dess[girl]", "+el", "+emel[mother]", "+iel[daughter]", "+neth[girl]", "+wen[maiden]" ]
+						}
+					]
+				}
+			}
+		]
+	}
+]

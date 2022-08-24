@@ -67,7 +67,8 @@ function createNameComponent(componentList, stack = 0) {
 	let random;
 	let curList = 0;
 	let curLength;
-	let result = "";
+	let textResult = "";
+	let result = { text: [], annotation: [] };
 
 	for (let i = 0; i < componentList.length; i++) {
 		count += componentList[i].list.length;
@@ -90,7 +91,9 @@ function createNameComponent(componentList, stack = 0) {
 
 	for (let i = 0; i < curLength; i++) {
 		let workingList;
+		let tmpIndex;
 		let tmpComponent;
+		let tmpAnnotation;
 		let tmpEnd;
 		let safety = 0;
 
@@ -103,24 +106,86 @@ function createNameComponent(componentList, stack = 0) {
 		}
 
 		tmpComponent = workingList[getRandomIndex(workingList.length)];
+
+		tmpIndex = tmpComponent.indexOf("[");
+
+		// Strip annotations from component, if any exist.
+		if (tmpIndex > 0) {
+			tmpAnnotation = tmpComponent.substring(tmpIndex + 1);
+			tmpComponent = tmpComponent.substring(0, tmpIndex);
+			
+			if (tmpAnnotation.endsWith("+")) {
+				tmpComponent += "+";
+				tmpAnnotation = tmpAnnotation.substring(0, tmpAnnotation.length - 2);
+			} else {
+				tmpAnnotation = tmpAnnotation.substring(0, tmpAnnotation.length - 1);
+			}
+		} else {
+			tmpAnnotation = "";
+		}
+
 		tmpEnd = tmpComponent.replace(endRegex, "");
 
 		// Prevents generation of names with repeated consonants, like Ilelaliel.
 		// Only checks against the end of the name so far, so something like Ilenalien (which is much less of a tongue twister) is still possible.
-		while ((safety++ < 100) && (tmpEnd) && (result.endsWith(tmpEnd))) {
+		while ((safety++ < 100) && (tmpEnd) && (result.text.length) && (result.text[result.text.length - 1].endsWith(tmpEnd))) {
 			tmpComponent = workingList[getRandomIndex(workingList.length)];
+
+			tmpIndex = tmpComponent.indexOf("[");
+
+			// Strip annotations from component, if any exist.
+			if (tmpIndex > 0) {
+				tmpAnnotation = tmpComponent.substring(tmpIndex + 1);
+				tmpComponent = tmpComponent.substring(0, tmpIndex);
+				
+				if (tmpAnnotation.endsWith("+")) {
+					tmpComponent += "+";
+					tmpAnnotation = tmpAnnotation.substring(0, tmpAnnotation.length - 2);
+				} else {
+					tmpAnnotation = tmpAnnotation.substring(0, tmpAnnotation.length - 1);
+				}
+			} else {
+				tmpAnnotation = "";
+			}
+
 			tmpEnd = tmpComponent.replace(endRegex, "");
 		}
 
-		result += tmpComponent;
+		result.text.push(tmpComponent.replace(/\+/g, ""));
+
+		if (tmpAnnotation) {
+			result.annotation.push(tmpAnnotation);
+		}
 	}
 
-	result = result.replace(/\+/g, "");
+	for (let i = 0; i < result.text.length; i++) {
+		// Reduce stems - If this is true, "Thresh" + "hold" will reduce to "Threshold" instead of "Threshhold"
+		// This will work for any number of overlapping characters - "Breath" + "thorn" -> "Breathorn"
+		if ((i < result.text.length - 1) && (componentList[curList].reduceStems)) {
+			for (let x = 1; x < result.text[i].length; x++) {
+				if (result.text[i + 1].startsWith(result.text[i].substring(x))) {
+					// console.log("Reducing!", result.text[i], result.text[i + 1], result.text[i].length - x);
+					result.text[i] = result.text[i].substring(0, x); // Chop the recurring characters off the end of the current piece.
+					break;
+				}
+			}
+		}
+
+		textResult += result.text[i];
+	}
+
+	result.text = textResult;
 
 	// If this is made up of syllables mashed together, don't let it collide with real words.
-	if ((curLength > 1) && (checkWordConflict(result, componentList[curList].allowedWords))) {
+	if ((curLength > 1) && (checkWordConflict(result.text, componentList[curList].allowedWords))) {
 		// console.log("Name '" + result + "' is a real word.  Trying again.");
 		return createNameComponent(componentList, stack + 1);
+	}
+
+	if (result.annotation.length) {
+		result.annotation = result.annotation.join(" + ");
+	} else {
+		delete result.annotation;
 	}
 
 	return result;
@@ -137,9 +202,21 @@ export const generateNames = function(dataset, nameInfo, resultCount) {
 	let componentBucket = getComponentLists(dataset, nameInfo);
 
 	for (let i = 0; i < resultCount; i++) {
-		const name = generateName(componentBucket).join(" ").replace(/- /g, "-").replace(/ >/g, "");
+		const nameResult = generateName(componentBucket);
 
-		if (name) {
+		if (nameResult.length) {
+			const name = nameResult.reduce((prev, current) => {
+				prev.text.push(current.text);
+
+				if (current.annotation) {
+					prev.annotations.push(current.annotation);
+				}
+
+				return prev;
+			},
+			{ text: [], annotations: [] });
+
+			name.text = name.text.join(" ").replace(/- /g, "-").replace(/ >/g, "")
 			results.push(name);
 
 			if (dataset.find(cat => (cat.category === nameInfo.category))?.randomSubcategory) {
