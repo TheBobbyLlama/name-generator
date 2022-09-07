@@ -9,11 +9,12 @@ function NameTypeSelection() {
 	const nameSources = require("../../data/ListIndex.json");
 	const params = new URLSearchParams(window.location.search);
 	const urlSource = params.get("source") || params.get("src") || params.get("s");
-	const urlCat = params.get("category") || params.get("cat") || params.get("c");
-	const urlSubcat = params.get("subcategory") || params.get("subcat") || params.get("sc");
+	const urlCat = (urlSource) ? params.get("category") || params.get("cat") || params.get("c") : "";
+	const urlSubcat = (urlSource && urlCat) ? params.get("subcategory") || params.get("subcat") || params.get("sc") : "";
 
 	const [state, dispatch] = useStoreContext();
 	const [curSource, setCurSource] = useState("");
+	const [update, updateMe] = useState(false); // Hack to force renders.
 
 	const setNameSource = async function(source, category=null, subcategory=null) {
 		const sourceData = await require("../../data/namelists/" + source + ".json");
@@ -28,6 +29,11 @@ function NameTypeSelection() {
 
 	const setNameSubcategory = function(subcategory) {
 		dispatch({ type: SET_NAME_SUBCATEGORY, subcategory });
+	}
+
+	const clearLockedSelections = function() {
+		window.history.replaceState(null, "", window.location.href.split("?")[0]);
+		updateMe(!update); // Force a re-render.
 	}
 
 	// Choose the first option.
@@ -56,7 +62,10 @@ function NameTypeSelection() {
 			<div>
 				<label htmlFor="nameSource">Source:</label>
 				<select name="nameSource" onChange={e => setNameSource(e.target.value)} value={curSource} disabled={urlSource === curSource}>{nameSources.map(source => { return (<option key={source.file} value={source.file}>{source.name}</option>); })}</select>
-				{!urlSource &&
+				{urlSource ?
+					<div title="Clear locked selections." onClick={clearLockedSelections}>
+						<i className="fas fa-regular fa-unlock"></i>
+					</div>:
 					<div title="Get a link using this source." onClick={e => { navigator.clipboard.writeText(window.location.href.split("?")[0] + "?s=" + curSource); }}>
 						<i className="fas fa-solid fa-link"></i>
 					</div>
